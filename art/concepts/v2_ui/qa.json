@@ -1,0 +1,11 @@
+{
+  "p00_loading": {"status":"CONCEPT_PASS","notes":["五猫齐全，进度与隐私/适龄入口可读；合规正文须在后续 Figma/实现阶段使用正式文本"]},
+  "p06_win": {"status":"CONCEPT_PASS","notes":["五猫、三颗星、分数、下一关、重玩和次级翻倍/分享可见，文字居中；待 Figma 重建精确字体与尺寸"]},
+  "p07_revive_ad": {"status":"CONCEPT_PASS","notes":["无次数上限文案，复活/免费重开/返回地图齐全，奖励内容可读；动态广告状态尚未实现"]},
+  "p05_pause": {"status":"CONCEPT_PASS","notes":["继续/重开/设置/返回齐全，暖灰遮罩与按钮层级清晰；背景仅作示意，不是关卡基线"]},
+  "p10_settings": {"status":"CONCEPT_PASS","notes":["音乐音效为开、震动为关；设置行对齐、开关方向清楚，隐私与返回齐全"]},
+  "p03_prepare_first": {"status":"REWORK","notes":["五猫与无广告/无道具首关准备符合要求；左上返回按钮侵入顶部安全区，须下移后重检"]},
+  "p01_home": {"status":"REWORK","notes":["顶部安全区不足；图鉴/外观图标错误沿用房子/奖杯，需要改为卡片/猫窝，不作为复现基准"]},
+  "l001": {"status":"REWORK","notes":["单入口单老巢开放 U 轨道成立；HUD 侵入顶部安全区，猫窝尺寸/位置与蓝图偏差，需要叠图校准"]},
+  "l100": {"status":"REWORK","notes":["老巢被移至下方，内旋轨道形状与批准几何不符；禁止据此批量生成或复现"]}
+}

@@ -1,0 +1,8 @@
+{
+  "id": "p08_collection",
+  "tool": "image_gen.imagegen",
+  "model": "UNEXPOSED",
+  "source": "/Users/limingrui/.codex/generated_images/01a06a27-6817-7031-a2ff-546d0976cc8a/exec-3329302c-29ed-433a-a8e9-61d4a69cefb3.png",
+  "output": "art/concepts/v2_ui/screens/p08_collection.png",
+  "status": "GENERATED_AWAITING_QA"
+}

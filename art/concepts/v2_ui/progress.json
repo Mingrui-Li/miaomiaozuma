@@ -1,0 +1,2062 @@
+{
+  "date": "2026-09-08",
+  "total": 129,
+  "generated": 9,
+  "conceptPassed": 5,
+  "records": [
+    {
+      "id": "p01_home",
+      "category": "screens",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/p01_home.png"
+      ],
+      "output": "art/concepts/v2_ui/screens/p01_home.png",
+      "status": "PLANNED",
+      "generated": true,
+      "qa": {
+        "status": "REWORK",
+        "notes": [
+          "顶部安全区不足；图鉴/外观图标错误沿用房子/奖杯，需要改为卡片/猫窝，不作为复现基准"
+        ]
+      }
+    },
+    {
+      "id": "p00_loading",
+      "category": "screens",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png"
+      ],
+      "output": "art/concepts/v2_ui/screens/p00_loading.png",
+      "status": "PLANNED",
+      "generated": true,
+      "qa": {
+        "status": "CONCEPT_PASS",
+        "notes": [
+          "五猫齐全，进度与隐私/适龄入口可读；合规正文须在后续 Figma/实现阶段使用正式文本"
+        ]
+      }
+    },
+    {
+      "id": "p00_load_error",
+      "category": "screens",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png"
+      ],
+      "output": "art/concepts/v2_ui/screens/p00_load_error.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "p06_win",
+      "category": "screens",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png"
+      ],
+      "output": "art/concepts/v2_ui/screens/p06_win.png",
+      "status": "PLANNED",
+      "generated": true,
+      "qa": {
+        "status": "CONCEPT_PASS",
+        "notes": [
+          "五猫、三颗星、分数、下一关、重玩和次级翻倍/分享可见，文字居中；待 Figma 重建精确字体与尺寸"
+        ]
+      }
+    },
+    {
+      "id": "p06_complete_100",
+      "category": "screens",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png"
+      ],
+      "output": "art/concepts/v2_ui/screens/p06_complete_100.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "p07_revive_ad",
+      "category": "screens",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png"
+      ],
+      "output": "art/concepts/v2_ui/screens/p07_revive_ad.png",
+      "status": "PLANNED",
+      "generated": true,
+      "qa": {
+        "status": "CONCEPT_PASS",
+        "notes": [
+          "无次数上限文案，复活/免费重开/返回地图齐全，奖励内容可读；动态广告状态尚未实现"
+        ]
+      }
+    },
+    {
+      "id": "p07_revive_free",
+      "category": "screens",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png"
+      ],
+      "output": "art/concepts/v2_ui/screens/p07_revive_free.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "p05_pause",
+      "category": "screens",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png"
+      ],
+      "output": "art/concepts/v2_ui/screens/p05_pause.png",
+      "status": "PLANNED",
+      "generated": true,
+      "qa": {
+        "status": "CONCEPT_PASS",
+        "notes": [
+          "继续/重开/设置/返回齐全，暖灰遮罩与按钮层级清晰；背景仅作示意，不是关卡基线"
+        ]
+      }
+    },
+    {
+      "id": "p05_confirm_exit",
+      "category": "screens",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png"
+      ],
+      "output": "art/concepts/v2_ui/screens/p05_confirm_exit.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "p03_prepare_first",
+      "category": "screens",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png"
+      ],
+      "output": "art/concepts/v2_ui/screens/p03_prepare_first.png",
+      "status": "PLANNED",
+      "generated": true,
+      "qa": {
+        "status": "REWORK",
+        "notes": [
+          "五猫与无广告/无道具首关准备符合要求；左上返回按钮侵入顶部安全区，须下移后重检"
+        ]
+      }
+    },
+    {
+      "id": "p03_prepare_regular",
+      "category": "screens",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png"
+      ],
+      "output": "art/concepts/v2_ui/screens/p03_prepare_regular.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "p08_collection",
+      "category": "screens",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png"
+      ],
+      "output": "art/concepts/v2_ui/screens/p08_collection.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "p08_detail",
+      "category": "screens",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png"
+      ],
+      "output": "art/concepts/v2_ui/screens/p08_detail.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "p09_cosmetics",
+      "category": "screens",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png"
+      ],
+      "output": "art/concepts/v2_ui/screens/p09_cosmetics.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "p10_settings",
+      "category": "screens",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png"
+      ],
+      "output": "art/concepts/v2_ui/screens/p10_settings.png",
+      "status": "PLANNED",
+      "generated": true,
+      "qa": {
+        "status": "CONCEPT_PASS",
+        "notes": [
+          "音乐音效为开、震动为关；设置行对齐、开关方向清楚，隐私与返回齐全"
+        ]
+      }
+    },
+    {
+      "id": "p11_feedback",
+      "category": "components",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png"
+      ],
+      "output": "art/concepts/v2_ui/components/p11_feedback.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "buttons_states",
+      "category": "components",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png"
+      ],
+      "output": "art/concepts/v2_ui/components/buttons_states.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "gameplay_components",
+      "category": "components",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png"
+      ],
+      "output": "art/concepts/v2_ui/components/gameplay_components.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "obstacles_launcher",
+      "category": "components",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png"
+      ],
+      "output": "art/concepts/v2_ui/components/obstacles_launcher.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "p02_map_01",
+      "category": "screens",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png"
+      ],
+      "output": "art/concepts/v2_ui/screens/p02_map_01.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "p02_map_02",
+      "category": "screens",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png"
+      ],
+      "output": "art/concepts/v2_ui/screens/p02_map_02.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "p02_map_03",
+      "category": "screens",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png"
+      ],
+      "output": "art/concepts/v2_ui/screens/p02_map_03.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "p02_map_04",
+      "category": "screens",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png"
+      ],
+      "output": "art/concepts/v2_ui/screens/p02_map_04.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "p02_map_05",
+      "category": "screens",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png"
+      ],
+      "output": "art/concepts/v2_ui/screens/p02_map_05.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "p02_map_06",
+      "category": "screens",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png"
+      ],
+      "output": "art/concepts/v2_ui/screens/p02_map_06.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "p02_map_07",
+      "category": "screens",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png"
+      ],
+      "output": "art/concepts/v2_ui/screens/p02_map_07.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "p02_map_08",
+      "category": "screens",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png"
+      ],
+      "output": "art/concepts/v2_ui/screens/p02_map_08.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "p02_map_09",
+      "category": "screens",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png"
+      ],
+      "output": "art/concepts/v2_ui/screens/p02_map_09.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "p02_map_10",
+      "category": "screens",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png"
+      ],
+      "output": "art/concepts/v2_ui/screens/p02_map_10.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l001",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l001.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l001.png",
+      "status": "PLANNED",
+      "generated": true,
+      "qa": {
+        "status": "REWORK",
+        "notes": [
+          "单入口单老巢开放 U 轨道成立；HUD 侵入顶部安全区，猫窝尺寸/位置与蓝图偏差，需要叠图校准"
+        ]
+      }
+    },
+    {
+      "id": "l002",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l002.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l002.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l003",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l003.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l003.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l004",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l004.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l004.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l005",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l005.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l005.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l006",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l006.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l006.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l007",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l007.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l007.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l008",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l008.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l008.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l009",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l009.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l009.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l010",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l010.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l010.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l011",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l011.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l011.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l012",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l012.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l012.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l013",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l013.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l013.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l014",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l014.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l014.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l015",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l015.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l015.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l016",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l016.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l016.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l017",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l017.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l017.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l018",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l018.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l018.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l019",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l019.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l019.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l020",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l020.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l020.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l021",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l021.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l021.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l022",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l022.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l022.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l023",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l023.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l023.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l024",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l024.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l024.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l025",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l025.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l025.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l026",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l026.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l026.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l027",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l027.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l027.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l028",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l028.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l028.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l029",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l029.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l029.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l030",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l030.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l030.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l031",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l031.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l031.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l032",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l032.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l032.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l033",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l033.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l033.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l034",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l034.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l034.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l035",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l035.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l035.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l036",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l036.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l036.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l037",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l037.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l037.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l038",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l038.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l038.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l039",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l039.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l039.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l040",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l040.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l040.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l041",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l041.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l041.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l042",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l042.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l042.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l043",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l043.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l043.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l044",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l044.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l044.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l045",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l045.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l045.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l046",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l046.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l046.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l047",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l047.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l047.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l048",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l048.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l048.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l049",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l049.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l049.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l050",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l050.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l050.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l051",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l051.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l051.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l052",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l052.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l052.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l053",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l053.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l053.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l054",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l054.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l054.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l055",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l055.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l055.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l056",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l056.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l056.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l057",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l057.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l057.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l058",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l058.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l058.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l059",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l059.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l059.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l060",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l060.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l060.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l061",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l061.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l061.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l062",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l062.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l062.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l063",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l063.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l063.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l064",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l064.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l064.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l065",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l065.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l065.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l066",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l066.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l066.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l067",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l067.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l067.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l068",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l068.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l068.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l069",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l069.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l069.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l070",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l070.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l070.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l071",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l071.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l071.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l072",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l072.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l072.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l073",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l073.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l073.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l074",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l074.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l074.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l075",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l075.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l075.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l076",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l076.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l076.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l077",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l077.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l077.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l078",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l078.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l078.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l079",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l079.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l079.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l080",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l080.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l080.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l081",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l081.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l081.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l082",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l082.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l082.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l083",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l083.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l083.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l084",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l084.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l084.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l085",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l085.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l085.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l086",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l086.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l086.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l087",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l087.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l087.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l088",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l088.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l088.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l089",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l089.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l089.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l090",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l090.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l090.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l091",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l091.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l091.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l092",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l092.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l092.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l093",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l093.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l093.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l094",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l094.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l094.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l095",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l095.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l095.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l096",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l096.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l096.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l097",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l097.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l097.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l098",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l098.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l098.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l099",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l099.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l099.png",
+      "status": "PLANNED",
+      "generated": false,
+      "qa": {
+        "status": "NOT_REVIEWED",
+        "notes": []
+      }
+    },
+    {
+      "id": "l100",
+      "category": "levels",
+      "references": [
+        "art/concepts/c02_core_screens_board.png",
+        "art/concepts/c03_five_cats_character_board.png",
+        "art/concepts/v2_ui/blueprints/l100.png"
+      ],
+      "output": "art/concepts/v2_ui/levels/l100.png",
+      "status": "PLANNED",
+      "generated": true,
+      "qa": {
+        "status": "REWORK",
+        "notes": [
+          "老巢被移至下方，内旋轨道形状与批准几何不符；禁止据此批量生成或复现"
+        ]
+      }
+    }
+  ]
+}

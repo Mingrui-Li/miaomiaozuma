@@ -1,0 +1,141 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - heading "喵喵回窝 · 100 关几何审阅稿" [level=1] [ref=e3]
+    - paragraph [ref=e4]: 只有几何：出猫入口 S、连续轨道、运动方向、中央 360° 发射器、唯一老巢 L。点击任何一关可查看大图。
+    - paragraph [ref=e5]: 几何自动检查 100/100；相似度复审 0 对；你的验收 0/100。未调用 ImageGen / Figma，未进行 Cocos 重构。
+    - paragraph [ref=e6]: 两层/三层指同一方向遇到多段轨道。压力分只描述固定猫链的几何遮挡，不是通关率；开口诊断也不代表已验证合法三消。
+    - group [ref=e7]:
+      - generic "展开十章压力对照（几何指标）" [ref=e8]
+    - generic [ref=e9]:
+      - link "压力与开口诊断表" [ref=e10] [cursor=pointer]:
+        - /url: PRESSURE.md
+      - link "百关检查表" [ref=e11] [cursor=pointer]:
+        - /url: AUDIT.md
+      - link "机器诊断数据" [ref=e12] [cursor=pointer]:
+        - /url: audit.json
+      - link "当前章节并排大图" [ref=e13] [cursor=pointer]:
+        - /url: chapters/01.svg
+    - navigation "章节选择" [ref=e14]:
+      - button "全部 100 关" [ref=e15] [cursor=pointer]
+      - button "1 · 晴日庭院" [pressed] [ref=e16] [cursor=pointer]
+      - button "2 · 纸箱小巷" [ref=e17] [cursor=pointer]
+      - button "3 · 灰尘花房" [ref=e18] [cursor=pointer]
+      - button "4 · 弯桥午后" [ref=e19] [cursor=pointer]
+      - button "5 · 海风猫站" [ref=e20] [cursor=pointer]
+      - button "6 · 果园仓库" [ref=e21] [cursor=pointer]
+      - button "7 · 雪夜长廊" [ref=e22] [cursor=pointer]
+      - button "8 · 星光屋顶" [ref=e23] [cursor=pointer]
+      - button "9 · 灯会巡游" [ref=e24] [cursor=pointer]
+      - button "10 · 百猫回窝" [ref=e25] [cursor=pointer]
+    - paragraph [ref=e26]: 第 1 章 · 10 张图
+  - main [ref=e27]:
+    - article [ref=e28]:
+      - link [ref=e29] [cursor=pointer]:
+        - /url: levels/001.svg
+        - img "第 1 关 庭院迎接，S 到 L 的单向几何图" [ref=e30]
+      - generic [ref=e31]:
+        - generic [ref=e32]: 001 · 庭院迎接
+        - generic [ref=e33]: 几何检查通过 · 用户待审
+        - generic [ref=e34]: 两层 0° / 三层 0° · 压力 0
+        - generic [ref=e35]: 上左 → 中左 → 下中 → 下右 → 上右
+        - link "猫链遮挡 / 开口诊断" [ref=e36] [cursor=pointer]:
+          - /url: evidence/001.svg
+    - article [ref=e37]:
+      - link [ref=e38] [cursor=pointer]:
+        - /url: levels/002.svg
+        - img "第 2 关 斜坡转角，S 到 L 的单向几何图" [ref=e39]
+      - generic [ref=e40]:
+        - generic [ref=e41]: 002 · 斜坡转角
+        - generic [ref=e42]: 几何检查通过 · 用户待审
+        - generic [ref=e43]: 两层 0° / 三层 0° · 压力 0
+        - generic [ref=e44]: 上左 → 上右 → 下右 → 下左 → 中左
+        - link "猫链遮挡 / 开口诊断" [ref=e45] [cursor=pointer]:
+          - /url: evidence/002.svg
+    - article [ref=e46]:
+      - link [ref=e47] [cursor=pointer]:
+        - /url: levels/003.svg
+        - img "第 3 关 花圃双弯，S 到 L 的单向几何图" [ref=e48]
+      - generic [ref=e49]:
+        - generic [ref=e50]: 003 · 花圃双弯
+        - generic [ref=e51]: 几何检查通过 · 用户待审
+        - generic [ref=e52]: 两层 0° / 三层 0° · 压力 1.7
+        - generic [ref=e53]: 上左 → 上中 → 中右 → 下中 → 下左
+        - link "猫链遮挡 / 开口诊断" [ref=e54] [cursor=pointer]:
+          - /url: evidence/003.svg
+    - article [ref=e55]:
+      - link [ref=e56] [cursor=pointer]:
+        - /url: levels/004.svg
+        - img "第 4 关 水滴庭心，S 到 L 的单向几何图" [ref=e57]
+      - generic [ref=e58]:
+        - generic [ref=e59]: 004 · 水滴庭心
+        - generic [ref=e60]: 几何检查通过 · 用户待审
+        - generic [ref=e61]: 两层 28° / 三层 0° · 压力 4.6
+        - generic [ref=e62]: 上左 → 上右 → 下右 → 下左 → 上中
+        - link "猫链遮挡 / 开口诊断" [ref=e63] [cursor=pointer]:
+          - /url: evidence/004.svg
+    - article [ref=e64]:
+      - link [ref=e65] [cursor=pointer]:
+        - /url: levels/005.svg
+        - img "第 5 关 折腰急送，S 到 L 的单向几何图" [ref=e66]
+      - generic [ref=e67]:
+        - generic [ref=e68]: 005 · 折腰急送
+        - generic [ref=e69]: 几何检查通过 · 用户待审
+        - generic [ref=e70]: 两层 40° / 三层 0° · 压力 6.7
+        - generic [ref=e71]: 上左 → 上右 → 下右 → 下左 → 上中
+        - link "猫链遮挡 / 开口诊断" [ref=e72] [cursor=pointer]:
+          - /url: evidence/005.svg
+    - article [ref=e73]:
+      - link [ref=e74] [cursor=pointer]:
+        - /url: levels/006.svg
+        - img "第 6 关 底边回折，S 到 L 的单向几何图" [ref=e75]
+      - generic [ref=e76]:
+        - generic [ref=e77]: 006 · 底边回折
+        - generic [ref=e78]: 几何检查通过 · 用户待审
+        - generic [ref=e79]: 两层 54° / 三层 0° · 压力 11.8
+        - generic [ref=e80]: 下左 → 上左 → 上右 → 下中 → 下右
+        - link "猫链遮挡 / 开口诊断" [ref=e81] [cursor=pointer]:
+          - /url: evidence/006.svg
+    - article [ref=e82]:
+      - link [ref=e83] [cursor=pointer]:
+        - /url: levels/007.svg
+        - img "第 7 关 上下回弯，S 到 L 的单向几何图" [ref=e84]
+      - generic [ref=e85]:
+        - generic [ref=e86]: 007 · 上下回弯
+        - generic [ref=e87]: 几何检查通过 · 用户待审
+        - generic [ref=e88]: 两层 48° / 三层 0° · 压力 13.3
+        - generic [ref=e89]: 下右 → 下中 → 下左 → 上左 → 上左
+        - link "猫链遮挡 / 开口诊断" [ref=e90] [cursor=pointer]:
+          - /url: evidence/007.svg
+    - article [ref=e91]:
+      - link [ref=e92] [cursor=pointer]:
+        - /url: levels/008.svg
+        - img "第 8 关 弧顶双湾，S 到 L 的单向几何图" [ref=e93]
+      - generic [ref=e94]:
+        - generic [ref=e95]: 008 · 弧顶双湾
+        - generic [ref=e96]: 几何检查通过 · 用户待审
+        - generic [ref=e97]: 两层 55° / 三层 0° · 压力 14.8
+        - generic [ref=e98]: 下左 → 下左 → 中左 → 上中 → 上右
+        - link "猫链遮挡 / 开口诊断" [ref=e99] [cursor=pointer]:
+          - /url: evidence/008.svg
+    - article [ref=e100]:
+      - link [ref=e101] [cursor=pointer]:
+        - /url: levels/009.svg
+        - img "第 9 关 双峰长廊，S 到 L 的单向几何图" [ref=e102]
+      - generic [ref=e103]:
+        - generic [ref=e104]: 009 · 双峰长廊
+        - generic [ref=e105]: 几何检查通过 · 用户待审
+        - generic [ref=e106]: 两层 66° / 三层 0° · 压力 16.5
+        - generic [ref=e107]: 上左 → 上中 → 中右 → 下左 → 下右
+        - link "猫链遮挡 / 开口诊断" [ref=e108] [cursor=pointer]:
+          - /url: evidence/009.svg
+    - article [ref=e109]:
+      - link [ref=e110] [cursor=pointer]:
+        - /url: levels/010.svg
+        - img "第 10 关 右岸回折，S 到 L 的单向几何图" [ref=e111]
+      - generic [ref=e112]:
+        - generic [ref=e113]: 010 · 右岸回折
+        - generic [ref=e114]: 几何检查通过 · 用户待审
+        - generic [ref=e115]: 两层 77° / 三层 0° · 压力 18
+        - generic [ref=e116]: 上左 → 上右 → 下右 → 下左 → 下右
+        - link "猫链遮挡 / 开口诊断" [ref=e117] [cursor=pointer]:
+          - /url: evidence/010.svg

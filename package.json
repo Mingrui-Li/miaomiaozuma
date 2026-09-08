@@ -1,0 +1,22 @@
+{
+  "name": "miaomiao-home",
+  "uuid": "b7f2f529-c351-4f5c-916a-f0629e5d9dd2",
+  "type": "2d",
+  "version": "0.1.0",
+  "private": true,
+  "description": "《喵喵回窝》抖音小游戏 MVP，Cocos Creator 3.8.8。",
+  "creator": {
+    "version": "3.8.8"
+  },
+  "scripts": {
+    "test": "npm run test:core",
+    "test:core": "node tools/run-core-tests.mjs",
+    "validate:tracks": "node tools/track-review/audit.mjs",
+    "review:tracks": "node tools/track-review/audit.mjs",
+    "review:catalog": "node tools/track-review/catalog.mjs && node tools/track-review/build-pressure-evidence.mjs",
+    "test:catalog": "node --test tools/track-review/catalog.test.mjs",
+    "test:track-review": "node --test tools/track-review/geometry.test.mjs",
+    "serve:track-review": "node tools/track-review/serve.mjs",
+    "check": "node tools/check-project.mjs"
+  }
+}

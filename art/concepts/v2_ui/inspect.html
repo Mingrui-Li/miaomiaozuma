@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="data:,">
+<title>UI 图片几何对照</title>
+<style>body{font:16px/1.6 system-ui;background:#f4f1eb;color:#493c33;margin:0}header{max-width:1000px;padding:18px;margin:auto}h1{font-size:22px}a{color:#805827}#stage{position:relative;width:min(750px,100%);margin:auto}#art{width:100%;display:block}#overlay{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}label{display:inline-block;padding:10px}input{width:20px;height:20px}#notes{color:#934128}</style>
+<header><a href="index.html">返回图片清单</a><h1 id="title">图片候选</h1><p id="notes"></p><label><input id="toggle" type="checkbox" checked>显示几何/安全区 QA 叠层（不修改原图）</label><a id="original">打开原图</a><p>青线：批准的轨道中心；粉线：批准的宽度边缘；蓝点：入口；红点：老巢；绿圈：发射器。顶部/底部红色区域不放核心按钮。</p></header>
+<div id="stage"><img id="art" alt="正在加载图片候选"><svg id="overlay" viewBox="0 0 750 1334" preserveAspectRatio="none"></svg></div>
+<script type="module">
+const id=new URLSearchParams(location.search).get('asset');
+const progress=await fetch('progress.json').then(r=>r.json());
+const record=progress.records.find(r=>r.id===id&&r.generated);
+if(!record){document.querySelector('#notes').textContent='该图片尚未生成。';throw Error('No generated asset');}
+document.querySelector('#title').textContent=id+' · 图片对照';
+document.querySelector('#notes').textContent=record.qa.status+'：'+record.qa.notes.join('；');
+const src=record.category+'/'+record.id+'.png';document.querySelector('#art').src=src;
+document.querySelector('#original').href=src;
+let overlay='<rect width="750" height="88" fill="#ec4460" opacity=".2"/><rect y="1260" width="750" height="74" fill="#ec4460" opacity=".2"/>';
+const geometry=await fetch('geometry-review.json').then(r=>r.json());
+if(geometry[id]){
+ const g=geometry[id],d=g.points.map((p,i)=>(i?'L':'M')+p.join(',')).join(' ');
+ overlay+='<path d="'+d+'" fill="none" stroke="#fe61ce" opacity=".35" stroke-width="'+g.profile.trackWidth+'"/><path d="'+d+'" fill="none" stroke="#00def0" stroke-width="3"/>';
+ for(const [q,c] of [[g.source,'#1385ef'],[g.lair,'#ef213a']])overlay+='<circle cx="'+q.x+'" cy="'+q.y+'" r="12" fill="'+c+'"/>';
+ overlay+='<circle cx="375" cy="675" r="62" fill="none" stroke="#28e992" stroke-width="4"/><circle cx="411" cy="705" r="20" fill="none" stroke="#28e992" stroke-width="3"/>';
+}
+document.querySelector('#overlay').innerHTML=overlay;
+document.querySelector('#toggle').onchange=e=>document.querySelector('#overlay').style.display=e.target.checked?'block':'none';
+</script></html>

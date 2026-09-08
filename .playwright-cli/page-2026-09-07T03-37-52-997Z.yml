@@ -1,0 +1,96 @@
+- generic [active] [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - heading "喵喵回窝 · 100 关几何审阅稿" [level=1] [ref=f1e3]
+    - paragraph [ref=f1e4]: 只有几何：出猫入口 S、连续轨道、运动方向、中央 360° 发射器、唯一老巢 L。点击任何一关可查看大图。
+    - paragraph [ref=f1e5]: 几何自动检查 100/100；相似度复审 0 对；你的验收 0/100。未调用 ImageGen / Figma，未进行 Cocos 重构。
+    - generic [ref=f1e6]:
+      - link "百关检查表" [ref=f1e7] [cursor=pointer]:
+        - /url: AUDIT.md
+      - link "机器诊断数据" [ref=f1e8] [cursor=pointer]:
+        - /url: audit.json
+      - link "当前章节并排大图" [ref=f1e9] [cursor=pointer]:
+        - /url: chapters/01.svg
+    - navigation "章节选择" [ref=f1e10]:
+      - button "全部 100 关" [ref=f1e11] [cursor=pointer]
+      - button "1 · 晴日庭院" [pressed] [ref=f1e12] [cursor=pointer]
+      - button "2 · 纸箱小巷" [ref=f1e13] [cursor=pointer]
+      - button "3 · 灰尘花房" [ref=f1e14] [cursor=pointer]
+      - button "4 · 弯桥午后" [ref=f1e15] [cursor=pointer]
+      - button "5 · 海风猫站" [ref=f1e16] [cursor=pointer]
+      - button "6 · 果园仓库" [ref=f1e17] [cursor=pointer]
+      - button "7 · 雪夜长廊" [ref=f1e18] [cursor=pointer]
+      - button "8 · 星光屋顶" [ref=f1e19] [cursor=pointer]
+      - button "9 · 灯会巡游" [ref=f1e20] [cursor=pointer]
+      - button "10 · 百猫回窝" [ref=f1e21] [cursor=pointer]
+    - paragraph [ref=f1e22]: 第 1 章 · 10 张图
+  - main [ref=f1e23]:
+    - link "第 1 关 宽底马蹄，S 到 L 的单向几何图 001 · 宽底马蹄 几何检查通过 · 用户待审 上左 → 中左 → 下中 → 下右 → 上右" [ref=f1e24] [cursor=pointer]:
+      - /url: levels/001.svg
+      - img "第 1 关 宽底马蹄，S 到 L 的单向几何图" [ref=f1e25]
+      - generic [ref=f1e26]:
+        - generic [ref=f1e27]: 001 · 宽底马蹄
+        - generic [ref=f1e28]: 几何检查通过 · 用户待审
+        - generic [ref=f1e29]: 上左 → 中左 → 下中 → 下右 → 上右
+    - link "第 2 关 偏心三角弯，S 到 L 的单向几何图 002 · 偏心三角弯 几何检查通过 · 用户待审 上左 → 上右 → 下右 → 下左 → 中左" [ref=f1e30] [cursor=pointer]:
+      - /url: levels/002.svg
+      - img "第 2 关 偏心三角弯，S 到 L 的单向几何图" [ref=f1e31]
+      - generic [ref=f1e32]:
+        - generic [ref=f1e33]: 002 · 偏心三角弯
+        - generic [ref=f1e34]: 几何检查通过 · 用户待审
+        - generic [ref=f1e35]: 上左 → 上右 → 下右 → 下左 → 中左
+    - link "第 3 关 宽 S 反向弯，S 到 L 的单向几何图 003 · 宽 S 反向弯 几何检查通过 · 用户待审 上左 → 上中 → 中右 → 下中 → 下左" [ref=f1e36] [cursor=pointer]:
+      - /url: levels/003.svg
+      - img "第 3 关 宽 S 反向弯，S 到 L 的单向几何图" [ref=f1e37]
+      - generic [ref=f1e38]:
+        - generic [ref=f1e39]: 003 · 宽 S 反向弯
+        - generic [ref=f1e40]: 几何检查通过 · 用户待审
+        - generic [ref=f1e41]: 上左 → 上中 → 中右 → 下中 → 下左
+    - link "第 4 关 上层发卡加长廊，S 到 L 的单向几何图 004 · 上层发卡加长廊 几何检查通过 · 用户待审 上左 → 上右 → 上左 → 下左 → 下右" [ref=f1e42] [cursor=pointer]:
+      - /url: levels/004.svg
+      - img "第 4 关 上层发卡加长廊，S 到 L 的单向几何图" [ref=f1e43]
+      - generic [ref=f1e44]:
+        - generic [ref=f1e45]: 004 · 上层发卡加长廊
+        - generic [ref=f1e46]: 几何检查通过 · 用户待审
+        - generic [ref=f1e47]: 上左 → 上右 → 上左 → 下左 → 下右
+    - link "第 5 关 圆角方旋内收，S 到 L 的单向几何图 005 · 圆角方旋内收 几何检查通过 · 用户待审 上左 → 上右 → 下中 → 中左 → 下右" [ref=f1e48] [cursor=pointer]:
+      - /url: levels/005.svg
+      - img "第 5 关 圆角方旋内收，S 到 L 的单向几何图" [ref=f1e49]
+      - generic [ref=f1e50]:
+        - generic [ref=f1e51]: 005 · 圆角方旋内收
+        - generic [ref=f1e52]: 几何检查通过 · 用户待审
+        - generic [ref=f1e53]: 上左 → 上右 → 下中 → 中左 → 下右
+    - link "第 6 关 外展弧旋，S 到 L 的单向几何图 006 · 外展弧旋 几何检查通过 · 用户待审 上中 → 中右 → 下左 → 上左 → 上右" [ref=f1e54] [cursor=pointer]:
+      - /url: levels/006.svg
+      - img "第 6 关 外展弧旋，S 到 L 的单向几何图" [ref=f1e55]
+      - generic [ref=f1e56]:
+        - generic [ref=f1e57]: 006 · 外展弧旋
+        - generic [ref=f1e58]: 几何检查通过 · 用户待审
+        - generic [ref=f1e59]: 上中 → 中右 → 下左 → 上左 → 上右
+    - link "第 7 关 上下双台阶，S 到 L 的单向几何图 007 · 上下双台阶 几何检查通过 · 用户待审 上左 → 上右 → 中左 → 下中 → 下中" [ref=f1e60] [cursor=pointer]:
+      - /url: levels/007.svg
+      - img "第 7 关 上下双台阶，S 到 L 的单向几何图" [ref=f1e61]
+      - generic [ref=f1e62]:
+        - generic [ref=f1e63]: 007 · 上下双台阶
+        - generic [ref=f1e64]: 几何检查通过 · 用户待审
+        - generic [ref=f1e65]: 上左 → 上右 → 中左 → 下中 → 下中
+    - link "第 8 关 不对称水滴内旋，S 到 L 的单向几何图 008 · 不对称水滴内旋 几何检查通过 · 用户待审 上左 → 上右 → 下右 → 下左 → 上中" [ref=f1e66] [cursor=pointer]:
+      - /url: levels/008.svg
+      - img "第 8 关 不对称水滴内旋，S 到 L 的单向几何图" [ref=f1e67]
+      - generic [ref=f1e68]:
+        - generic [ref=f1e69]: 008 · 不对称水滴内旋
+        - generic [ref=f1e70]: 几何检查通过 · 用户待审
+        - generic [ref=f1e71]: 上左 → 上右 → 下右 → 下左 → 上中
+    - link "第 9 关 折腰台阶回钩，S 到 L 的单向几何图 009 · 折腰台阶回钩 几何检查通过 · 用户待审 上左 → 上右 → 下右 → 下左 → 上中" [ref=f1e72] [cursor=pointer]:
+      - /url: levels/009.svg
+      - img "第 9 关 折腰台阶回钩，S 到 L 的单向几何图" [ref=f1e73]
+      - generic [ref=f1e74]:
+        - generic [ref=f1e75]: 009 · 折腰台阶回钩
+        - generic [ref=f1e76]: 几何检查通过 · 用户待审
+        - generic [ref=f1e77]: 上左 → 上右 → 下右 → 下左 → 上中
+    - link "第 10 关 双曲率长旋综合，S 到 L 的单向几何图 010 · 双曲率长旋综合 几何检查通过 · 用户待审 下左 → 上左 → 中右 → 下左 → 上中" [ref=f1e78] [cursor=pointer]:
+      - /url: levels/010.svg
+      - img "第 10 关 双曲率长旋综合，S 到 L 的单向几何图" [ref=f1e79]
+      - generic [ref=f1e80]:
+        - generic [ref=f1e81]: 010 · 双曲率长旋综合
+        - generic [ref=f1e82]: 几何检查通过 · 用户待审
+        - generic [ref=f1e83]: 下左 → 上左 → 中右 → 下左 → 上中

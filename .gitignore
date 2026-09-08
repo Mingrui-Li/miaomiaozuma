@@ -1,0 +1,9 @@
+library/
+temp/
+build/
+.test-dist/
+local/
+profiles/
+*.log
+.DS_Store
+

@@ -1,0 +1,8 @@
+{
+  "id": "p05_pause",
+  "tool": "image_gen.imagegen",
+  "model": "UNEXPOSED",
+  "source": "/Users/limingrui/.codex/generated_images/01a06a27-6817-7031-a2ff-546d0976cc8a/exec-254aa546-5fb6-43d0-ba6c-683aaaa8bf90.png",
+  "output": "art/concepts/v2_ui/screens/p05_pause.png",
+  "status": "GENERATED_AWAITING_QA"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "l001",
+  "tool": "image_gen.imagegen",
+  "model": "UNEXPOSED",
+  "source": "/Users/limingrui/.codex/generated_images/01a06a27-6817-7031-a2ff-546d0976cc8a/exec-e2e615fd-9705-4123-b5e5-3653ba939628.png",
+  "output": "art/concepts/v2_ui/levels/l001.png",
+  "status": "GENERATED_AWAITING_QA"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "p01_home",
+  "tool": "image_gen.imagegen",
+  "model": "UNEXPOSED",
+  "source": "/Users/limingrui/.codex/generated_images/01a06a27-6817-7031-a2ff-546d0976cc8a/exec-226a2eb0-1efb-4be9-970e-c3b622bee405.png",
+  "output": "art/concepts/v2_ui/screens/p01_home.png",
+  "status": "GENERATED_AWAITING_QA"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "p07_revive_ad",
+  "tool": "image_gen.imagegen",
+  "model": "UNEXPOSED",
+  "source": "/Users/limingrui/.codex/generated_images/01a06a27-6817-7031-a2ff-546d0976cc8a/exec-7b70b857-5904-489f-9b80-f3f03056a185.png",
+  "output": "art/concepts/v2_ui/screens/p07_revive_ad.png",
+  "status": "GENERATED_AWAITING_QA"
+}

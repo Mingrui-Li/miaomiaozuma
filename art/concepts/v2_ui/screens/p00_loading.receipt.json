@@ -1,0 +1,8 @@
+{
+  "id": "p00_loading",
+  "tool": "image_gen.imagegen",
+  "model": "UNEXPOSED",
+  "source": "/Users/limingrui/.codex/generated_images/01a06a27-6817-7031-a2ff-546d0976cc8a/exec-e2aea561-ba92-4af8-97e0-cf9c45c969dd.png",
+  "output": "art/concepts/v2_ui/screens/p00_loading.png",
+  "status": "GENERATED_AWAITING_QA"
+}

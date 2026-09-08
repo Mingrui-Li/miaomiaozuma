@@ -1,0 +1,35 @@
+{
+  "canvas": { "width": 750, "height": 1334, "playTop": 190, "playBottom": 1160 },
+  "launcher": { "x": 375, "y": 675, "clearance": 108 },
+  "defaults": {
+    "centerX": 375,
+    "centerY": 675,
+    "outerRx": 315,
+    "outerRy": 405,
+    "innerRx": 150,
+    "innerRy": 200,
+    "samples": 721
+  },
+  "tracks": [
+    { "id": "P01", "name": "顺时针外入内旋", "levels": "1-5", "start": -2.35, "turns": 1.375, "direction": 1, "wave": 0.00, "waveCount": 1, "phase": 0.0, "driftX": 0, "driftY": 0, "mirrorX": false },
+    { "id": "P02", "name": "逆时针外入内旋", "levels": "6-10", "start": -2.35, "turns": 1.375, "direction": 1, "wave": 0.00, "waveCount": 1, "phase": 0.0, "driftX": 0, "driftY": 0, "mirrorX": true },
+    { "id": "P03", "name": "左缘起止宽S", "levels": "11-15", "kind": "sine", "mirrorX": false, "amplitude": 194, "cycles": 1, "phase": -1.5707963268, "top": 240, "bottom": 1100 },
+    { "id": "P04", "name": "右缘起止宽S", "levels": "16-20", "kind": "sine", "mirrorX": true, "amplitude": 194, "cycles": 1, "phase": -1.5707963268, "top": 240, "bottom": 1100 },
+    { "id": "P05", "name": "顺时针圆角方旋", "levels": "21-25", "start": -2.20, "turns": 1.22, "direction": 1, "wave": 0.075, "waveCount": 4, "phase": 0.0, "driftX": 0, "driftY": -18, "mirrorX": false },
+    { "id": "P06", "name": "逆时针圆角方旋", "levels": "26-30", "start": -2.20, "turns": 1.22, "direction": 1, "wave": 0.075, "waveCount": 4, "phase": 0.0, "driftX": 0, "driftY": -18, "mirrorX": true },
+    { "id": "P07", "name": "上开口马蹄", "levels": "31-35", "start": 2.35, "turns": 0.82, "direction": 1, "wave": 0.00, "waveCount": 1, "phase": 0.0, "driftX": 0, "driftY": -24, "mirrorX": false },
+    { "id": "P08", "name": "下开口马蹄", "levels": "36-40", "start": 2.35, "turns": 0.82, "direction": 1, "wave": 0.00, "waveCount": 1, "phase": 0.0, "driftX": 0, "driftY": -24, "mirrorX": true },
+    { "id": "P09", "name": "三段左起波形", "levels": "41-45", "start": -2.40, "turns": 1.12, "direction": 1, "wave": 0.055, "waveCount": 3, "phase": 0.2, "driftX": 20, "driftY": 18, "mirrorX": false },
+    { "id": "P10", "name": "三段右起波形", "levels": "46-50", "start": -2.40, "turns": 1.12, "direction": 1, "wave": 0.055, "waveCount": 3, "phase": 0.2, "driftX": 20, "driftY": 18, "mirrorX": true },
+    { "id": "P11", "name": "顺时针双弯钩", "levels": "51-55", "start": -2.60, "turns": 0.96, "direction": 1, "wave": 0.040, "waveCount": 2, "phase": 1.1, "driftX": 34, "driftY": 10, "mirrorX": false },
+    { "id": "P12", "name": "逆时针双弯钩", "levels": "56-60", "start": -2.60, "turns": 0.96, "direction": 1, "wave": 0.040, "waveCount": 2, "phase": 1.1, "driftX": 34, "driftY": 10, "mirrorX": true },
+    { "id": "P13", "name": "顺时针椭圆内旋", "levels": "61-65", "start": -2.85, "turns": 1.24, "direction": 1, "wave": 0.020, "waveCount": 2, "phase": 0.3, "driftX": -22, "driftY": 0, "mirrorX": false, "outerRx": 305, "outerRy": 430, "innerRx": 145, "innerRy": 205 },
+    { "id": "P14", "name": "逆时针椭圆内旋", "levels": "66-70", "start": -2.85, "turns": 1.24, "direction": 1, "wave": 0.020, "waveCount": 2, "phase": 0.3, "driftX": -22, "driftY": 0, "mirrorX": true, "outerRx": 305, "outerRy": 430, "innerRx": 145, "innerRy": 205 },
+    { "id": "P15", "name": "右内端开放水滴", "levels": "71-75", "start": -2.20, "turns": 1.15, "direction": 1, "wave": 0.060, "waveCount": 1, "phase": -1.57, "driftX": 0, "driftY": 24, "mirrorX": false },
+    { "id": "P16", "name": "开放四瓣柔波", "levels": "76-80", "start": 2.45, "turns": 1.08, "direction": 1, "wave": 0.040, "waveCount": 4, "phase": 0.5, "driftX": 18, "driftY": -16, "mirrorX": false },
+    { "id": "P17", "name": "开放钥匙孔顺旋", "levels": "81-85", "start": -2.45, "turns": 1.16, "direction": 1, "wave": 0.055, "waveCount": 2, "phase": 0.0, "driftX": 0, "driftY": 30, "mirrorX": false },
+    { "id": "P18", "name": "开放钥匙孔逆旋", "levels": "86-90", "start": -2.45, "turns": 1.16, "direction": 1, "wave": 0.055, "waveCount": 2, "phase": 0.0, "driftX": 0, "driftY": 30, "mirrorX": true },
+    { "id": "P19", "name": "长尾顺时针螺旋", "levels": "91-95", "start": 2.45, "turns": 1.40, "direction": 1, "wave": 0.020, "waveCount": 3, "phase": 0.2, "driftX": 24, "driftY": -18, "mirrorX": false, "outerRx": 325, "outerRy": 410, "innerRx": 150, "innerRy": 180 },
+    { "id": "P20", "name": "终章逆时针大螺旋", "levels": "96-100", "start": 2.45, "turns": 1.40, "direction": 1, "wave": 0.020, "waveCount": 3, "phase": 0.2, "driftX": 24, "driftY": -18, "mirrorX": true, "outerRx": 325, "outerRy": 410, "innerRx": 150, "innerRy": 180 }
+  ]
+}

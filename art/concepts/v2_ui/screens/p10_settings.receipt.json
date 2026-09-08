@@ -1,0 +1,8 @@
+{
+  "id": "p10_settings",
+  "tool": "image_gen.imagegen",
+  "model": "UNEXPOSED",
+  "source": "/Users/limingrui/.codex/generated_images/01a06a27-6817-7031-a2ff-546d0976cc8a/exec-2a3f12cb-ce36-4d48-921e-14b5988a0af9.png",
+  "output": "art/concepts/v2_ui/screens/p10_settings.png",
+  "status": "GENERATED_AWAITING_QA"
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>喵喵回窝 · 轨道逻辑实验台</title>
+<link rel="icon" href="data:,">
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f4f6f9;color:#233047;font:15px/1.6 system-ui,-apple-system,"PingFang SC",sans-serif}header{padding:20px 28px;background:#fff;border-bottom:1px solid #d7deea}h1{font-size:23px;margin:0}h2{font-size:18px;margin:0 0 10px}p{margin:8px 0}.warning{color:#9b341b}a{color:#1e5eaa}main{display:grid;grid-template-columns:220px minmax(280px,560px) minmax(260px,1fr);gap:20px;max-width:1400px;padding:22px;margin:auto}nav{display:flex;flex-direction:column;gap:7px}button,select{font:inherit;color:inherit;background:white;border:1px solid #c5cfdf;border-radius:6px;min-height:44px;padding:9px 12px;cursor:pointer}button:hover{background:#e9eff7}button:disabled{color:#78859b;background:#eceff3;cursor:default}button[aria-pressed=true]{background:#233b5d;color:white;border-color:#233b5d}nav button{text-align:left}nav small{display:block;font-size:12px;opacity:.8}.board{background:white;border:1px solid #d7deea;border-radius:9px;overflow:hidden}.board svg{display:block;width:100%;height:auto;max-height:76vh;touch-action:none}.toolbar{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}.toolbar button{flex:1;white-space:nowrap}.side section{background:white;border:1px solid #d7deea;border-radius:9px;padding:16px;margin-bottom:14px}.muted{font-size:13px;color:#59687d}.key{display:flex;gap:12px;flex-wrap:wrap;font-size:13px}.key span{white-space:nowrap}input[type=range]{width:100%;min-height:40px;accent-color:#233b5d}label{display:block}dl{display:grid;grid-template-columns:1fr auto;gap:6px;margin:10px 0;font-size:14px}dt,dd{margin:0}output{display:block;background:#eef3f9;border-radius:5px;padding:9px;margin:10px 0;min-height:44px}.evidence{font-variant-numeric:tabular-nums}.bad{color:#b53838}.good{color:#05766b}details{padding:10px 0}summary{cursor:pointer}#error{white-space:pre-wrap;color:#b53838}.cat-label{font-weight:700;pointer-events:none}.link-row{display:flex;gap:12px;flex-wrap:wrap}.separator{border-top:1px solid #e1e6ee;margin-top:12px;padding-top:8px}
+@media(max-width:1100px){main{grid-template-columns:175px minmax(260px,1fr);max-width:950px}.side{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:14px}.side section{margin:0}.board svg{max-height:80vh}}
+@media(max-width:600px){header{padding:16px}h1{font-size:20px}main{display:flex;flex-direction:column;padding:12px;gap:12px}nav{display:grid;grid-template-columns:repeat(5,1fr);gap:5px}nav button{padding:8px 3px;text-align:center;font-size:13px}nav small{display:none}nav .level-name{display:none}.side{display:block}.side section{margin-bottom:12px}.board svg{max-height:none}.toolbar button{font-size:13px}}
+</style>
+<header>
+  <h1>喵喵回窝 · 轨道逻辑实验台</h1>
+  <p class="warning">前十关候选 · 只验证路线与首撞。不是成品 UI，不是完整游戏，也未获上线验收。</p>
+  <div class="link-row"><a href="generated/first-ten-atlas.svg" target="_blank">十关路线并排对照</a><a href="generated/AUDIT.md" target="_blank">自动诊断报告</a><a href="../../docs/TRACK_REDESIGN_REVIEW.md" target="_blank">整改说明与验收边界</a></div>
+</header>
+<div id="error" role="alert"></div>
+<main>
+  <nav id="levels" aria-label="关卡选择"></nav>
+  <div>
+    <div class="toolbar"><button id="play" aria-pressed="false">推进猫链</button><button id="reset">重置</button><button id="empty" aria-pressed="false">隐藏猫链</button></div>
+    <div class="board"><svg id="board" viewBox="0 150 750 1040" role="img" aria-label="轨道、猫链、中央发射器和首个命中目标"></svg></div>
+    <div class="key"><span>绿色 S：唯一生成入口</span><span>红色 L：唯一失败老巢</span><span>箭头：猫链前进方向</span></div>
+  </div>
+  <aside class="side">
+    <section>
+      <h2 id="title"></h2><div id="family" class="muted"></div>
+      <p id="decision"></p><p id="risk" class="warning"></p>
+      <details><summary>生成计划设计意图（尚未实现）</summary><p id="sequence"></p></details>
+      <label for="progress">队首位置：<b id="progressLabel"></b> · 终点前 32px 判负</label>
+      <input id="progress" type="range" min="10" max="100" step="1" value="50">
+      <label for="angle">瞄准方向：<b id="angleLabel"></b>（也可直接在轨道上指向）</label>
+      <input id="angle" type="range" min="0" max="359" step="1" value="270">
+      <output id="hit" aria-live="polite"></output>
+      <p class="muted">弹射物半径 30px + 猫半径 32px 做圆形扫掠，瞄准线只到首撞猫；远处同色猫不能穿过近猫命中。空轨道不会挡弹。</p>
+    </section>
+    <section>
+      <h2>遮挡 / 开缝对照</h2>
+      <p class="muted">“开缝探针”在固定快照中移走连续三只猫，并指出从完全遮挡变为可命中的远猫。它不扣分、不验证三消，也不代表已实现回吸。</p>
+      <div class="toolbar"><button id="witness">载入开缝示例</button><button id="gap" disabled aria-pressed="false">打开诊断缺口</button></div>
+      <output id="witnessInfo" class="evidence" aria-live="polite">先推进猫链，观察目标随队首变化。</output>
+      <dl><dt>场上猫数</dt><dd id="catCount"></dd><dt>至少一条射线能首撞的猫</dt><dd id="visibleCount"></dd><dt>完全被近猫遮住的猫</dt><dd id="hiddenCount"></dd><dt>当前快照有猫的射击角覆盖</dt><dd id="coverage"></dd></dl>
+      <details><summary>几何诊断与未验收项</summary><div id="metrics"></div><p class="warning">本工具没有实现发射插入、消除判定、动态接缝回吸、暴走、广告或胜利流程。静态首撞通过 ≠ 可玩性通过。11～100 关仍待独立路线设计。</p></details>
+      <p class="muted separator">数字 1～5 是五猫灰盒标识；每个标识同时有不同颜色和数字。演示猫链是覆盖测试夹具，不是正式出猫顺序。</p>
+    </section>
+  </aside>
+</main>
+<script type="module" src="./lab.mjs"></script>
+</html>

@@ -1,0 +1,8 @@
+{
+  "id": "p03_prepare_first",
+  "tool": "image_gen.imagegen",
+  "model": "UNEXPOSED",
+  "source": "/Users/limingrui/.codex/generated_images/01a06a27-6817-7031-a2ff-546d0976cc8a/exec-c669db95-22b4-47c9-87c4-567c195d589c.png",
+  "output": "art/concepts/v2_ui/screens/p03_prepare_first.png",
+  "status": "GENERATED_AWAITING_QA"
+}

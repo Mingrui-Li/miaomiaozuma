@@ -1,0 +1,8 @@
+{
+  "id": "p09_cosmetics",
+  "tool": "image_gen.imagegen",
+  "model": "UNEXPOSED",
+  "source": "/Users/limingrui/.codex/generated_images/01a06a27-6817-7031-a2ff-546d0976cc8a/exec-50ad9994-2b42-4e95-81fb-d94cab343d32.png",
+  "output": "art/concepts/v2_ui/screens/p09_cosmetics.png",
+  "status": "GENERATED_AWAITING_QA"
+}

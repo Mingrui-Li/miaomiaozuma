@@ -1,0 +1,1045 @@
+{
+  "sourceSha256": "55c567f7ed688ef55194cb7d844946f17187f1e5ac2a5698e34275b9fffcc0de",
+  "schemaVersion": 1,
+  "status": "LOGIC_REVIEW_ONLY",
+  "scope": "10 条候选路径的几何 + 三个静态满尾链快照 + 三猫探针移除前后首撞对照。不是完整游戏模拟，不验证通关率、30 秒暴走、受控生成、移动中碰撞、回吸时间或真实玩家体验。",
+  "similarityThreshold": 48,
+  "similarityCaveat": "去平移/等比缩放/旋转/镜像/倒序后，等弧长对应点 RMS 小于 48px 必须复审；高于阈值也不代表玩法有趣。",
+  "levels": [
+    {
+      "id": 1,
+      "name": "庭院迎接",
+      "family": "宽底马蹄",
+      "geometryPassed": true,
+      "failures": [],
+      "similarityReview": [],
+      "status": "DRAFT_NOT_GAMEPLAY_APPROVED",
+      "metrics": {
+        "length": 1719.8,
+        "minRadius": 175,
+        "minSeparation": 224.7,
+        "launcherClearance": 275,
+        "intersections": 0,
+        "fullFixtureCoverage": 287
+      },
+      "endpoints": {
+        "source": {
+          "x": 100,
+          "y": 320
+        },
+        "sourceAngle": 1.5707963267948966,
+        "lair": {
+          "x": 650,
+          "y": 420
+        },
+        "lairAngle": -1.5707963267948966
+      },
+      "states": [
+        {
+          "headRatio": 0.45,
+          "catCount": 12,
+          "directlyHittable": 12,
+          "completelyHidden": 0,
+          "coveredDegrees": 135,
+          "headVisible": true,
+          "gapWitness": null
+        },
+        {
+          "headRatio": 0.72,
+          "catCount": 19,
+          "directlyHittable": 19,
+          "completelyHidden": 0,
+          "coveredDegrees": 207,
+          "headVisible": true,
+          "gapWitness": null
+        },
+        {
+          "headRatio": 0.94,
+          "catCount": 25,
+          "directlyHittable": 25,
+          "completelyHidden": 0,
+          "coveredDegrees": 278,
+          "headVisible": true,
+          "gapWitness": null
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "斜坡转角",
+      "family": "偏心三角弯",
+      "geometryPassed": true,
+      "failures": [],
+      "similarityReview": [],
+      "status": "DRAFT_NOT_GAMEPLAY_APPROVED",
+      "metrics": {
+        "length": 1807.4,
+        "minRadius": 139.9,
+        "minSeparation": 214.3,
+        "launcherClearance": 251.2,
+        "intersections": 0,
+        "fullFixtureCoverage": 323.5
+      },
+      "endpoints": {
+        "source": {
+          "x": 170,
+          "y": 270
+        },
+        "sourceAngle": 0.44684246848576387,
+        "lair": {
+          "x": 95,
+          "y": 590
+        },
+        "lairAngle": -1.5707963267948966
+      },
+      "states": [
+        {
+          "headRatio": 0.45,
+          "catCount": 13,
+          "directlyHittable": 13,
+          "completelyHidden": 0,
+          "coveredDegrees": 165.5,
+          "headVisible": true,
+          "gapWitness": null
+        },
+        {
+          "headRatio": 0.72,
+          "catCount": 20,
+          "directlyHittable": 20,
+          "completelyHidden": 0,
+          "coveredDegrees": 239.5,
+          "headVisible": true,
+          "gapWitness": null
+        },
+        {
+          "headRatio": 0.94,
+          "catCount": 26,
+          "directlyHittable": 26,
+          "completelyHidden": 0,
+          "coveredDegrees": 309,
+          "headVisible": true,
+          "gapWitness": null
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "花圃双弯",
+      "family": "宽 S 反向弯",
+      "geometryPassed": true,
+      "failures": [],
+      "similarityReview": [],
+      "status": "DRAFT_NOT_GAMEPLAY_APPROVED",
+      "metrics": {
+        "length": 1204.7,
+        "minRadius": 99.2,
+        "minSeparation": 211.5,
+        "launcherClearance": 173.3,
+        "intersections": 0,
+        "fullFixtureCoverage": 247.5
+      },
+      "endpoints": {
+        "source": {
+          "x": 181,
+          "y": 240
+        },
+        "sourceAngle": 1.5203268633054812,
+        "lair": {
+          "x": 181,
+          "y": 1110
+        },
+        "lairAngle": 1.62126579028431
+      },
+      "states": [
+        {
+          "headRatio": 0.45,
+          "catCount": 9,
+          "directlyHittable": 8,
+          "completelyHidden": 1,
+          "coveredDegrees": 125.5,
+          "headVisible": true,
+          "gapWitness": {
+            "removed": [
+              1,
+              2,
+              3
+            ],
+            "newlyVisible": [
+              0
+            ],
+            "angleDegrees": 238
+          }
+        },
+        {
+          "headRatio": 0.72,
+          "catCount": 14,
+          "directlyHittable": 13,
+          "completelyHidden": 1,
+          "coveredDegrees": 223.5,
+          "headVisible": true,
+          "gapWitness": {
+            "removed": [
+              1,
+              2,
+              3
+            ],
+            "newlyVisible": [
+              0
+            ],
+            "angleDegrees": 238
+          }
+        },
+        {
+          "headRatio": 0.94,
+          "catCount": 18,
+          "directlyHittable": 17,
+          "completelyHidden": 1,
+          "coveredDegrees": 247.5,
+          "headVisible": true,
+          "gapWitness": {
+            "removed": [
+              1,
+              2,
+              3
+            ],
+            "newlyVisible": [
+              0
+            ],
+            "angleDegrees": 238
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "长廊回折",
+      "family": "上层发卡加长廊",
+      "geometryPassed": true,
+      "failures": [],
+      "similarityReview": [],
+      "status": "DRAFT_NOT_GAMEPLAY_APPROVED",
+      "metrics": {
+        "length": 2259.7,
+        "minRadius": 104.9,
+        "minSeparation": 202.5,
+        "launcherClearance": 185,
+        "intersections": 0,
+        "fullFixtureCoverage": 281.5
+      },
+      "endpoints": {
+        "source": {
+          "x": 95,
+          "y": 255
+        },
+        "sourceAngle": 0,
+        "lair": {
+          "x": 650,
+          "y": 1040
+        },
+        "lairAngle": 0
+      },
+      "states": [
+        {
+          "headRatio": 0.45,
+          "catCount": 16,
+          "directlyHittable": 6,
+          "completelyHidden": 10,
+          "coveredDegrees": 98.5,
+          "headVisible": true,
+          "gapWitness": {
+            "removed": [
+              13,
+              14,
+              15
+            ],
+            "newlyVisible": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "angleDegrees": 239.5
+          }
+        },
+        {
+          "headRatio": 0.72,
+          "catCount": 25,
+          "directlyHittable": 14,
+          "completelyHidden": 11,
+          "coveredDegrees": 200.5,
+          "headVisible": true,
+          "gapWitness": {
+            "removed": [
+              11,
+              12,
+              13
+            ],
+            "newlyVisible": [
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "angleDegrees": 292
+          }
+        },
+        {
+          "headRatio": 0.94,
+          "catCount": 33,
+          "directlyHittable": 22,
+          "completelyHidden": 11,
+          "coveredDegrees": 270.5,
+          "headVisible": true,
+          "gapWitness": {
+            "removed": [
+              12,
+              13,
+              14
+            ],
+            "newlyVisible": [
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "angleDegrees": 281
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "方院回廊",
+      "family": "圆角方旋内收",
+      "geometryPassed": true,
+      "failures": [],
+      "similarityReview": [],
+      "status": "DRAFT_NOT_GAMEPLAY_APPROVED",
+      "metrics": {
+        "length": 3003.9,
+        "minRadius": 103,
+        "minSeparation": 140,
+        "launcherClearance": 140,
+        "intersections": 0,
+        "fullFixtureCoverage": 360
+      },
+      "endpoints": {
+        "source": {
+          "x": 100,
+          "y": 265
+        },
+        "sourceAngle": 0,
+        "lair": {
+          "x": 515,
+          "y": 845
+        },
+        "lairAngle": 1.5707963267948966
+      },
+      "states": [
+        {
+          "headRatio": 0.45,
+          "catCount": 21,
+          "directlyHittable": 21,
+          "completelyHidden": 0,
+          "coveredDegrees": 200.5,
+          "headVisible": true,
+          "gapWitness": null
+        },
+        {
+          "headRatio": 0.72,
+          "catCount": 33,
+          "directlyHittable": 33,
+          "completelyHidden": 0,
+          "coveredDegrees": 319,
+          "headVisible": true,
+          "gapWitness": null
+        },
+        {
+          "headRatio": 0.94,
+          "catCount": 43,
+          "directlyHittable": 28,
+          "completelyHidden": 15,
+          "coveredDegrees": 360,
+          "headVisible": true,
+          "gapWitness": {
+            "removed": [
+              38,
+              39,
+              40
+            ],
+            "newlyVisible": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "angleDegrees": 266
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "由里向外",
+      "family": "外展弧旋",
+      "geometryPassed": true,
+      "failures": [],
+      "similarityReview": [],
+      "status": "DRAFT_NOT_GAMEPLAY_APPROVED",
+      "metrics": {
+        "length": 2026.3,
+        "minRadius": 123.9,
+        "minSeparation": 150.4,
+        "launcherClearance": 194,
+        "intersections": 0,
+        "fullFixtureCoverage": 360
+      },
+      "endpoints": {
+        "source": {
+          "x": 310.49724033519294,
+          "y": 488.59402750073525
+        },
+        "sourceAngle": -0.6649016216743775,
+        "lair": {
+          "x": 601.0124171040536,
+          "y": 392.11117728191425
+        },
+        "lairAngle": 0.9002164701677131
+      },
+      "states": [
+        {
+          "headRatio": 0.45,
+          "catCount": 14,
+          "directlyHittable": 14,
+          "completelyHidden": 0,
+          "coveredDegrees": 234.5,
+          "headVisible": true,
+          "gapWitness": null
+        },
+        {
+          "headRatio": 0.72,
+          "catCount": 23,
+          "directlyHittable": 23,
+          "completelyHidden": 0,
+          "coveredDegrees": 360,
+          "headVisible": true,
+          "gapWitness": null
+        },
+        {
+          "headRatio": 0.94,
+          "catCount": 29,
+          "directlyHittable": 24,
+          "completelyHidden": 5,
+          "coveredDegrees": 360,
+          "headVisible": false,
+          "gapWitness": {
+            "removed": [
+              0,
+              1,
+              2
+            ],
+            "newlyVisible": [
+              24,
+              25,
+              26,
+              27,
+              28
+            ],
+            "angleDegrees": 251
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "高低花台",
+      "family": "上下双台阶",
+      "geometryPassed": true,
+      "failures": [],
+      "similarityReview": [],
+      "status": "DRAFT_NOT_GAMEPLAY_APPROVED",
+      "metrics": {
+        "length": 2541.7,
+        "minRadius": 109.9,
+        "minSeparation": 200.9,
+        "launcherClearance": 155,
+        "intersections": 0,
+        "fullFixtureCoverage": 309
+      },
+      "endpoints": {
+        "source": {
+          "x": 95,
+          "y": 290
+        },
+        "sourceAngle": 0,
+        "lair": {
+          "x": 460,
+          "y": 830
+        },
+        "lairAngle": 3.141592653589793
+      },
+      "states": [
+        {
+          "headRatio": 0.45,
+          "catCount": 18,
+          "directlyHittable": 7,
+          "completelyHidden": 11,
+          "coveredDegrees": 130.5,
+          "headVisible": true,
+          "gapWitness": {
+            "removed": [
+              12,
+              13,
+              14
+            ],
+            "newlyVisible": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "angleDegrees": 276
+          }
+        },
+        {
+          "headRatio": 0.72,
+          "catCount": 28,
+          "directlyHittable": 17,
+          "completelyHidden": 11,
+          "coveredDegrees": 239,
+          "headVisible": true,
+          "gapWitness": {
+            "removed": [
+              11,
+              12,
+              13
+            ],
+            "newlyVisible": [
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "angleDegrees": 291.5
+          }
+        },
+        {
+          "headRatio": 0.94,
+          "catCount": 37,
+          "directlyHittable": 26,
+          "completelyHidden": 11,
+          "coveredDegrees": 310,
+          "headVisible": true,
+          "gapWitness": {
+            "removed": [
+              12,
+              13,
+              14
+            ],
+            "newlyVisible": [
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "angleDegrees": 279.5
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "水滴庭心",
+      "family": "不对称水滴内旋",
+      "geometryPassed": true,
+      "failures": [],
+      "similarityReview": [],
+      "status": "DRAFT_NOT_GAMEPLAY_APPROVED",
+      "metrics": {
+        "length": 1827,
+        "minRadius": 145.7,
+        "minSeparation": 163.3,
+        "launcherClearance": 168.1,
+        "intersections": 0,
+        "fullFixtureCoverage": 360
+      },
+      "endpoints": {
+        "source": {
+          "x": 112.79204146910212,
+          "y": 463.1289361813782
+        },
+        "sourceAngle": -1.0503926152843328,
+        "lair": {
+          "x": 301.12475916342635,
+          "y": 503.81977301569094
+        },
+        "lairAngle": -0.5641309208546196
+      },
+      "states": [
+        {
+          "headRatio": 0.45,
+          "catCount": 13,
+          "directlyHittable": 13,
+          "completelyHidden": 0,
+          "coveredDegrees": 167.5,
+          "headVisible": true,
+          "gapWitness": null
+        },
+        {
+          "headRatio": 0.72,
+          "catCount": 20,
+          "directlyHittable": 20,
+          "completelyHidden": 0,
+          "coveredDegrees": 258,
+          "headVisible": true,
+          "gapWitness": null
+        },
+        {
+          "headRatio": 0.94,
+          "catCount": 27,
+          "directlyHittable": 26,
+          "completelyHidden": 1,
+          "coveredDegrees": 360,
+          "headVisible": true,
+          "gapWitness": {
+            "removed": [
+              24,
+              25,
+              26
+            ],
+            "newlyVisible": [
+              0
+            ],
+            "angleDegrees": 209
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "折腰急送",
+      "family": "折腰台阶回钩",
+      "geometryPassed": true,
+      "failures": [],
+      "similarityReview": [],
+      "status": "DRAFT_NOT_GAMEPLAY_APPROVED",
+      "metrics": {
+        "length": 2477.5,
+        "minRadius": 99.9,
+        "minSeparation": 202.7,
+        "launcherClearance": 170,
+        "intersections": 0,
+        "fullFixtureCoverage": 360
+      },
+      "endpoints": {
+        "source": {
+          "x": 95,
+          "y": 275
+        },
+        "sourceAngle": 0,
+        "lair": {
+          "x": 390,
+          "y": 505
+        },
+        "lairAngle": 0
+      },
+      "states": [
+        {
+          "headRatio": 0.45,
+          "catCount": 17,
+          "directlyHittable": 17,
+          "completelyHidden": 0,
+          "coveredDegrees": 175,
+          "headVisible": true,
+          "gapWitness": null
+        },
+        {
+          "headRatio": 0.72,
+          "catCount": 28,
+          "directlyHittable": 28,
+          "completelyHidden": 0,
+          "coveredDegrees": 276.5,
+          "headVisible": true,
+          "gapWitness": null
+        },
+        {
+          "headRatio": 0.94,
+          "catCount": 36,
+          "directlyHittable": 34,
+          "completelyHidden": 2,
+          "coveredDegrees": 360,
+          "headVisible": true,
+          "gapWitness": {
+            "removed": [
+              33,
+              34,
+              35
+            ],
+            "newlyVisible": [
+              0,
+              1
+            ],
+            "angleDegrees": 229.5
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "庭院大巡游",
+      "family": "双曲率长旋综合",
+      "geometryPassed": true,
+      "failures": [],
+      "similarityReview": [],
+      "status": "DRAFT_NOT_GAMEPLAY_APPROVED",
+      "metrics": {
+        "length": 2405.6,
+        "minRadius": 109.1,
+        "minSeparation": 117.2,
+        "launcherClearance": 176.9,
+        "intersections": 0,
+        "fullFixtureCoverage": 360
+      },
+      "endpoints": {
+        "source": {
+          "x": 142.72097960450768,
+          "y": 955.3172199287276
+        },
+        "sourceAngle": -2.1216969543324424,
+        "lair": {
+          "x": 421.51254462103043,
+          "y": 499.7763196420008
+        },
+        "lairAngle": 0.5435717610273828
+      },
+      "states": [
+        {
+          "headRatio": 0.45,
+          "catCount": 17,
+          "directlyHittable": 17,
+          "completelyHidden": 0,
+          "coveredDegrees": 203.5,
+          "headVisible": true,
+          "gapWitness": null
+        },
+        {
+          "headRatio": 0.72,
+          "catCount": 27,
+          "directlyHittable": 27,
+          "completelyHidden": 0,
+          "coveredDegrees": 349,
+          "headVisible": true,
+          "gapWitness": null
+        },
+        {
+          "headRatio": 0.94,
+          "catCount": 35,
+          "directlyHittable": 24,
+          "completelyHidden": 11,
+          "coveredDegrees": 360,
+          "headVisible": true,
+          "gapWitness": {
+            "removed": [
+              31,
+              32,
+              33
+            ],
+            "newlyVisible": [
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "angleDegrees": 180.5
+          }
+        }
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "a": 6,
+      "b": 8,
+      "rms": 49.3,
+      "reviewRequired": false
+    },
+    {
+      "a": 6,
+      "b": 9,
+      "rms": 49.5,
+      "reviewRequired": false
+    },
+    {
+      "a": 8,
+      "b": 9,
+      "rms": 53.7,
+      "reviewRequired": false
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "rms": 54.3,
+      "reviewRequired": false
+    },
+    {
+      "a": 5,
+      "b": 10,
+      "rms": 65.3,
+      "reviewRequired": false
+    },
+    {
+      "a": 2,
+      "b": 8,
+      "rms": 74.3,
+      "reviewRequired": false
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "rms": 97.5,
+      "reviewRequired": false
+    },
+    {
+      "a": 2,
+      "b": 9,
+      "rms": 98.8,
+      "reviewRequired": false
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "rms": 99.7,
+      "reviewRequired": false
+    },
+    {
+      "a": 1,
+      "b": 8,
+      "rms": 108.9,
+      "reviewRequired": false
+    },
+    {
+      "a": 2,
+      "b": 6,
+      "rms": 112.6,
+      "reviewRequired": false
+    },
+    {
+      "a": 6,
+      "b": 10,
+      "rms": 116.4,
+      "reviewRequired": false
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "rms": 125.3,
+      "reviewRequired": false
+    },
+    {
+      "a": 4,
+      "b": 7,
+      "rms": 131.2,
+      "reviewRequired": false
+    },
+    {
+      "a": 5,
+      "b": 8,
+      "rms": 133.1,
+      "reviewRequired": false
+    },
+    {
+      "a": 1,
+      "b": 9,
+      "rms": 142.9,
+      "reviewRequired": false
+    },
+    {
+      "a": 9,
+      "b": 10,
+      "rms": 143.4,
+      "reviewRequired": false
+    },
+    {
+      "a": 1,
+      "b": 6,
+      "rms": 144.5,
+      "reviewRequired": false
+    },
+    {
+      "a": 8,
+      "b": 10,
+      "rms": 145.6,
+      "reviewRequired": false
+    },
+    {
+      "a": 5,
+      "b": 9,
+      "rms": 149.2,
+      "reviewRequired": false
+    },
+    {
+      "a": 3,
+      "b": 7,
+      "rms": 161.8,
+      "reviewRequired": false
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "rms": 170.4,
+      "reviewRequired": false
+    },
+    {
+      "a": 3,
+      "b": 8,
+      "rms": 175.4,
+      "reviewRequired": false
+    },
+    {
+      "a": 3,
+      "b": 9,
+      "rms": 183.5,
+      "reviewRequired": false
+    },
+    {
+      "a": 7,
+      "b": 8,
+      "rms": 189,
+      "reviewRequired": false
+    },
+    {
+      "a": 4,
+      "b": 8,
+      "rms": 189.5,
+      "reviewRequired": false
+    },
+    {
+      "a": 2,
+      "b": 10,
+      "rms": 191.5,
+      "reviewRequired": false
+    },
+    {
+      "a": 7,
+      "b": 10,
+      "rms": 198.6,
+      "reviewRequired": false
+    },
+    {
+      "a": 4,
+      "b": 10,
+      "rms": 200.4,
+      "reviewRequired": false
+    },
+    {
+      "a": 3,
+      "b": 6,
+      "rms": 203.2,
+      "reviewRequired": false
+    },
+    {
+      "a": 2,
+      "b": 7,
+      "rms": 204.3,
+      "reviewRequired": false
+    },
+    {
+      "a": 6,
+      "b": 7,
+      "rms": 204.9,
+      "reviewRequired": false
+    },
+    {
+      "a": 2,
+      "b": 5,
+      "rms": 205.2,
+      "reviewRequired": false
+    },
+    {
+      "a": 1,
+      "b": 7,
+      "rms": 206.6,
+      "reviewRequired": false
+    },
+    {
+      "a": 4,
+      "b": 6,
+      "rms": 206.7,
+      "reviewRequired": false
+    },
+    {
+      "a": 1,
+      "b": 10,
+      "rms": 210.8,
+      "reviewRequired": false
+    },
+    {
+      "a": 2,
+      "b": 4,
+      "rms": 215.4,
+      "reviewRequired": false
+    },
+    {
+      "a": 1,
+      "b": 4,
+      "rms": 227.1,
+      "reviewRequired": false
+    },
+    {
+      "a": 7,
+      "b": 9,
+      "rms": 234.4,
+      "reviewRequired": false
+    },
+    {
+      "a": 1,
+      "b": 5,
+      "rms": 234.7,
+      "reviewRequired": false
+    },
+    {
+      "a": 3,
+      "b": 5,
+      "rms": 235.8,
+      "reviewRequired": false
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "rms": 243.7,
+      "reviewRequired": false
+    },
+    {
+      "a": 3,
+      "b": 10,
+      "rms": 244.3,
+      "reviewRequired": false
+    },
+    {
+      "a": 4,
+      "b": 9,
+      "rms": 244.8,
+      "reviewRequired": false
+    },
+    {
+      "a": 5,
+      "b": 7,
+      "rms": 246.1,
+      "reviewRequired": false
+    }
+  ]
+}

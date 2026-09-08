@@ -1,0 +1,8 @@
+{
+  "id": "p06_win",
+  "tool": "image_gen.imagegen",
+  "model": "UNEXPOSED",
+  "source": "/Users/limingrui/.codex/generated_images/01a06a27-6817-7031-a2ff-546d0976cc8a/exec-61baee9c-f808-43b6-afbf-3f97dd146f21.png",
+  "output": "art/concepts/v2_ui/screens/p06_win.png",
+  "status": "GENERATED_AWAITING_QA"
+}
