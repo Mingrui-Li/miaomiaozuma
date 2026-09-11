@@ -4,6 +4,8 @@
 
 ## 现状与来源
 
+- UI-05复用UI-04 PNG；新增Noto Sans SC 500字重试样子集MMHW UI Trial（63,008字节），OFL、版权、来源/hash/cmap见 [13](13_UI_COMPONENT_PREVIEW.md) 与 `design/ui/ui05/font.json`。完整源字体不进入assets。下方未发现字体的表述为UI-04以前历史，不再代表当前。
+
 - `art/concepts/`：历史概念图和提示词；`art/concepts/v2_ui/` 有未完成的旧全套图片工作。均不自动成为新 UI 基线。
 - `art/concepts/ui03/style_board_02.png`：本轮评审候选，原版01保留；均为1536×1024 RGB图，不是透明生产图集。实际模型未知、未使用CLI/API Key；源哈希/提示词见该目录 `manifest.json`。
 - `assets/game/art/` 与 `assets/resources/game/` 有猫咪和背景等重复资源；后者另有设施/障碍图片。没有查明引用前不清理。
@@ -11,6 +13,8 @@
 - 根 `art/` 保留设计原稿；以后获准生产时使用 `art/source/`、`art/exports/`、`art/qa/` 和资源导入目录，目录可以按需建立，不为形式补空目录。
 
 ## 一份资产直接复用
+
+D017（2026-09-11）：所有者要求后续新增图片使用GPT Image 2.5。官方模型为 [Sunburst](https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst) 和 [Flare](https://developers.openai.com/api/docs/models/gpt-image-2.5-flare)；精确修改/风格保持任务建议Sunburst。当前内置生图工具只有prompt/参考图片参数，无法指定或核实实际型号，模型通道仍待满足。后续生图前核验支持情况；不改写UI-04模型未知的历史记录，不因型号要求自动调用付费API。
 
 新路线见 [08](08_UI_DEVELOPMENT_ROADMAP.md)，D012 已承接为后续规划依据。交付原则：背景、轨道、猫、设施、按钮底板、图标、文字必须能分别控制。正式 UI 文字由引擎 Label/获准字体渲染，不把整屏生图烘焙为按钮和 HUD；可批准的标题 Logo 是例外，仍需独立资产。
 

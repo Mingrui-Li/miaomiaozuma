@@ -1,0 +1,227 @@
+{
+  "task": "UI-04",
+  "date": "2026-09-11",
+  "authorizations": [
+    "D015",
+    "D016"
+  ],
+  "sourceSHA": "fab0b72c634d89b6b4081c16a4253c2b1046183308304091b8f0510e75c72e7c",
+  "assetChecks": {
+    "passed": true,
+    "pngCount": 12,
+    "pngBytes": 330055,
+    "cats": [
+      {
+        "id": "cat_orange",
+        "maxVisibleRadius": 123.92134602238632,
+        "alphaBounds": [
+          30,
+          27,
+          225,
+          228
+        ]
+      },
+      {
+        "id": "cat_ragdoll",
+        "maxVisibleRadius": 124.30004022525496,
+        "alphaBounds": [
+          31,
+          27,
+          224,
+          228
+        ]
+      },
+      {
+        "id": "cat_blue",
+        "maxVisibleRadius": 123.92134602238632,
+        "alphaBounds": [
+          31,
+          27,
+          225,
+          229
+        ]
+      },
+      {
+        "id": "cat_calico",
+        "maxVisibleRadius": 123.70327400679417,
+        "alphaBounds": [
+          33,
+          27,
+          223,
+          229
+        ]
+      },
+      {
+        "id": "cat_black",
+        "maxVisibleRadius": 123.31463822271871,
+        "alphaBounds": [
+          31,
+          28,
+          224,
+          228
+        ]
+      }
+    ],
+    "checks": [
+      "identical export/import/hash",
+      "RGBA and transparent borders",
+      "cat silhouette inside unchanged radius",
+      "nine-slice center continuity"
+    ],
+    "notChecked": [
+      "owner aesthetic approval",
+      "animated recognition",
+      "real phone",
+      "full build package size"
+    ]
+  },
+  "layoutTests": {
+    "passed": 18,
+    "command": "node --test tools/ui-greybox/layout.test.mjs"
+  },
+  "typecheck": {
+    "passed": true,
+    "command": "Creator bundled tsc --noEmit -p tsconfig.json"
+  },
+  "browser": {
+    "passed": true,
+    "diagnostics": [],
+    "details": "design/ui/ui04/browser-results.json",
+    "note": "Editor test predates equivalent Array.from compatibility fix; final build tests below use current code."
+  },
+  "build": {
+    "platform": "web-mobile",
+    "exitCode": 36,
+    "finished": true,
+    "inputsIdentical": true,
+    "project": "/private/tmp/mmhw-ui04-build-20260911",
+    "output": "build/ui04-verified",
+    "runtimeAssetBatch": {
+      "cats": 5,
+      "ui": 7
+    },
+    "runtimeChecksPassed": true,
+    "diagnostics": [],
+    "details": "design/ui/ui04/build-browser-results.json",
+    "logNotes": [
+      "Final build contains one debug worker SIGTERM shutdown record; overall build finished in 12 seconds.",
+      "First failed build: loose Set spread caused undefined track points. Fixed using Array.from, rebuilt and reran seven-level / three-size interactions.",
+      "No Missing class; final built page loaded 5 cats and 7 UI textures."
+    ]
+  },
+  "files": {
+    "art/exports/ui04/btn_disabled.png": "71fe1a39f4cbec23f42c96602aa352c84319a94e618cb408834be3bb71a0224e",
+    "art/exports/ui04/btn_primary.png": "b6c59a63afc748b4193366f27a743bfe6f039734f1be619bf7c227f089918fbe",
+    "art/exports/ui04/btn_primary_pressed.png": "9e4f0d0e4f8188f4e7bfd761c1864f41f216606cfe5a8e821544becbc8009a65",
+    "art/exports/ui04/btn_secondary.png": "46674d242efddd09313b17ec0dca7797530be00e547a22e6f62856eadc6f140e",
+    "art/exports/ui04/btn_secondary_pressed.png": "7d2ed56f4bc6adbdefa6d3baf8e973341dd1979e1cc422fc25eebbeb025ce1cd",
+    "art/exports/ui04/cat_black.png": "2cc9d90b2bcc2e6e2c54321dc833cb98a9602b286b570833093bdb7eed5fbda4",
+    "art/exports/ui04/cat_blue.png": "bccfd91385d9fb852626642d4121a35511cb859aac32d7230c352c87e48922b1",
+    "art/exports/ui04/cat_calico.png": "08bc1327913407961a00a29a42eaee9a5ca8d77a8ebfc7cdf81f693247b9ad92",
+    "art/exports/ui04/cat_orange.png": "7d831cdfda2cd49f487b522b0b4025852c6e7d2724b176017335a438427a007c",
+    "art/exports/ui04/cat_ragdoll.png": "406a25b6da6186107d54f238543e4c340e72b5437ae67496bdc4755e465959b6",
+    "art/exports/ui04/icon_pause.png": "b8f0e52a708ab65f1a39a0b1e2cdc4f52a78f79087a2706924b4d7b9521c1909",
+    "art/exports/ui04/panel_popup.png": "f595f1280437a9a15842d101d8932b2db52fa4f4129a3338510b2e01698fbe9b",
+    "art/qa/ui04/cats_sizes.png": "9b1b83b4f39666284354462e8dbdf588936c485ca0d0a4543a8a257a2e0d26bb",
+    "art/qa/ui04/checks.json": "2cce5ad87d5ae5cf7b6905281135887a6391beb486e50ac23007bb8ed609858c",
+    "art/source/ui04/btn_disabled.svg": "5101dbfdb01a178ef9bd1b8659af8d2c01d03318d3c96d948f2ca8fa64e194e4",
+    "art/source/ui04/btn_primary.svg": "d878a23c3f5213a977c19fca4c9913f6b598452608d7db96c190ac808e25b2de",
+    "art/source/ui04/btn_primary_pressed.svg": "031d81c544d9ca02ebe9f9d7f1d55bb27bdcc2ed2365d849c0d7c8d33b6da00c",
+    "art/source/ui04/btn_secondary.svg": "283fe624d5fad689b200237c06f8ca5cd12bf82f743e800ed9ab79aff5729c4d",
+    "art/source/ui04/btn_secondary_pressed.svg": "e89027d6d496fe891eee7b5239f00bc7e8ec543d92bb9f07a51ecfeb25f3dcaa",
+    "art/source/ui04/cat_black_alpha.png": "f23d40029f926d06f0b2f22523248e4f0f328c093167e36b06f04e34d5d218d9",
+    "art/source/ui04/cat_black_original.png": "f23d40029f926d06f0b2f22523248e4f0f328c093167e36b06f04e34d5d218d9",
+    "art/source/ui04/cat_blue_alpha.png": "9c0bc3b4168fe9549454ded3a00c86f5d6862776ccf92e4e5e637724643b02d8",
+    "art/source/ui04/cat_blue_original.png": "d7a48ba7f9b38c275d62c0b0fbdc06c7d47380a1130cf51cd8d0e9dced4b866d",
+    "art/source/ui04/cat_blue_refined.png": "33e43415ee1f8f1be8be08dbf3091fd7b59f518ab7c3a8e0b95037d81b3cfb3f",
+    "art/source/ui04/cat_calico_alpha.png": "4f6386552d890f397d1ddadf0ae6ce7caa02688bae695d68803af89919606752",
+    "art/source/ui04/cat_calico_original.png": "09eaeeed0edb40427ee1b9c53af873bd0e643aecf0611227f20600c6c044e5f8",
+    "art/source/ui04/cat_calico_refined.png": "1ba20c579ad0841177f43973e985253bdc014fe326bcd33eadf81f8444b3904c",
+    "art/source/ui04/cat_orange_alpha.png": "a65e02aa27a56f347b63d02ecffe106392297679a3043feabbe028e5ca75ae9f",
+    "art/source/ui04/cat_orange_failed_alpha_original.png": "260d678bc50638c1d69ca0eba8c5c4aa857d6e6ad08865034e0264d15a7b2c52",
+    "art/source/ui04/cat_orange_original.png": "66b69f4a43ecf9f775511b81409577f32ccc0b20e42ba3917ca633cb8ac5e0b5",
+    "art/source/ui04/cat_orange_refined.png": "abe1303e85f92f2be84143b5d56a5a31c25e111dfbb100da15372b1c749b0bd3",
+    "art/source/ui04/cat_ragdoll_alpha.png": "8c2a761db46247752165d8da84a80de29e1e0aa29c3aedfd3e94065528b174a4",
+    "art/source/ui04/cat_ragdoll_original.png": "9c23e1b238ec4e22bc4151f3505da0ebfbc487d65a72c1005cbf824470ce0bb9",
+    "art/source/ui04/cat_ragdoll_refined.png": "d8bfae6fe1573440855961ba750600cb4a6f6230674d91fb96f3158799952cf8",
+    "art/source/ui04/icon_pause.svg": "656c68c9e4500fa24f2dbc7247981be9c819ece0ca8d3a2b240edd14c58bffcb",
+    "art/source/ui04/panel_popup.svg": "4a450b1079f3427430571097e71ca20a5f099eb8401fc27967e6e3817207c1b4",
+    "art/source/ui04/prompts.json": "06a8a049c9e20b6216d8bf4d1190c269550d6ba1a7c6650e9dcb07694d82296b",
+    "assets/game/art/ui04/btn_disabled.png": "71fe1a39f4cbec23f42c96602aa352c84319a94e618cb408834be3bb71a0224e",
+    "assets/game/art/ui04/btn_disabled.png.meta": "d58f5f352e03a5e4a57a554ea987e69e6a78985f28b3c0c942757d2634e9d4f1",
+    "assets/game/art/ui04/btn_primary.png": "b6c59a63afc748b4193366f27a743bfe6f039734f1be619bf7c227f089918fbe",
+    "assets/game/art/ui04/btn_primary.png.meta": "2ae6efb6c31d6c71b43c14b7b936cdc07af63c7f9c713f18101797316d071a03",
+    "assets/game/art/ui04/btn_primary_pressed.png": "9e4f0d0e4f8188f4e7bfd761c1864f41f216606cfe5a8e821544becbc8009a65",
+    "assets/game/art/ui04/btn_primary_pressed.png.meta": "2b3648ab40e8d4e7f950be7f7044bc03d53962aff00e677d3e61806beccaf9c6",
+    "assets/game/art/ui04/btn_secondary.png": "46674d242efddd09313b17ec0dca7797530be00e547a22e6f62856eadc6f140e",
+    "assets/game/art/ui04/btn_secondary.png.meta": "1614d9a8119058f47e2e77fb825539e145384b573c80e92a84ff8e5711397dbc",
+    "assets/game/art/ui04/btn_secondary_pressed.png": "7d2ed56f4bc6adbdefa6d3baf8e973341dd1979e1cc422fc25eebbeb025ce1cd",
+    "assets/game/art/ui04/btn_secondary_pressed.png.meta": "3bff10c81897e61cf4e7b4608ac11c34340add7b478a8c655288a0fdad769306",
+    "assets/game/art/ui04/cat_black.png": "2cc9d90b2bcc2e6e2c54321dc833cb98a9602b286b570833093bdb7eed5fbda4",
+    "assets/game/art/ui04/cat_black.png.meta": "a637209003614b5b03ed15e87195fb36c80c2420af8666a08475c58e59320556",
+    "assets/game/art/ui04/cat_blue.png": "bccfd91385d9fb852626642d4121a35511cb859aac32d7230c352c87e48922b1",
+    "assets/game/art/ui04/cat_blue.png.meta": "b577f0a9effe6a580aa71b08153978b634b00845016328435d18b0f3d4afc586",
+    "assets/game/art/ui04/cat_calico.png": "08bc1327913407961a00a29a42eaee9a5ca8d77a8ebfc7cdf81f693247b9ad92",
+    "assets/game/art/ui04/cat_calico.png.meta": "c60f16826836753cf86c2052f54db10f0447f93e62b9582b6f3518495613c4d2",
+    "assets/game/art/ui04/cat_orange.png": "7d831cdfda2cd49f487b522b0b4025852c6e7d2724b176017335a438427a007c",
+    "assets/game/art/ui04/cat_orange.png.meta": "0afefd700e710a770f12c15b16eb346372bf2a4128434f3e4ddecc049d5869c4",
+    "assets/game/art/ui04/cat_ragdoll.png": "406a25b6da6186107d54f238543e4c340e72b5437ae67496bdc4755e465959b6",
+    "assets/game/art/ui04/cat_ragdoll.png.meta": "752839225dfe444024085e5f07fba20e483f82f503b4ebfcd92695895f252249",
+    "assets/game/art/ui04/icon_pause.png": "b8f0e52a708ab65f1a39a0b1e2cdc4f52a78f79087a2706924b4d7b9521c1909",
+    "assets/game/art/ui04/icon_pause.png.meta": "d2c56617f0132b5d5bb4af9074d7783cd74f3afc6fd70c3830470acb8ee48c1f",
+    "assets/game/art/ui04/panel_popup.png": "f595f1280437a9a15842d101d8932b2db52fa4f4129a3338510b2e01698fbe9b",
+    "assets/game/art/ui04/panel_popup.png.meta": "aa38a3dca8b8c501e0420af2700df4633a1a1c4133134725740027d530645140",
+    "assets/game/art/ui04.meta": "258e82dc084a4849d574d5656670cadc71c8af578e864e7c40a302a61dd9edd9",
+    "assets/ui-greybox/Fixtures.ts": "3b9146cd1711fcd180d71f226f9f2bf52503af1fe906f8bd2302a4094a8e55aa",
+    "assets/ui-greybox/Fixtures.ts.meta": "311031da07a4c97655fe6b55ce1d753ad1c031feb4b38e160b809e4dea06ba4a",
+    "assets/ui-greybox/Greybox.ts": "19bef36d3cda3f2f496ce3cfb9958e8f01bea3a6aa6db9161a1a9f71f6befcec",
+    "assets/ui-greybox/Greybox.ts.meta": "2aca96cef1f4f04042007f750e28b64c1a5d165d691633a5918b64e73b9cc758",
+    "assets/ui-greybox/Layout.ts": "f022918198fdffc450baf97d1e0f2ed33c2be4cba72162398d455b462add0728",
+    "assets/ui-greybox/Layout.ts.meta": "f887e10ede25a221f48bd5aff4a9c90ea62f8c6861e43c17febfdc0f1a0d02e3",
+    "assets/ui-greybox/ui-greybox.scene": "e7b1d494a0ae3472aeabc1bb98390adfa014b1a668366e7f04be42fdf9a81f4e",
+    "assets/ui-greybox/ui-greybox.scene.meta": "2803342261dbce75dc7ceca937f1ad3fcff55962c1ed2b5a440812d18a6ec24c",
+    "design/ui/ui04/assets.json": "a4d4b22a8d1b1b31d4bdaaea752da0b3fc49980e09041a750cf372cf23d44488",
+    "design/ui/ui04/browser-results.json": "fc58c47c449c2ddaad8e763a8b2b46079763481546bdc456327d236cba27c2f1",
+    "design/ui/ui04/build-browser-results.json": "fc58c47c449c2ddaad8e763a8b2b46079763481546bdc456327d236cba27c2f1",
+    "output/playwright/ui04/README.md": "8f13f9e3c9437ba1b03ea2eca164df1140182f9e4d709abb6aac2ec93b6d09d8",
+    "output/playwright/ui04/ad-safe-360.png": "a6b587b24697c77b01e5a28ec4092525ad0b8be27a30af0a6512b741851ee80b",
+    "output/playwright/ui04/ad-safe-390.png": "69d22f09c4884067e98afaa3d2bdfeccbc14dde52ee142d6d68390ae5e9811e6",
+    "output/playwright/ui04/ad-safe-430.png": "18efe08b71771eaee0cbd767bb0fe3f68d7fbb896c788df9930fb44aa71cbc2d",
+    "output/playwright/ui04/build/ad-safe-360.png": "663336cc2848c8fb6904995a986f4f49fe9b4aa49506442e8b0971aab1fb2caf",
+    "output/playwright/ui04/build/ad-safe-390.png": "d392d7a8e5a223056ca77c19e24df8160c7ce9ce6f404568594c8a9df09f0036",
+    "output/playwright/ui04/build/ad-safe-430.png": "c0f76b56a3b5386e7a71c8e4e99e8d7d20d6db469efd0ce8cb22c40491979df2",
+    "output/playwright/ui04/build/home.png": "f36b98790a06c276e3a4f22a986a638ac3c40835c66f8a6ae0abdcfcf3000a34",
+    "output/playwright/ui04/build/l001.png": "f699b72a18a68ac7f44e0cb4b7fbb2cb2c965513f832ecc47664a3be4370dbe9",
+    "output/playwright/ui04/build/l020.png": "5d410771008ba9be17395ff7c511c067b03adfc8f1ad1bc91de81e8cb485d44f",
+    "output/playwright/ui04/build/l021.png": "a6e4d2d858160a782594ba5acb7084d3c6bf4257beb6fd3189ad24b2018b0731",
+    "output/playwright/ui04/build/l022.png": "2fff31d0405b60d1ba3387435b83d174b3af7db526a835bde120b990056981a9",
+    "output/playwright/ui04/build/l024.png": "f157c714c0d8d0b578e13bfff478139f4bf2879da6000d3ff51cb11ca10a78e4",
+    "output/playwright/ui04/build/l087-safe-360.png": "fdb297cb3559b913fffd7b7eb6c38eb15b173415dd1bbb5fba42ad3ee582e1ea",
+    "output/playwright/ui04/build/l087-safe-390.png": "e3a53f2ef7f157c3c234cd230f0e8fa4ddf30b68bc215e1e846acca982b20192",
+    "output/playwright/ui04/build/l087-safe-430.png": "8825bbea7956a0bd69edf0e5b5df0160cb8c240da71b87eaddf2f0b3a17b61b9",
+    "output/playwright/ui04/build/l087.png": "af61347f06107bcb856d85661d1e4f542ca57447b325429f965ef98d483de566",
+    "output/playwright/ui04/build/l100.png": "c6b1c44198d7d3fe75221eb040f0ccb54896bc553b5ed3d84de1abba116ed331",
+    "output/playwright/ui04/build/pause.png": "24a7230b92df5590351fb7cc15bb8396c0a8f2d55811dc3b2dd1de7655e1553b",
+    "output/playwright/ui04/build/win.png": "309f9ece2de5a8dcfba2a00d4028263b226f90c35e18ab34402428a1ac0f77ed",
+    "output/playwright/ui04/home.png": "d77f38c723673917d4491f1f958ee6de8a0721cd489c02aa18b351120e427f93",
+    "output/playwright/ui04/l001.png": "5ea36997ce1183df878f92453ed1e882e3007d4bc6288a5038a1b25e527a2f05",
+    "output/playwright/ui04/l020.png": "7ab523e89b9642d92c462e0c5a8648711a6b95cf6af60f1a5acc7e1b25327fdc",
+    "output/playwright/ui04/l021.png": "bb3b6ebecd757b19803d700fc5b162356c104f05daf9c4e37fb2c7216d10ab46",
+    "output/playwright/ui04/l022.png": "bacb504d64d6bb214c5216f5699b3fd118171cd8fa55eda0ea3603c827a1720a",
+    "output/playwright/ui04/l024.png": "d48f23832d91a634c11cf79577048ebcd688fbb257c532262599fe8dc2a9a9ad",
+    "output/playwright/ui04/l087-safe-360.png": "04645b46254fabaff469f63dc39d319788b8026e2cb0af85ce8859c12484396d",
+    "output/playwright/ui04/l087-safe-390.png": "f746553bd28f6faedcf8443f0eeb360ee73a2d7020198efcde3c594140994c0f",
+    "output/playwright/ui04/l087-safe-430.png": "85e16e4a3ed164ce759feb4c9b20edf04d9dee7da4c78b5585a2a05a7fc9cbc6",
+    "output/playwright/ui04/l087.png": "20e55c29b772ba30eec81a0d3d06461411430711e30ec51e89f1036052c1a0e8",
+    "output/playwright/ui04/l100.png": "6ccb5e8b8bfc4d999eed944f2c6966d18991a0d40e5642fa109fd590f50808b1",
+    "output/playwright/ui04/pause.png": "5f7e472dfe5af371c13df5effe4764966cc5a0a2e33cbf601930b9d2fdf745ae",
+    "output/playwright/ui04/win.png": "57fb5e57e042aa5e04a3b45bff7e294f81d1037bef046dac90923fc05ca4d3d3",
+    "tools/ui-assets/browser-check.js": "b642965577202eacf1367f3982b0f9de00c01f480d514ab1748a2322c0172fbd",
+    "tools/ui-assets/check.py": "8058ae1ac4944fc2cd5d92147e735adb57bfd3627a20806159612c7c8c825b5b",
+    "tools/ui-assets/export.py": "8044b28bda0f7e6ad4cbbff115dbff6aafd3478c3e0cf4266742f649cf23efbc",
+    "tools/ui-assets/matte.m": "26e994bfea63f0b6fb2fc5fd485270354ee4534d3c802eb03d25ed53536ca859",
+    "tools/ui-assets/matte.swift": "f53c47977183e442d86f762b72bfa4cdea9593973340c65397629528479977e7",
+    "tools/ui-assets/refine.py": "9048ef1fb9967d3110bd639fb05147525d11ea6a20f4877f648a0595e139dd3e",
+    "tools/ui-greybox/layout.test.mjs": "5d493f5afd4eaeeb54e92582223f5115bae282c55f3b35e291fb302edf7cc738"
+  }
+}

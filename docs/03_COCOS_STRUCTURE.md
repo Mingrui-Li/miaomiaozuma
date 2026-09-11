@@ -1,12 +1,12 @@
 # 03 · Cocos 场景与组织记忆
 
-核对日期：2026-09-11。UI-04 在原隔离场景的 `catTextures` / `uiTextures` 属性引用五猫和七张UI纹理，SpriteFrame与九宫格按12配置；扩大透明热区且不改轨道。场景和三个脚本沿用，尚无生产 Prefab。
+核对日期：2026-09-11。UI-05新增 `assets/ui-preview/`，实例化四个真实Prefab：CommonButtonView、DialogPanel、GameHud、HomeView；对应三个组件脚本在 `assets/game/scripts/ui/`，字体在 `assets/game/fonts/`。复用UI-04纹理和九宫格，旧灰盒不变，验收与限制见 [13](13_UI_COMPONENT_PREVIEW.md)。
 
 规划依据：[08 UI 路线](08_UI_DEVELOPMENT_ROADMAP.md) 要求先用代表关灰盒验证布局，再将小批资源装入真实 Prefab；[09](09_UI_STRUCTURE_AND_STATES.md) 给出组件草表与接口。灰盒已实施，结果与剩余问题见11；不以 Figma 全量完成为前置。
 
 ## 现状
 
-旧原型 `assets/game/scenes/main.scene` 保持原样；Canvas/Camera 下由 GameRoot 创建页面。UI-03G 新增 `assets/ui-greybox/ui-greybox.scene`，同一工程内隔离运行，挂 UIGreybox；读取 Fixtures 七关快照、Layout 纯数学模块，运行时搭建轨道/HUD/弹窗与验收工具。打开方式及实际边界见 [11](11_COCOS_GREYBOX.md)。没有现成生产 Prefab；`assets/game/prefabs/`、`scripts/ui/`、`scripts/gameplay/`、`scripts/presentation/` 仍未落地。
+旧原型 `assets/game/scenes/main.scene` 保持原样；Canvas/Camera 下由 GameRoot 创建页面。UI-03G/04灰盒保持原样，读取 Fixtures 七关快照和Layout纯数学模块，说明见 [11](11_COCOS_GREYBOX.md)。UI-05在新场景复用这两个只读模块，新增Prefab与视图脚本已落地；独立gameplay/presentation架构仍未实施，不凭UI试样重构旧main。
 
 GameRoot 使用 Graphics/Label 拼画面，集中实现首页、地图、图鉴、设置、游戏、暂停、结算。不能据此声称有独立页面控制器或正式视觉组件。
 

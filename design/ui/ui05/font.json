@@ -1,0 +1,13 @@
+{
+  "source": "https://github.com/notofonts/noto-cjk/blob/main/Sans/Variable/TTF/Subset/NotoSansSC-VF.ttf",
+  "license": "SIL OFL 1.1",
+  "version": "Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603",
+  "weight": 500,
+  "family": "MMHW UI Trial",
+  "sourceSHA256": "d68bafcb48a2707749396aa12bbbd833cb70401f3a9a689fd2902c7e0d295964",
+  "subsetSHA256": "be8f6bc69ab9fc0a99755e353011a2c0fe9215c5be29b1c65bc39bc04d6b1ebd",
+  "bytes": 63008,
+  "characters": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~·×…Ⅱ一下不中也交享以件会体你儿免入全关具再准出分利到刻前动区卡原又发取口只可台后呼啦喵噜回图在型声备复外失始字存安完家射将小局屏巢差已布平库开当录彩态意慢成或扣执择换接撞收改放数新无时暂有未本标档棒橘次歇正段没法活消演灰点状猫玄玩用盒目看确碰示稍窝第等系组统继续置群老胜花荷蓝薄虹行观视览认设试败贴费起返这退送选逗道部重鉴阶除震静面音页预频首！（），：；？",
+  "missing": [],
+  "scope": "UI-05 corpus only; regenerate coverage for later UI text"
+}

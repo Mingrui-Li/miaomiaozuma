@@ -6,6 +6,8 @@
 
 ## 项目规范
 
+UI-05 最新成果：[组件与安卓验收说明](docs/13_UI_COMPONENT_PREVIEW.md)。四个Prefab、代表页面与本地构建回归已完成；安卓真机和所有者视觉批准待完成。
+
 新窗口从 [AGENTS.md](AGENTS.md) 开始，再阅读 [项目简报与记忆索引](docs/00_PROJECT_BRIEF.md)、[决策日志](docs/05_DECISION_LOG.md)、[当前状态](docs/06_CURRENT_STATE.md) 和 [任务/交接](docs/07_NEXT_TASKS.md)。首次进入还需读 UI、技术、Cocos、素材四份主题记忆。稳定规则与短期进度分开维护，不依赖聊天上下文。
 
 - [游戏设计规范](docs/GAME_DESIGN.md)：详细产品规则；最新决策及主题优先级按项目记忆入口执行。

@@ -52,6 +52,7 @@ D015 / D016，2026-09-10～11，总控 `/root`。本批完成五猫静态帧、�
 - `python3 tools/ui-assets/check.py`：12 图导出/导入/hash、真 RGBA/全透明外边、五猫可见圆边界、九宫格中段连续性通过；报告 [checks.json](../art/qa/ui04/checks.json)。
 - Playwright 实际 Canvas 操作：七关资源装载、原灰盒输入/弹窗流程，360×640、390×844、430×932 三尺寸的热区大小、互不重叠、边缘点击、免费恢复出口通过；最终控制台 diagnostics 为空。每尺寸重新加载页面，未冒充热 resize 或手机测试。
 - 完整凭据与当前文件哈希见 [verification.json](../design/ui/ui04/verification.json)。UI-03G 验收 JSON/截图保持历史原样，不能拿其中旧代码哈希证明现在的文件。
+- 最终隔离构建约12秒完成、退出36；打包版本再次通过七关/三尺寸交互回归，诊断为空。构建日志有worker结束时的debug SIGTERM记录；不混同运行异常，真实运行结果见验收回执。
 
 构建运行检查额外发现 Creator 的 loose 转换把 `[...Set]` 编译为 `[].concat(Set)`，使轨道绘制数组出现 undefined；已改为 `Array.from(keep)`，源几何和简化误差不变。首个失败构建只保留为 `build/ui04-build-attempt-01/`，不能当作交付；最终以重新构建后的真实运行检查为准。此问题也说明编辑器预览通过不等于打包运行通过。
 
