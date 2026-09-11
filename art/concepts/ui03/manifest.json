@@ -1,0 +1,48 @@
+{
+  "task": "UI-03",
+  "date": "2026-09-09",
+  "authorization": "D013: continue the explicitly named next task UI-03",
+  "status": "candidate-delivered-awaiting-owner-style-selection",
+  "tool": "built-in image_gen",
+  "actualModel": null,
+  "actualModelNote": "The tool returned image_url and output_hint, without a model identifier.",
+  "apiKeyOrCliUsed": false,
+  "selectedCandidate": "style_board_02.png",
+  "isProductionAtlas": false,
+  "runtimeImported": false,
+  "images": [
+    {
+      "id": "style-board-01",
+      "file": "style_board_01.png",
+      "prompt": "style_board_01.prompt.md",
+      "operation": "generate",
+      "references": [],
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1624347,
+      "sha256": "1a1ea9cb01a6779657b7083c098b07466df847fe05a222d7ae1ce360ed6c772b",
+      "alpha": false,
+      "original": "/Users/limingrui/.codex/generated_images/01a07faf-f909-7e61-a25d-a40d0b2dfa06/exec-5b123cb2-1a31-4dce-abae-b12df2e2d52e.png",
+      "status": "retained-before-icon-correction"
+    },
+    {
+      "id": "style-board-02",
+      "file": "style_board_02.png",
+      "prompt": "style_board_02.prompt.md",
+      "operation": "edit",
+      "references": ["style_board_01.png"],
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1698194,
+      "sha256": "5ab48d48927227085227fe62e3a6438334dab8fc29079723b66fd3a6bc9510c1",
+      "alpha": false,
+      "original": "/Users/limingrui/.codex/generated_images/01a07faf-f909-7e61-a25d-a40d0b2dfa06/exec-1bc9ad32-bc01-4105-bb24-3d5364f4be69.png",
+      "status": "candidate-for-review",
+      "change": "Replace the star magic wand with a rod, cord and feather cat teaser toy."
+    }
+  ],
+  "tokens": "../../../design/ui/ui03.tokens.json",
+  "guide": "../../../docs/10_UI_STYLE_GUIDE.md",
+  "qa": "QA.md",
+  "preview": "qa_preview.html"
+}

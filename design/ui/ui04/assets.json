@@ -1,0 +1,390 @@
+{
+  "batch": "UI-04",
+  "model": "not returned by built-in tool",
+  "font": "system fallback, not embedded or approved",
+  "assets": [
+    {
+      "id": "btn_primary",
+      "source": "art/source/ui04/btn_primary.svg",
+      "export": "art/exports/ui04/btn_primary.png",
+      "imported": "assets/game/art/ui04/btn_primary.png",
+      "textureUUID": "0136a75a-30f4-5e4c-b867-66cafa3426a8@6c48a",
+      "size": [
+        96,
+        64
+      ],
+      "bytes": 1253,
+      "sha256": "b6c59a63afc748b4193366f27a743bfe6f039734f1be619bf7c227f089918fbe",
+      "alphaBounds": [
+        2,
+        2,
+        94,
+        62
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "insets": [
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    {
+      "id": "btn_primary_pressed",
+      "source": "art/source/ui04/btn_primary_pressed.svg",
+      "export": "art/exports/ui04/btn_primary_pressed.png",
+      "imported": "assets/game/art/ui04/btn_primary_pressed.png",
+      "textureUUID": "56c46251-6e56-595e-8ac0-5bb2717e88cf@6c48a",
+      "size": [
+        96,
+        64
+      ],
+      "bytes": 1246,
+      "sha256": "9e4f0d0e4f8188f4e7bfd761c1864f41f216606cfe5a8e821544becbc8009a65",
+      "alphaBounds": [
+        2,
+        2,
+        94,
+        62
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "insets": [
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    {
+      "id": "btn_secondary",
+      "source": "art/source/ui04/btn_secondary.svg",
+      "export": "art/exports/ui04/btn_secondary.png",
+      "imported": "assets/game/art/ui04/btn_secondary.png",
+      "textureUUID": "3dc899c7-8729-54a7-aaaa-a5a12c6f3d6a@6c48a",
+      "size": [
+        96,
+        64
+      ],
+      "bytes": 1247,
+      "sha256": "46674d242efddd09313b17ec0dca7797530be00e547a22e6f62856eadc6f140e",
+      "alphaBounds": [
+        2,
+        2,
+        94,
+        62
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "insets": [
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    {
+      "id": "btn_secondary_pressed",
+      "source": "art/source/ui04/btn_secondary_pressed.svg",
+      "export": "art/exports/ui04/btn_secondary_pressed.png",
+      "imported": "assets/game/art/ui04/btn_secondary_pressed.png",
+      "textureUUID": "04f2fa8a-18e7-5693-9599-d92d1adf1c84@6c48a",
+      "size": [
+        96,
+        64
+      ],
+      "bytes": 1268,
+      "sha256": "7d2ed56f4bc6adbdefa6d3baf8e973341dd1979e1cc422fc25eebbeb025ce1cd",
+      "alphaBounds": [
+        2,
+        2,
+        94,
+        62
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "insets": [
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    {
+      "id": "btn_disabled",
+      "source": "art/source/ui04/btn_disabled.svg",
+      "export": "art/exports/ui04/btn_disabled.png",
+      "imported": "assets/game/art/ui04/btn_disabled.png",
+      "textureUUID": "dffa4025-d09e-55dc-bffb-60880be71453@6c48a",
+      "size": [
+        96,
+        64
+      ],
+      "bytes": 1224,
+      "sha256": "71fe1a39f4cbec23f42c96602aa352c84319a94e618cb408834be3bb71a0224e",
+      "alphaBounds": [
+        2,
+        2,
+        94,
+        62
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "insets": [
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    {
+      "id": "panel_popup",
+      "source": "art/source/ui04/panel_popup.svg",
+      "export": "art/exports/ui04/panel_popup.png",
+      "imported": "assets/game/art/ui04/panel_popup.png",
+      "textureUUID": "4f0eaa63-819b-5215-ad44-83f223eae064@6c48a",
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 1860,
+      "sha256": "f595f1280437a9a15842d101d8932b2db52fa4f4129a3338510b2e01698fbe9b",
+      "alphaBounds": [
+        2,
+        2,
+        126,
+        126
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "insets": [
+        36,
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "id": "icon_pause",
+      "source": "art/source/ui04/icon_pause.svg",
+      "export": "art/exports/ui04/icon_pause.png",
+      "imported": "assets/game/art/ui04/icon_pause.png",
+      "textureUUID": "1078a0f1-5638-544c-8a8a-67c8003a7362@6c48a",
+      "size": [
+        64,
+        64
+      ],
+      "bytes": 377,
+      "sha256": "b8f0e52a708ab65f1a39a0b1e2cdc4f52a78f79087a2706924b4d7b9521c1909",
+      "alphaBounds": [
+        16,
+        12,
+        48,
+        52
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "insets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "cat_orange",
+      "source": "art/source/ui04/cat_orange_refined.png",
+      "export": "art/exports/ui04/cat_orange.png",
+      "imported": "assets/game/art/ui04/cat_orange.png",
+      "textureUUID": "c82c7b2c-373e-505a-80d6-dc82e0036e1a@6c48a",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 63173,
+      "sha256": "7d831cdfda2cd49f487b522b0b4025852c6e7d2724b176017335a438427a007c",
+      "alphaBounds": [
+        30,
+        27,
+        225,
+        228
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "insets": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "footprintRadius": 128,
+      "visibleRadiusTarget": 122,
+      "displayDiameters": [
+        64,
+        56
+      ],
+      "stressDiameter": 48
+    },
+    {
+      "id": "cat_ragdoll",
+      "source": "art/source/ui04/cat_ragdoll_refined.png",
+      "export": "art/exports/ui04/cat_ragdoll.png",
+      "imported": "assets/game/art/ui04/cat_ragdoll.png",
+      "textureUUID": "2c3e1e7c-7375-53d4-aaa5-c9c163e78eb8@6c48a",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 63942,
+      "sha256": "406a25b6da6186107d54f238543e4c340e72b5437ae67496bdc4755e465959b6",
+      "alphaBounds": [
+        31,
+        27,
+        224,
+        228
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "insets": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "footprintRadius": 128,
+      "visibleRadiusTarget": 122,
+      "displayDiameters": [
+        64,
+        56
+      ],
+      "stressDiameter": 48
+    },
+    {
+      "id": "cat_blue",
+      "source": "art/source/ui04/cat_blue_refined.png",
+      "export": "art/exports/ui04/cat_blue.png",
+      "imported": "assets/game/art/ui04/cat_blue.png",
+      "textureUUID": "aa7da04e-de0f-52e0-9270-fdff4e8ae8fd@6c48a",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 67957,
+      "sha256": "bccfd91385d9fb852626642d4121a35511cb859aac32d7230c352c87e48922b1",
+      "alphaBounds": [
+        31,
+        27,
+        225,
+        229
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "insets": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "footprintRadius": 128,
+      "visibleRadiusTarget": 122,
+      "displayDiameters": [
+        64,
+        56
+      ],
+      "stressDiameter": 48
+    },
+    {
+      "id": "cat_calico",
+      "source": "art/source/ui04/cat_calico_refined.png",
+      "export": "art/exports/ui04/cat_calico.png",
+      "imported": "assets/game/art/ui04/cat_calico.png",
+      "textureUUID": "8f319762-787a-54ef-a508-0e752e2c3f9d@6c48a",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 61720,
+      "sha256": "08bc1327913407961a00a29a42eaee9a5ca8d77a8ebfc7cdf81f693247b9ad92",
+      "alphaBounds": [
+        33,
+        27,
+        223,
+        229
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "insets": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "footprintRadius": 128,
+      "visibleRadiusTarget": 122,
+      "displayDiameters": [
+        64,
+        56
+      ],
+      "stressDiameter": 48
+    },
+    {
+      "id": "cat_black",
+      "source": "art/source/ui04/cat_black_alpha.png",
+      "export": "art/exports/ui04/cat_black.png",
+      "imported": "assets/game/art/ui04/cat_black.png",
+      "textureUUID": "a88839da-630a-524c-8c50-4f2de4b3632c@6c48a",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 64788,
+      "sha256": "2cc9d90b2bcc2e6e2c54321dc833cb98a9602b286b570833093bdb7eed5fbda4",
+      "alphaBounds": [
+        31,
+        28,
+        224,
+        228
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "insets": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "footprintRadius": 128,
+      "visibleRadiusTarget": 122,
+      "displayDiameters": [
+        64,
+        56
+      ],
+      "stressDiameter": 48
+    }
+  ]
+}

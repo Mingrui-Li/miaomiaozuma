@@ -1,18 +1,18 @@
 # 《喵喵回窝》Codex 协作入口
 
-适用于整个仓库。项目记忆在文件中，不在某个聊天窗口中。最近同步：2026-09-08（UI 策略重置、项目记忆建立）。
+适用于整个仓库。项目记忆在文件中，不在某个聊天窗口中。最近同步：2026-09-11（UI-04 首批资源与短屏触达）。
 
 ## 每次开始前
 
 1. 阅读本文及 `docs/00_PROJECT_BRIEF.md`、`docs/05_DECISION_LOG.md`、`docs/06_CURRENT_STATE.md`、`docs/07_NEXT_TASKS.md`；首次进入项目再读 `01_UI_DIRECTION.md`、`02_TECH_ARCHITECTURE.md`、`03_COCOS_STRUCTURE.md`、`04_ASSET_GUIDE.md`（均在 docs 下）。
-2. 按任务读取详细规格：UI 读 `UX_UI_SPEC.md`；资源读 `ASSET_SPEC.md`；代码读 `TECHNICAL_SPEC.md`；玩法/关卡读 `GAME_DESIGN.md`、`CORE_GAMEPLAY_SPEC.md`、`PRODUCT_SPEC.md`、`LEVEL_SPEC.md`；验收读 `QA_ACCEPTANCE.md`。完整功能开发须读以上全部及 `IMPLEMENTATION_PLAN.md`、`UI_ART_PIPELINE.md`，注意历史失效标记。
+2. 按任务读取详细规格：UI 读 `docs/08_UI_DEVELOPMENT_ROADMAP.md`、`docs/09_UI_STRUCTURE_AND_STATES.md`、`docs/10_UI_STYLE_GUIDE.md` 和 `UX_UI_SPEC.md`；资源读 `ASSET_SPEC.md`；代码读 `TECHNICAL_SPEC.md`；玩法/关卡读 `GAME_DESIGN.md`、`CORE_GAMEPLAY_SPEC.md`、`PRODUCT_SPEC.md`、`LEVEL_SPEC.md`；验收读 `QA_ACCEPTANCE.md`。完整功能开发须读以上全部及 `IMPLEMENTATION_PLAN.md`、`UI_ART_PIPELINE.md`，注意历史失效标记。
 3. 核对当前用户授权、工作目录、`git status --short` 和真实文件。先说明本次目标、允许修改范围和验收方式；不能仅凭旧对话或截图开工。
 4. 执行前在 `07_NEXT_TASKS.md` 认领已获授权的任务，填写窗口标识、文件范围和状态。同一文件已有其他窗口认领时先协调，不抢写；待办列表本身不是执行授权。
 
 ## 当前门禁与事实来源
 
-- 当前只建立项目记忆，不开发新功能、不生图、不写 Figma、不重构 Cocos。百关几何已设计并获认可；UI 从零设计，新生产流程尚待决策。
-- 旧“ImageGen → Figma → Cocos”强制流程已被本轮要求停止采用；旧批量生图任务不得自动续跑。这不等于已批准另一条生产流程。
+- 最新授权为 UI-04 首批资源及短屏触达（D015），D016 明确允许本地抠图/缩放。既有 3.8.8 隔离场景已装载五猫与七张通用 UI 图，打开与验收见 `docs/12_UI_ASSET_BATCH.md`，布局背景见11。08 为路线、09 为线框、10 为候选规范；源几何不变，不把资源试样当作百关玩法、正式Prefab或广告实现。当前进度见06/07；后续UI同时读取11/12与手机尚未验证的限制。
+- 旧“ImageGen → Figma → Cocos”强制流程继续停止；旧批量生图任务不得自动续跑。采用新路线作为规划依据不等于授权全部生产。
 - 项目内冲突处理：最新明确用户决策 → `05_DECISION_LOG.md` 有效条目 → `00`～`04` 对应主题规范 → 未被替代的详细规格。代码/产物是“已实现状态”的证据，不反向改写产品要求。无法确定的新冲突先报告并请求决策。
 - 百关几何唯一基线：`design/track-review/catalog.source.json`；派生图、旧 `Paths.ts`、旧 Figma 均不能替代它。不得为适应 UI 擅改几何。
 

@@ -1,0 +1,376 @@
+{
+  "passed": true,
+  "levels": [
+    {
+      "level": 1,
+      "topGap": 108,
+      "bottomGap": 114,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 24.00000000000003,
+        "docked": false
+      }
+    },
+    {
+      "level": 20,
+      "topGap": 53,
+      "bottomGap": 84,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 24.00000000000003,
+        "docked": false
+      }
+    },
+    {
+      "level": 21,
+      "topGap": 85.98623900000001,
+      "bottomGap": 166.78379900000004,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      }
+    },
+    {
+      "level": 22,
+      "topGap": 24,
+      "bottomGap": 30,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      }
+    },
+    {
+      "level": 24,
+      "topGap": 20,
+      "bottomGap": 26,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      }
+    },
+    {
+      "level": 87,
+      "topGap": 24,
+      "bottomGap": 26,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 156.93738866358646,
+        "docked": true
+      }
+    },
+    {
+      "level": 100,
+      "topGap": 135.743179,
+      "bottomGap": 75.26694300000008,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 258.30029448028364,
+        "docked": true
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "width": 360,
+      "height": 640,
+      "canvas": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 640
+      },
+      "fit": {
+        "x": 69.90254872563713,
+        "y": 136,
+        "width": 610.1949025487257,
+        "height": 1085.3333333333335,
+        "scale": 0.813593203398301
+      },
+      "safe": {
+        "x": 0,
+        "y": 72,
+        "width": 750,
+        "height": 1201.3333333333335
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "canvas": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844
+      },
+      "fit": {
+        "x": 0,
+        "y": 156.53846153846155,
+        "width": 750,
+        "height": 1334,
+        "scale": 1
+      },
+      "safe": {
+        "x": 0,
+        "y": 72,
+        "width": 750,
+        "height": 1491.076923076923
+      }
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "canvas": {
+        "x": 0,
+        "y": 0,
+        "width": 430,
+        "height": 932
+      },
+      "fit": {
+        "x": 0,
+        "y": 157.79069767441854,
+        "width": 750,
+        "height": 1334,
+        "scale": 1
+      },
+      "safe": {
+        "x": 0,
+        "y": 72,
+        "width": 750,
+        "height": 1493.581395348837
+      }
+    }
+  ],
+  "diagnostics": [],
+  "final": {
+    "engine": "Cocos Creator 3.8.8",
+    "fixtureOnly": true,
+    "sourceSHA": "fab0b72c634d89b6b4081c16a4253c2b1046183308304091b8f0510e75c72e7c",
+    "level": 87,
+    "panel": "",
+    "home": false,
+    "notched": true,
+    "bounds": true,
+    "viewport": {
+      "width": 750,
+      "height": 1625.581395348837
+    },
+    "engineViewport": {
+      "x": 0,
+      "y": 0,
+      "width": 430,
+      "height": 932
+    },
+    "visibleOrigin": {
+      "x": 0,
+      "y": 0
+    },
+    "canvasWorld": {
+      "x": 375,
+      "y": 812.7906976744185,
+      "z": 0
+    },
+    "safe": {
+      "x": 0,
+      "y": 72,
+      "width": 750,
+      "height": 1493.581395348837
+    },
+    "fit": {
+      "x": 0,
+      "y": 157.79069767441854,
+      "width": 750,
+      "height": 1334,
+      "scale": 1
+    },
+    "next": {
+      "x": 668,
+      "y": 108,
+      "gap": 156.93738866358646,
+      "docked": true
+    },
+    "topGap": 24,
+    "bottomGap": 26,
+    "shots": 0,
+    "swaps": 0,
+    "resumes": 0,
+    "selected": "",
+    "notice": "重开布局演示，原型存档未改",
+    "assetBatch": {
+      "cats": 5,
+      "ui": 7
+    },
+    "cssScale": 0.5733333333333334,
+    "controls": [
+      {
+        "name": "pause",
+        "rect": {
+          "x": 32,
+          "y": 64,
+          "width": 88,
+          "height": 88
+        },
+        "visualRect": {
+          "x": 32,
+          "y": 64,
+          "width": 88,
+          "height": 88
+        },
+        "space": "stage"
+      },
+      {
+        "name": "tool0",
+        "rect": {
+          "x": 92,
+          "y": 1188,
+          "width": 176,
+          "height": 88
+        },
+        "visualRect": {
+          "x": 92,
+          "y": 1188,
+          "width": 176,
+          "height": 88
+        },
+        "space": "stage"
+      },
+      {
+        "name": "tool1",
+        "rect": {
+          "x": 287,
+          "y": 1188,
+          "width": 176,
+          "height": 88
+        },
+        "visualRect": {
+          "x": 287,
+          "y": 1188,
+          "width": 176,
+          "height": 88
+        },
+        "space": "stage"
+      },
+      {
+        "name": "tool2",
+        "rect": {
+          "x": 482,
+          "y": 1188,
+          "width": 176,
+          "height": 88
+        },
+        "visualRect": {
+          "x": 482,
+          "y": 1188,
+          "width": 176,
+          "height": 88
+        },
+        "space": "stage"
+      },
+      {
+        "name": "debug-case",
+        "rect": {
+          "x": 3,
+          "y": 1517.581395348837,
+          "width": 119,
+          "height": 44
+        },
+        "visualRect": {
+          "x": 3,
+          "y": 1517.581395348837,
+          "width": 119,
+          "height": 44
+        },
+        "space": "screen"
+      },
+      {
+        "name": "debug-safe",
+        "rect": {
+          "x": 128,
+          "y": 1517.581395348837,
+          "width": 119,
+          "height": 44
+        },
+        "visualRect": {
+          "x": 128,
+          "y": 1517.581395348837,
+          "width": 119,
+          "height": 44
+        },
+        "space": "screen"
+      },
+      {
+        "name": "debug-bounds",
+        "rect": {
+          "x": 253,
+          "y": 1517.581395348837,
+          "width": 119,
+          "height": 44
+        },
+        "visualRect": {
+          "x": 253,
+          "y": 1517.581395348837,
+          "width": 119,
+          "height": 44
+        },
+        "space": "screen"
+      },
+      {
+        "name": "debug-win",
+        "rect": {
+          "x": 378,
+          "y": 1517.581395348837,
+          "width": 119,
+          "height": 44
+        },
+        "visualRect": {
+          "x": 378,
+          "y": 1517.581395348837,
+          "width": 119,
+          "height": 44
+        },
+        "space": "screen"
+      },
+      {
+        "name": "debug-lose",
+        "rect": {
+          "x": 503,
+          "y": 1517.581395348837,
+          "width": 119,
+          "height": 44
+        },
+        "visualRect": {
+          "x": 503,
+          "y": 1517.581395348837,
+          "width": 119,
+          "height": 44
+        },
+        "space": "screen"
+      },
+      {
+        "name": "debug-home",
+        "rect": {
+          "x": 628,
+          "y": 1517.581395348837,
+          "width": 119,
+          "height": 44
+        },
+        "visualRect": {
+          "x": 628,
+          "y": 1517.581395348837,
+          "width": 119,
+          "height": 44
+        },
+        "space": "screen"
+      }
+    ]
+  }
+}

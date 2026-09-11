@@ -1,0 +1,368 @@
+{
+  "task": "UI-03G",
+  "date": "2026-09-10",
+  "status": "greybox-verified",
+  "productionVisualApproved": false,
+  "sourceSHA": "fab0b72c634d89b6b4081c16a4253c2b1046183308304091b8f0510e75c72e7c",
+  "tests": {
+    "layoutAssertions": 17,
+    "passed": 17,
+    "typeScriptStrict": "pass"
+  },
+  "build": {
+    "creator": "3.8.8",
+    "exitCode": 36,
+    "projectRealPath": "/private/tmp/mmhw-ui03g-build-20260910",
+    "output": "build/ui-greybox-verified",
+    "logSHA256": "3a03dbfc856f828fe41e350c767b25ad07d318fb3ec17b2075671501d0a20ffe",
+    "missingClass": false,
+    "errorLines": 0,
+    "currentAssetsMatchBuildInput": true
+  },
+  "browser": {
+    "passed": true,
+    "levels": [
+      {
+        "level": 1,
+        "topGap": 108,
+        "bottomGap": 114,
+        "next": {
+          "x": 384.7614431877377,
+          "y": 786.5738061862755,
+          "gap": 24.00000000000003,
+          "docked": false
+        }
+      },
+      {
+        "level": 20,
+        "topGap": 53,
+        "bottomGap": 84,
+        "next": {
+          "x": 384.7614431877377,
+          "y": 786.5738061862755,
+          "gap": 24.00000000000003,
+          "docked": false
+        }
+      },
+      {
+        "level": 21,
+        "topGap": 85.98623900000001,
+        "bottomGap": 166.78379900000004,
+        "next": {
+          "x": 384.7614431877377,
+          "y": 786.5738061862755,
+          "gap": 28.00000000000003,
+          "docked": false
+        }
+      },
+      {
+        "level": 22,
+        "topGap": 24,
+        "bottomGap": 30,
+        "next": {
+          "x": 384.7614431877377,
+          "y": 786.5738061862755,
+          "gap": 28.00000000000003,
+          "docked": false
+        }
+      },
+      {
+        "level": 24,
+        "topGap": 20,
+        "bottomGap": 26,
+        "next": {
+          "x": 475.4562859340631,
+          "y": 701.9171806906621,
+          "gap": 16.08281930933788,
+          "docked": false
+        }
+      },
+      {
+        "level": 87,
+        "topGap": 24,
+        "bottomGap": 26,
+        "next": {
+          "x": 668,
+          "y": 108,
+          "gap": 156.93738866358646,
+          "docked": true
+        }
+      },
+      {
+        "level": 100,
+        "topGap": 135.743179,
+        "bottomGap": 75.26694300000008,
+        "next": {
+          "x": 668,
+          "y": 108,
+          "gap": 258.30029448028364,
+          "docked": true
+        }
+      }
+    ],
+    "sizes": [
+      {
+        "width": 360,
+        "height": 640,
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 640
+        },
+        "fit": {
+          "x": 69.90254872563713,
+          "y": 136,
+          "width": 610.1949025487257,
+          "height": 1085.3333333333335,
+          "scale": 0.813593203398301
+        },
+        "safe": {
+          "x": 0,
+          "y": 72,
+          "width": 750,
+          "height": 1201.3333333333335
+        }
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844
+        },
+        "fit": {
+          "x": 0,
+          "y": 156.53846153846155,
+          "width": 750,
+          "height": 1334,
+          "scale": 1
+        },
+        "safe": {
+          "x": 0,
+          "y": 72,
+          "width": 750,
+          "height": 1491.076923076923
+        }
+      },
+      {
+        "width": 430,
+        "height": 932,
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 430,
+          "height": 932
+        },
+        "fit": {
+          "x": 0,
+          "y": 157.79069767441854,
+          "width": 750,
+          "height": 1334,
+          "scale": 1
+        },
+        "safe": {
+          "x": 0,
+          "y": 72,
+          "width": 750,
+          "height": 1493.581395348837
+        }
+      }
+    ],
+    "diagnostics": [],
+    "final": {
+      "engine": "Cocos Creator 3.8.8",
+      "fixtureOnly": true,
+      "sourceSHA": "fab0b72c634d89b6b4081c16a4253c2b1046183308304091b8f0510e75c72e7c",
+      "level": 87,
+      "panel": "",
+      "home": false,
+      "notched": true,
+      "bounds": true,
+      "viewport": {
+        "width": 750,
+        "height": 1625.581395348837
+      },
+      "engineViewport": {
+        "x": 0,
+        "y": 0,
+        "width": 430,
+        "height": 932
+      },
+      "visibleOrigin": {
+        "x": 0,
+        "y": 0
+      },
+      "canvasWorld": {
+        "x": 375,
+        "y": 812.7906976744185,
+        "z": 0
+      },
+      "safe": {
+        "x": 0,
+        "y": 72,
+        "width": 750,
+        "height": 1493.581395348837
+      },
+      "fit": {
+        "x": 0,
+        "y": 157.79069767441854,
+        "width": 750,
+        "height": 1334,
+        "scale": 1
+      },
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 156.93738866358646,
+        "docked": true
+      },
+      "topGap": 24,
+      "bottomGap": 26,
+      "shots": 0,
+      "swaps": 0,
+      "resumes": 0,
+      "selected": "",
+      "notice": "灰盒 · 静态队列 / 系统字体 / 演示操作",
+      "controls": [
+        {
+          "name": "pause",
+          "rect": {
+            "x": 32,
+            "y": 64,
+            "width": 88,
+            "height": 88
+          },
+          "space": "stage"
+        },
+        {
+          "name": "tool0",
+          "rect": {
+            "x": 92,
+            "y": 1188,
+            "width": 176,
+            "height": 88
+          },
+          "space": "stage"
+        },
+        {
+          "name": "tool1",
+          "rect": {
+            "x": 287,
+            "y": 1188,
+            "width": 176,
+            "height": 88
+          },
+          "space": "stage"
+        },
+        {
+          "name": "tool2",
+          "rect": {
+            "x": 482,
+            "y": 1188,
+            "width": 176,
+            "height": 88
+          },
+          "space": "stage"
+        },
+        {
+          "name": "debug-case",
+          "rect": {
+            "x": 3,
+            "y": 1517.581395348837,
+            "width": 119,
+            "height": 44
+          },
+          "space": "screen"
+        },
+        {
+          "name": "debug-safe",
+          "rect": {
+            "x": 128,
+            "y": 1517.581395348837,
+            "width": 119,
+            "height": 44
+          },
+          "space": "screen"
+        },
+        {
+          "name": "debug-bounds",
+          "rect": {
+            "x": 253,
+            "y": 1517.581395348837,
+            "width": 119,
+            "height": 44
+          },
+          "space": "screen"
+        },
+        {
+          "name": "debug-win",
+          "rect": {
+            "x": 378,
+            "y": 1517.581395348837,
+            "width": 119,
+            "height": 44
+          },
+          "space": "screen"
+        },
+        {
+          "name": "debug-lose",
+          "rect": {
+            "x": 503,
+            "y": 1517.581395348837,
+            "width": 119,
+            "height": 44
+          },
+          "space": "screen"
+        },
+        {
+          "name": "debug-home",
+          "rect": {
+            "x": 628,
+            "y": 1517.581395348837,
+            "width": 119,
+            "height": 44
+          },
+          "space": "screen"
+        }
+      ]
+    }
+  },
+  "files": {
+    "assets/ui-greybox/Fixtures.ts": "3b9146cd1711fcd180d71f226f9f2bf52503af1fe906f8bd2302a4094a8e55aa",
+    "assets/ui-greybox/Fixtures.ts.meta": "311031da07a4c97655fe6b55ce1d753ad1c031feb4b38e160b809e4dea06ba4a",
+    "assets/ui-greybox/Greybox.ts": "25e9d7f9f7d5c8e747aa7323eb88e9c827243290b8750bc680de701799afe995",
+    "assets/ui-greybox/Greybox.ts.meta": "2aca96cef1f4f04042007f750e28b64c1a5d165d691633a5918b64e73b9cc758",
+    "assets/ui-greybox/Layout.ts": "4edef4cf3d64e468e6ce648ab064468cbb99eef0e55129bc2e5ed239e53513dc",
+    "assets/ui-greybox/Layout.ts.meta": "f887e10ede25a221f48bd5aff4a9c90ea62f8c6861e43c17febfdc0f1a0d02e3",
+    "assets/ui-greybox/ui-greybox.scene": "3af19bc2d0d001b783cf694b3aa10efe10ee38a8c1ac48c1e03bad678de11e46",
+    "assets/ui-greybox/ui-greybox.scene.meta": "2803342261dbce75dc7ceca937f1ad3fcff55962c1ed2b5a440812d18a6ec24c",
+    "assets/ui-greybox.meta": "6947e9e67e5ebd740b32f75ef6280da9804c4ae7d8fdea42f9302b87fe313b73",
+    "output/playwright/ui03g/README.md": "4551f8cfd9c6ff339886c0e51886b4a8f2d790a649acfc7fd1f39d88aca50fc6",
+    "output/playwright/ui03g/home.png": "2de855e92837320b564bfd6af2642b22915584aa877cbcec4a072e8b20214404",
+    "output/playwright/ui03g/l001.png": "7c84b81912fe48b23892f0dc73a374807b428b41ca1a75744b3d60d425483cc4",
+    "output/playwright/ui03g/l020.png": "0f4e3f28ce6b686aef2017eeb315cd0c63aa086edcbaee41c274e3a4ca15dd13",
+    "output/playwright/ui03g/l021.png": "c4734f8b7b497df6a08b0e596ff017cd72a55fbc73f226182b3734b9a63ea383",
+    "output/playwright/ui03g/l022.png": "5cff782d87799bd0cf7082db37f60816be8069530a024fe8310394e96ac1baef",
+    "output/playwright/ui03g/l024.png": "184a1dcf90c30b784d6b9c422723fe15052a74fd691fc9eb880f140aa8d12b2b",
+    "output/playwright/ui03g/l087-safe-360.png": "f7bb0d9a86add92c6075c88f0969c12a16745889bf19372b3a2f719a05acbb9f",
+    "output/playwright/ui03g/l087-safe-390.png": "2553ae516fe01e1b5091d147868ccba2b1a07c4cf8075443721315454ddbcbca",
+    "output/playwright/ui03g/l087-safe-430.png": "75ff27c01d468c78b192ed0fc71032892cb4e79a91604dc8234a19754c793372",
+    "output/playwright/ui03g/l087.png": "4f34a0abb6889f347413439f05167ff3309b15355c0fd6ad01cab937668af577",
+    "output/playwright/ui03g/l100.png": "836fb232111f5cefe866d7fc5f5c34aa022994c05abd97286abbb3495929f2a5",
+    "output/playwright/ui03g/pause.png": "71cdfe6bf246ed0527c194f3f87f9c070e625b930ea6f07a0acd9a812e295907",
+    "output/playwright/ui03g/win.png": "830974c8b9b87f3b3d76e1904641ca91db486e82c82893b1ca385d65416a9dcc",
+    "tools/ui-greybox/browser-check.js": "3aea6196fb0d2e3f9cdadfea22ff848c67f456c7684f992593bb3c838f0d3a24",
+    "tools/ui-greybox/generate.mjs": "df644984d127ab969d7aa77dc72b5d0e85093ec2ad07751709f0a7280f06ca2e",
+    "tools/ui-greybox/layout.test.mjs": "8233cd87c7f90c35ef78468220c62ec16e84003bf47e16950bd5ac3b06b6d790"
+  },
+  "limitations": [
+    "static fixtures, no gameplay or persistence",
+    "no production assets, fonts or prefab",
+    "safe area/capsule simulated, no phone validation",
+    "UI-R03: 88 logical target becomes about 34.4 CSS px at 360x640 with simulated safe area",
+    "original full-game publishing not tested"
+  ]
+}

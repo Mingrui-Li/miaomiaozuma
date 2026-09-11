@@ -18,15 +18,20 @@
 - [难度递进与无限广告复活](docs/DIFFICULTY_AND_REVIVE_SPEC.md)：已确认的后期紧凑尺寸、难度目标和第六关起不限次数的广告复活。
 - [资产规格](docs/ASSET_SPEC.md)：ImageGen、Figma、Cocos 所需的美术、动画和声音清单。
 - [测试与验收](docs/QA_ACCEPTANCE.md)：功能、性能、视觉、异常与发布检查表。
-- [实施计划](docs/IMPLEMENTATION_PLAN.md)：按依赖顺序推进的开发里程碑。
-- [旧 UI 与美术工作流](docs/UI_ART_PIPELINE.md)：历史记录，原强制转绘流程已停止采用；新方向见 [01](docs/01_UI_DIRECTION.md)。
+- [UI 开发路线](docs/08_UI_DEVELOPMENT_ROADMAP.md)：同源资产直入 Cocos、早期引擎试样、Figma 辅助评审；D012 已承接为后续规划依据。
+- [页面、状态与线框规划](docs/09_UI_STRUCTURE_AND_STATES.md)：P00～P11 导航、六类核心线框、复活异常、资源/Prefab 草表与预算；含代表关布局风险。
+- [风格探索与基础视觉规范](docs/10_UI_STYLE_GUIDE.md)：UI-03 候选图、颜色/尺寸/字体/状态令牌、五猫缩小预检；尚待风格选择。
+- [Cocos 代表关灰盒](docs/11_COCOS_GREYBOX.md)：独立场景、七关布局、输入/弹窗、安全区与实际引擎截图；从这里打开本阶段成果。
+- [首批资源与 Cocos 试样](docs/12_UI_ASSET_BATCH.md)：五猫、七张通用 UI 图、真实透明导出、九宫格与短屏触达；当前成果从这里打开。
+- [实施计划](docs/IMPLEMENTATION_PLAN.md)：历史里程碑，最新 UI 任务依赖见 [07](docs/07_NEXT_TASKS.md) 与路线提案。
+- [旧 UI 与美术工作流](docs/UI_ART_PIPELINE.md)：历史记录，原强制转绘流程已停止采用；新方向见 [01](docs/01_UI_DIRECTION.md)，路线提案见 [08](docs/08_UI_DEVELOPMENT_ROADMAP.md)。
 - [AI Coding 协作规则](AGENTS.md)：所有参与开发的 AI Agent 必须遵守。
 
 如代码与有效规格冲突，记录真实差距，按授权修复；不得修改规格来迁就旧代码。新规则变更需所有者确认。
 
-## 当前状态：百关几何已设计，UI 从零设计准备
+## 当前状态：首批 UI 资源已直接接入 Cocos
 
-2026-09-08 最新要求：仅建立长期项目记忆，不开发新功能。停止旧 ImageGen → Figma → Cocos 强制路径，新生产流程待确认；不自动续跑旧图片任务、写 Figma 或重构 Cocos。
+2026-09-11：[UI-04](docs/12_UI_ASSET_BATCH.md) 已将五猫静态帧、按钮/面板/暂停图标直接导入隔离灰盒，完成七关、三屏幕尺寸与 44 CSS px 透明热区验证。12 张 PNG 共约 322 KiB；生成原图、透明处理、导出和截图均可追溯。下一步 UI-05 完成代表页面/组件及手机视觉验证；正式审美、字体与完整功能尚未验收。首页录屏入口仍待确认；旧 ImageGen → Figma → Cocos 强制路径继续停止。
 
 百关源参数为 `design/track-review/catalog.source.json`，几何图及检查表在 `design/track-review/generated/catalog/`；已获所有者认可并免除重复逐关送审。动态可玩性、出猫计划、引擎接入和新视觉验收仍未完成，压力分不是实测通关率。当前运行代码仍为旧 24 关原型，详见当前状态文档。
 

@@ -1,16 +1,18 @@
 # 03 · Cocos 场景与组织记忆
 
-核对日期：2026-09-08。**现状与建议分开；本轮没有创建场景、Prefab 或脚本。**
+核对日期：2026-09-11。UI-04 在原隔离场景的 `catTextures` / `uiTextures` 属性引用五猫和七张UI纹理，SpriteFrame与九宫格按12配置；扩大透明热区且不改轨道。场景和三个脚本沿用，尚无生产 Prefab。
+
+规划依据：[08 UI 路线](08_UI_DEVELOPMENT_ROADMAP.md) 要求先用代表关灰盒验证布局，再将小批资源装入真实 Prefab；[09](09_UI_STRUCTURE_AND_STATES.md) 给出组件草表与接口。灰盒已实施，结果与剩余问题见11；不以 Figma 全量完成为前置。
 
 ## 现状
 
-实际只有 `assets/game/scenes/main.scene`；包含 Canvas 与其下 Camera，GameRoot 负责运行时创建 Content 及页面节点。没有现成 Prefab；`assets/game/prefabs/`、`scripts/ui/`、`scripts/gameplay/`、`scripts/presentation/` 仍是旧文档的规划，不是已落地目录。
+旧原型 `assets/game/scenes/main.scene` 保持原样；Canvas/Camera 下由 GameRoot 创建页面。UI-03G 新增 `assets/ui-greybox/ui-greybox.scene`，同一工程内隔离运行，挂 UIGreybox；读取 Fixtures 七关快照、Layout 纯数学模块，运行时搭建轨道/HUD/弹窗与验收工具。打开方式及实际边界见 [11](11_COCOS_GREYBOX.md)。没有现成生产 Prefab；`assets/game/prefabs/`、`scripts/ui/`、`scripts/gameplay/`、`scripts/presentation/` 仍未落地。
 
 GameRoot 使用 Graphics/Label 拼画面，集中实现首页、地图、图鉴、设置、游戏、暂停、结算。不能据此声称有独立页面控制器或正式视觉组件。
 
 ## 后续建议：保留单场景，逐步拆分
 
-以下树是**建议职责层级**，名称尚未创建；待新 UI 路线确认并授权实施后按实际需要引入，不先建大量空壳。
+以下树是**建议职责层级**，名称尚未创建；后续获准实施时按实际需要引入，不先建大量空壳。
 
 ```text
 main.scene

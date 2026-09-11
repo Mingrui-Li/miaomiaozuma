@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>喵喵回窝 · UI-03 候选自检</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 24px; background: #f5f3ef; color: #30251f; font: 15px/1.6 -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif; }
+  main { max-width: 1040px; margin: auto; }
+  h1 { font-size: 24px; margin: 0 0 8px; }
+  h2 { font-size: 19px; margin: 28px 0 12px; }
+  p { margin: 8px 0 16px; }
+  .board { display: block; width: 100%; height: auto; }
+  .samples { background: #fff5e6; padding: 16px; color: #4a332b; }
+  .sample-row { display: flex; flex-wrap: wrap; gap: 20px; align-items: end; padding: 16px 0; border-bottom: 1px solid #d9c4aa; }
+  .sample-row:last-child { border: 0; }
+  .size-label { flex: 0 0 64px; align-self: center; }
+  .cat { width: 96px; display: flex; flex-direction: column; align-items: center; gap: 6px; }
+  .cat svg { overflow: hidden; flex-shrink: 0; }
+  .gray .cat svg { filter: grayscale(1); }
+  label { display: flex; align-items: center; gap: 8px; min-height: 44px; }
+  input { width: 20px; height: 20px; }
+  .palette { display: grid; grid-template-columns: repeat(auto-fit,minmax(142px,1fr)); gap: 12px; }
+  .chip { padding: 14px; border: 1px solid #b5a594; border-radius: 8px; min-height: 92px; }
+  .chip span { display: block; }
+  .chip code { font-size: 13px; }
+  .buttons { display: flex; flex-wrap: wrap; gap: 18px; align-items: flex-start; padding: 22px 16px; background: #fff5e6; }
+  .specimen { display: flex; flex-direction: column; gap: 12px; }
+  .button-art { width: 240px; height: 48px; display: flex; align-items: center; justify-content: center; gap: 6px; border: 1px solid #d9c4aa; border-radius: 16px; background: #ffc078; color: #4a332b; font-size: 17px; font-weight: 700; box-shadow: 0 2px 4px #4a332b24; }
+  .pressed { background: #e8a456; transform: scaleY(.97); box-shadow: 0 .5px 4px #4a332b24; }
+  .disabled { background: #e8dfd4; color: #6f5c4e; box-shadow: none; }
+  .secondary { background: #fffbf4; }
+  .progress-row { display: flex; align-items: center; gap: 8px; padding: 20px 16px; background: #fff5e6; color: #4a332b; }
+  .track { width: 233px; height: 8px; background: #e8e1d2; border-radius: 4px; overflow: hidden; }
+  .fill { width: 62%; height: 100%; background: #548b70; }
+  @media (max-width: 450px) { body { padding: 16px; } .cat { width: 72px; } .sample-row { gap: 10px; } .size-label { flex-basis: 100%; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>UI-03 · 候选风格自检</h1>
+  <p>风格板用于选造型与材质。页面内的色卡、文字和按钮是令牌试排，均未进入 Cocos。</p>
+  <img class="board" src="style_board_02.png" alt="候选风格板：橘猫、布偶、蓝猫、三花、玄猫，按钮、HUD、面板与道具图标">
+  <h2>五猫缩小预检</h2>
+  <p>每个样本等比放入标注大小的 CSS 像素框；实际猫轮廓略小于框。只显示原板局部，不导出切片，不证明透明边缘或真机猫径合格。</p>
+  <label><input id="gray-toggle" type="checkbox">灰阶检查</label>
+  <div class="samples" id="samples" aria-label="五猫在 64、56 和 48 像素框中的候选表现"></div>
+  <p id="mode-label" aria-live="polite">彩色样本</p>
+  <h2>独立色卡</h2>
+  <div class="palette" id="palette"></div>
+  <h2>按钮与 HUD 试排</h2>
+  <p>以下按逻辑尺寸的 50% 显示。使用当前系统字体演示文字区，不是两个候选字体的实测结果；按钮仅为状态样本。</p>
+  <div class="buttons">
+    <div class="specimen"><span>正常 · 480×96</span><div class="button-art">开始回窝</div></div>
+    <div class="specimen"><span>按下 · 视觉压低</span><div class="button-art pressed">继续第 100 关</div></div>
+    <div class="specimen"><span>禁用 · 文字保持可读</span><div class="button-art disabled">暂时没有视频</div></div>
+    <div class="specimen"><span>加载 · 固定文字区</span><div class="button-art disabled">正在帮猫猫腾位置…</div></div>
+    <div class="specimen"><span>次操作 · 免费路径</span><div class="button-art secondary">免费重新开始</div></div>
+  </div>
+  <div class="progress-row"><div class="track"><div class="fill"></div></div><span>呼噜</span></div>
+  <p>猫咪、面板贴花与底板后续独立制作；当前图片不能直接当九宫格或透明图集。</p>
+</main>
+<script>
+(() => {
+  const cats = [
+    ['橘猫',28,112,290,328],['布偶',324,112,296,328],['蓝猫',631,112,275,328],['三花',925,112,283,328],['玄猫',1215,112,285,328]
+  ];
+  const samples = document.getElementById('samples');
+  samples.innerHTML = [64,56,48].map(size => `<div class="sample-row"><strong class="size-label">${size}px</strong>${cats.map(([name,x,y,w,h]) => `<div class="cat"><svg width="${size}" height="${size}" viewBox="${x} ${y} ${w} ${h}" role="img" aria-label="${name} ${size}像素框"><image href="style_board_02.png" x="0" y="0" width="1536" height="1024"/></svg><span>${name}</span></div>`).join('')}</div>`).join('');
+  document.getElementById('gray-toggle').addEventListener('change', e => {
+    samples.classList.toggle('gray',e.target.checked);
+    document.getElementById('mode-label').textContent=e.target.checked?'灰阶样本：观察明暗、脸部花纹与轮廓':'彩色样本';
+  });
+  const palette = [
+    ['背景','#FFF5E6','#4A332B'],['面板','#FFFBF4','#4A332B'],['主按钮','#FFC078','#4A332B'],['按下','#E8A456','#4A332B'],
+    ['禁用','#E8DFD4','#6F5C4E'],['薄荷浅底','#A9D8C0','#4A332B'],['装饰粉','#F4C6CC','#4A332B'],['警戒浅底','#F4B8A7','#7A3D32']
+  ];
+  document.getElementById('palette').innerHTML=palette.map(([name,bg,fg])=>`<div class="chip" style="background:${bg};color:${fg}"><span>${name}</span><code>${bg}</code></div>`).join('');
+})();
+</script>
+</body>
+</html>

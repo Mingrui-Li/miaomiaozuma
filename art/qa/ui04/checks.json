@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "pngCount": 12,
+  "pngBytes": 330055,
+  "cats": [
+    {
+      "id": "cat_orange",
+      "maxVisibleRadius": 123.92134602238632,
+      "alphaBounds": [
+        30,
+        27,
+        225,
+        228
+      ]
+    },
+    {
+      "id": "cat_ragdoll",
+      "maxVisibleRadius": 124.30004022525496,
+      "alphaBounds": [
+        31,
+        27,
+        224,
+        228
+      ]
+    },
+    {
+      "id": "cat_blue",
+      "maxVisibleRadius": 123.92134602238632,
+      "alphaBounds": [
+        31,
+        27,
+        225,
+        229
+      ]
+    },
+    {
+      "id": "cat_calico",
+      "maxVisibleRadius": 123.70327400679417,
+      "alphaBounds": [
+        33,
+        27,
+        223,
+        229
+      ]
+    },
+    {
+      "id": "cat_black",
+      "maxVisibleRadius": 123.31463822271871,
+      "alphaBounds": [
+        31,
+        28,
+        224,
+        228
+      ]
+    }
+  ],
+  "checks": [
+    "identical export/import/hash",
+    "RGBA and transparent borders",
+    "cat silhouette inside unchanged radius",
+    "nine-slice center continuity"
+  ],
+  "notChecked": [
+    "owner aesthetic approval",
+    "animated recognition",
+    "real phone",
+    "full build package size"
+  ]
+}
