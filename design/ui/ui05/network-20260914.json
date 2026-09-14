@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-14",
+  "authorization": "D020",
+  "url": "http://10.40.93.139:62290/",
+  "root": "/Users/limingrui/IdeaProjects/miaomiaozuma/build/ui05-verified",
+  "pid": 26854,
+  "httpVerifiedFiles": 57,
+  "allHashesMatch": true,
+  "symlinks": false,
+  "validation": "Host requested every manifest file through the LAN address; each returned HTTP 200 and matched its recorded SHA-256.",
+  "androidTested": false,
+  "douyinHostTested": false,
+  "lifecycle": "Temporary same-Wi-Fi static server; close after owner finishes testing. Recheck PID and command before stopping; preserve user Creator service."
+}
