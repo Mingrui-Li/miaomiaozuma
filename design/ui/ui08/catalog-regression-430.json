@@ -1,0 +1,4306 @@
+{
+  "passed": true,
+  "width": 430,
+  "height": 932,
+  "samples": 300,
+  "diagnostics": [],
+  "rows": [
+    {
+      "level": 1,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 24.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 59
+    },
+    {
+      "level": 1,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 24.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 59
+    },
+    {
+      "level": 1,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 24.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 59
+    },
+    {
+      "level": 2,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 24.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 60
+    },
+    {
+      "level": 2,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 24.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 60
+    },
+    {
+      "level": 2,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 24.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 60
+    },
+    {
+      "level": 3,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 383.7155742747658,
+        "y": 774.6194698091746,
+        "gap": 10.238317378225801,
+        "docked": false
+      },
+      "retainedNodes": 60
+    },
+    {
+      "level": 3,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 383.7155742747658,
+        "y": 774.6194698091746,
+        "gap": 10.238317378225801,
+        "docked": false
+      },
+      "retainedNodes": 60
+    },
+    {
+      "level": 3,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 383.7155742747658,
+        "y": 774.6194698091746,
+        "gap": 10.238317378225801,
+        "docked": false
+      },
+      "retainedNodes": 60
+    },
+    {
+      "level": 4,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 24.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 60
+    },
+    {
+      "level": 4,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 24.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 60
+    },
+    {
+      "level": 4,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 24.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 60
+    },
+    {
+      "level": 5,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 24.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 64
+    },
+    {
+      "level": 5,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 24.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 64
+    },
+    {
+      "level": 5,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 24.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 64
+    },
+    {
+      "level": 6,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 6,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 6,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 7,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 7,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 7,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 8,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 8,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 8,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 9,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 9,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 9,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 10,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 10,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 10,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 11,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 11,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 11,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 12,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 12,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 12,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 13,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 23.999999999999986,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 13,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 23.999999999999986,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 13,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 23.999999999999986,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 14,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 14,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 14,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 15,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 15,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 15,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 16,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 16,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 16,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 17,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 24.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 17,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 24.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 17,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 24.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 18,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 18,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 18,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 19,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 19,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 19,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 20,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 24.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 20,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 24.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 20,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 36.693333333333335,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 24.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 21,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 21,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 21,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 22,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 22,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 22,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 67
+    },
+    {
+      "level": 23,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 172.58114912339718,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 23,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 172.58114912339718,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 23,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 172.58114912339718,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 24,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 24,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 24,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 25,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 25,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 25,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 26,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.80617384099483,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 26,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.80617384099483,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 26,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.80617384099483,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 27,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 27,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 27,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 28,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 28,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 28,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 29,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 201.24468592188833,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 29,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 201.24468592188833,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 29,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 201.24468592188833,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 30,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 30,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 30,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 31,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 31,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 31,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 32,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 20.592978100853458,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 32,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 20.592978100853458,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 32,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 20.592978100853458,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 33,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 33,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 33,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 34,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 34,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 34,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 35,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 35,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 35,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 36,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 36,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 36,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 37,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 37,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 37,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 38,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 38,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 38,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 39,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 39,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 39,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 40,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 20.592620196286745,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 40,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 20.592620196286745,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 40,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 20.592620196286745,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 41,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 41,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 41,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 42,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 42,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 42,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 43,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 43,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 43,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 44,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 44,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 44,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 45,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 45,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 45,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 46,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 156.93673656773464,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 46,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 156.93673656773464,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 46,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 156.93673656773464,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 47,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 47,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 47,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 48,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 48,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 48,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 49,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 49,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 49,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 50,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 20.59245043612141,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 50,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 20.59245043612141,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 50,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 20.59245043612141,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 51,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 399.846628329842,
+        "y": 767.7288793237506,
+        "gap": 11.907306027510003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 51,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 399.846628329842,
+        "y": 767.7288793237506,
+        "gap": 11.907306027510003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 51,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 399.846628329842,
+        "y": 767.7288793237506,
+        "gap": 11.907306027510003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 52,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 52,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 52,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 53,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.80576850957942,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 53,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.80576850957942,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 53,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.80576850957942,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 54,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 54,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 54,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 55,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 403.98773305148234,
+        "y": 783.1836925443756,
+        "gap": 24.55158680340938,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 55,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 403.98773305148234,
+        "y": 783.1836925443756,
+        "gap": 24.55158680340938,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 55,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 403.98773305148234,
+        "y": 783.1836925443756,
+        "gap": 24.55158680340938,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 56,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 48,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 56,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 48,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 56,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 48,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 57,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 20.59257575085634,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 57,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 20.59257575085634,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 57,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 20.59257575085634,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 58,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 244.33959025371337,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 58,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 244.33959025371337,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 58,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 244.33959025371337,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 59,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 59,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 59,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 60,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 60,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 60,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 61,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 391.77948895707317,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 61,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 391.77948895707317,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 61,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 391.77948895707317,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 62,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 225.46610936284708,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 62,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 225.46610936284708,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 62,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 225.46610936284708,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 63,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 63,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 63,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 64,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 64,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 64,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 65,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.806794061196825,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 65,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.806794061196825,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 65,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.806794061196825,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 66,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 66,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 66,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 67,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.806493246678656,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 67,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.806493246678656,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 67,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.806493246678656,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 68,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 68,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 68,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 69,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 69,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 69,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 70,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 70,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 70,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 71,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 71,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 71,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 72,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 72,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 72,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 73,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.806080913000415,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 73,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.806080913000415,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 73,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.806080913000415,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 74,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 74,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 74,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 75,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 75,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 75,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 76,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 76,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 76,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 77,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 20.592566649039554,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 77,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 20.592566649039554,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 77,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 20.592566649039554,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 78,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 262.5010013259301,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 78,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 262.5010013259301,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 78,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 262.5010013259301,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 79,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 79,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 79,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 80,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 20.592498786370257,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 80,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 20.592498786370257,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 80,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 20.592498786370257,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 81,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 81,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 81,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 82,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 50.462112512353215,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 82,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 50.462112512353215,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 82,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 50.462112512353215,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 83,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 83,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 83,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 84,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.80709872219538,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 84,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.80709872219538,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 84,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.80709872219538,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 85,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 225.46615752586422,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 85,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 225.46615752586422,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 85,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 225.46615752586422,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 86,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.805913915608926,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 86,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.805913915608926,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 86,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.805913915608926,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 87,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 156.93738866358646,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 87,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 156.93738866358646,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 87,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 156.93738866358646,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 88,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 88,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 88,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 89,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 89,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 89,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 90,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.80713370652603,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 90,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.80713370652603,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 90,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.80713370652603,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 91,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 91,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 91,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 92,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.0641972457564,
+        "y": 778.6042486015415,
+        "gap": 19.999999999999943,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 92,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.0641972457564,
+        "y": 778.6042486015415,
+        "gap": 19.999999999999943,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 92,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.0641972457564,
+        "y": 778.6042486015415,
+        "gap": 19.999999999999943,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 93,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 93,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 93,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 94,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 94,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 94,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 95,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.808010965150146,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 95,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.808010965150146,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 95,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.808010965150146,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 96,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 96,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 96,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 97,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.80773188949749,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 97,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.80773188949749,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 97,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.80773188949749,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 98,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 98,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 98,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 99,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 20.59245129511575,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 99,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 20.59245129511575,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 99,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 20.59245129511575,
+        "docked": false
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 100,
+      "phase": 0,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 258.30029448028364,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 100,
+      "phase": 1,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 258.30029448028364,
+        "docked": true
+      },
+      "retainedNodes": 68
+    },
+    {
+      "level": 100,
+      "phase": 2,
+      "obstacles": 1,
+      "catCss": 32.10666666666667,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 258.30029448028364,
+        "docked": true
+      },
+      "retainedNodes": 68
+    }
+  ],
+  "final": {
+    "engine": "Cocos Creator 3.8.8",
+    "fixtureOnly": true,
+    "sourceSHA": "fab0b72c634d89b6b4081c16a4253c2b1046183308304091b8f0510e75c72e7c",
+    "level": 100,
+    "panel": "",
+    "home": false,
+    "notched": true,
+    "bounds": false,
+    "viewport": {
+      "width": 750,
+      "height": 1625.581395348837
+    },
+    "engineViewport": {
+      "x": 0,
+      "y": 0,
+      "width": 430,
+      "height": 932
+    },
+    "visibleOrigin": {
+      "x": 0,
+      "y": 0
+    },
+    "canvasWorld": {
+      "x": 375,
+      "y": 812.7906976744185,
+      "z": 0
+    },
+    "safe": {
+      "x": 0,
+      "y": 72,
+      "width": 750,
+      "height": 1493.581395348837
+    },
+    "toolbarHeight": 83.72093023255813,
+    "fontLoaded": true,
+    "fit": {
+      "x": 0,
+      "y": 141.93023255813944,
+      "width": 750,
+      "height": 1334,
+      "scale": 1
+    },
+    "next": {
+      "x": 668,
+      "y": 108,
+      "gap": 258.30029448028364,
+      "docked": true
+    },
+    "topGap": 135.743179,
+    "bottomGap": 75.26694300000008,
+    "shots": 0,
+    "swaps": 1,
+    "resumes": 0,
+    "selected": "",
+    "notice": "开段 · 打开 / 揭示 · 静态压力样本",
+    "retainedNodes": 74,
+    "prefabs": {
+      "button": true,
+      "panel": true,
+      "hud": true,
+      "home": true
+    },
+    "stateSample": 0,
+    "sound": true,
+    "vibration": true,
+    "assetBatch": {
+      "cats": 5,
+      "ui": 7
+    },
+    "cssScale": 0.5733333333333334,
+    "controls": [
+      {
+        "name": "pause",
+        "rect": {
+          "x": 32,
+          "y": 64,
+          "width": 88,
+          "height": 88
+        },
+        "visualRect": {
+          "x": 32,
+          "y": 64,
+          "width": 88,
+          "height": 88
+        },
+        "space": "stage",
+        "state": "normal"
+      },
+      {
+        "name": "tool0",
+        "rect": {
+          "x": 92,
+          "y": 1188,
+          "width": 176,
+          "height": 88
+        },
+        "visualRect": {
+          "x": 92,
+          "y": 1188,
+          "width": 176,
+          "height": 88
+        },
+        "space": "stage",
+        "state": "normal"
+      },
+      {
+        "name": "tool1",
+        "rect": {
+          "x": 287,
+          "y": 1188,
+          "width": 176,
+          "height": 88
+        },
+        "visualRect": {
+          "x": 287,
+          "y": 1188,
+          "width": 176,
+          "height": 88
+        },
+        "space": "stage",
+        "state": "normal"
+      },
+      {
+        "name": "tool2",
+        "rect": {
+          "x": 482,
+          "y": 1188,
+          "width": 176,
+          "height": 88
+        },
+        "visualRect": {
+          "x": 482,
+          "y": 1188,
+          "width": 176,
+          "height": 88
+        },
+        "space": "stage",
+        "state": "normal"
+      },
+      {
+        "name": "debug-prev",
+        "rect": {
+          "x": 3,
+          "y": 1485.348837209302,
+          "width": 119,
+          "height": 76.74418604651163
+        },
+        "visualRect": {
+          "x": 3,
+          "y": 1485.348837209302,
+          "width": 119,
+          "height": 76.74418604651163
+        },
+        "space": "screen",
+        "state": "normal"
+      },
+      {
+        "name": "debug-next",
+        "rect": {
+          "x": 128,
+          "y": 1485.348837209302,
+          "width": 119,
+          "height": 76.74418604651163
+        },
+        "visualRect": {
+          "x": 128,
+          "y": 1485.348837209302,
+          "width": 119,
+          "height": 76.74418604651163
+        },
+        "space": "screen",
+        "state": "normal"
+      },
+      {
+        "name": "debug-phase",
+        "rect": {
+          "x": 253,
+          "y": 1485.348837209302,
+          "width": 119,
+          "height": 76.74418604651163
+        },
+        "visualRect": {
+          "x": 253,
+          "y": 1485.348837209302,
+          "width": 119,
+          "height": 76.74418604651163
+        },
+        "space": "screen",
+        "state": "normal"
+      },
+      {
+        "name": "debug-obstacles",
+        "rect": {
+          "x": 378,
+          "y": 1485.348837209302,
+          "width": 119,
+          "height": 76.74418604651163
+        },
+        "visualRect": {
+          "x": 378,
+          "y": 1485.348837209302,
+          "width": 119,
+          "height": 76.74418604651163
+        },
+        "space": "screen",
+        "state": "normal"
+      },
+      {
+        "name": "debug-safe",
+        "rect": {
+          "x": 503,
+          "y": 1485.348837209302,
+          "width": 119,
+          "height": 76.74418604651163
+        },
+        "visualRect": {
+          "x": 503,
+          "y": 1485.348837209302,
+          "width": 119,
+          "height": 76.74418604651163
+        },
+        "space": "screen",
+        "state": "normal"
+      },
+      {
+        "name": "debug-bounds",
+        "rect": {
+          "x": 628,
+          "y": 1485.348837209302,
+          "width": 119,
+          "height": 76.74418604651163
+        },
+        "visualRect": {
+          "x": 628,
+          "y": 1485.348837209302,
+          "width": 119,
+          "height": 76.74418604651163
+        },
+        "space": "screen",
+        "state": "normal"
+      }
+    ],
+    "phase": 0,
+    "obstacles": 3,
+    "catDiameter": 56,
+    "trackWidth": 72,
+    "spacing": 58,
+    "source": {
+      "x": 651.923943,
+      "y": 450.072747
+    },
+    "lair": {
+      "x": 433.859628,
+      "y": 824.868338
+    },
+    "sourceDirection": {
+      "x": 0.36524936552225384,
+      "y": 0.9309097168821426
+    },
+    "lairDirection": {
+      "x": -0.8341336150147154,
+      "y": 0.5515624282911976
+    },
+    "occupied": {
+      "left": 69.156922,
+      "right": 726.21769,
+      "top": 303.743179,
+      "bottom": 1112.733057
+    },
+    "launcherGap": 43.66259925845918,
+    "chain": [
+      {
+        "x": 661.5164791856071,
+        "y": 476.3747006616781
+      },
+      {
+        "x": 676.9180428955599,
+        "y": 532.2638614334859
+      },
+      {
+        "x": 686.4248209929935,
+        "y": 589.4541494211749
+      },
+      {
+        "x": 690.1535943048862,
+        "y": 647.3102500967365
+      },
+      {
+        "x": 688.1347522737982,
+        "y": 705.2511575468351
+      },
+      {
+        "x": 680.3130644366332,
+        "y": 762.6959723304607
+      },
+      {
+        "x": 666.5396145419877,
+        "y": 819.0081985337272
+      },
+      {
+        "x": 646.5799696700789,
+        "y": 873.4308587602334
+      },
+      {
+        "x": 620.1225162572283,
+        "y": 924.9992964786878
+      },
+      {
+        "x": 586.8171611143176,
+        "y": 972.4187852052373
+      },
+      {
+        "x": 546.3938673933727,
+        "y": 1013.9103266575156
+      },
+      {
+        "x": 498.93349370893225,
+        "y": 1047.073017008982
+      },
+      {
+        "x": 445.36920784531173,
+        "y": 1068.956874401918
+      },
+      {
+        "x": 388.06343114282816,
+        "y": 1076.732549300862
+      },
+      {
+        "x": 330.75141179437736,
+        "y": 1069.040575724829
+      },
+      {
+        "x": 277.3080401729268,
+        "y": 1046.891236513219
+      },
+      {
+        "x": 230.36379388510514,
+        "y": 1013.0205530605492
+      },
+      {
+        "x": 191.0291426158949,
+        "y": 970.5076863571179
+      },
+      {
+        "x": 159.45705809241608,
+        "y": 921.9255442986748
+      },
+      {
+        "x": 135.38626464750132,
+        "y": 869.2076864142086
+      },
+      {
+        "x": 118.4821543189669,
+        "y": 813.7660391650794
+      },
+      {
+        "x": 108.4616480407895,
+        "y": 756.6727788273804
+      },
+      {
+        "x": 105.15778696717047,
+        "y": 698.7990878854631
+      },
+      {
+        "x": 108.5365779594302,
+        "y": 640.9300490893498
+      },
+      {
+        "x": 118.70713900455762,
+        "y": 583.864532958535
+      },
+      {
+        "x": 135.92514285539986,
+        "y": 528.5223812618163
+      },
+      {
+        "x": 160.5931380502699,
+        "y": 476.0872309975637
+      },
+      {
+        "x": 193.21015998986445,
+        "y": 428.2135405232509
+      },
+      {
+        "x": 234.1959166386665,
+        "y": 387.32184262131454
+      },
+      {
+        "x": 283.3758284868037,
+        "y": 356.87074000435496
+      }
+    ],
+    "renderPoints": 224,
+    "length": 3787.0640427742883,
+    "totalLevels": 100
+  }
+}

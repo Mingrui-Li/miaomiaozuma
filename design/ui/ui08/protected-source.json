@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "checkedFiles": 200,
+  "changed": [],
+  "sourceSHA": "fab0b72c634d89b6b4081c16a4253c2b1046183308304091b8f0510e75c72e7c",
+  "note": "All pre-existing assets/settings/profiles and canonical geometry from the UI-08 start snapshot; docs are intentionally edited."
+}

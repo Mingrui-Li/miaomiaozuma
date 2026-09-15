@@ -1,0 +1,13 @@
+{
+  "platform": "web-mobile",
+  "debug": false,
+  "startScene": "b88a53a6-1366-4f99-8f6f-d431ccd25ad2",
+  "scenes": [
+    {
+      "url": "db://assets/ui-catalog/ui-catalog.scene",
+      "uuid": "b88a53a6-1366-4f99-8f6f-d431ccd25ad2"
+    }
+  ],
+  "buildPath": "/private/tmp/mmhw-ui08-catalog-20260915/build",
+  "outputName": "ui08-catalog"
+}

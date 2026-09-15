@@ -1,0 +1,184 @@
+{
+  "passed": true,
+  "kind": "flow",
+  "assets": [
+    {
+      "source": "assets/game/art/ui04/btn_disabled.png",
+      "bytes": 1224,
+      "sha256": "71fe1a39f4cbec23f42c96602aa352c84319a94e618cb408834be3bb71a0224e",
+      "buildPaths": [
+        "assets/main/native/df/dffa4025-d09e-55dc-bffb-60880be71453.png"
+      ],
+      "width": 96,
+      "height": 64,
+      "bitDepth": 8,
+      "colorType": 6,
+      "rgba8BaseBytes": 24576
+    },
+    {
+      "source": "assets/game/art/ui04/btn_primary.png",
+      "bytes": 1253,
+      "sha256": "b6c59a63afc748b4193366f27a743bfe6f039734f1be619bf7c227f089918fbe",
+      "buildPaths": [
+        "assets/main/native/01/0136a75a-30f4-5e4c-b867-66cafa3426a8.png"
+      ],
+      "width": 96,
+      "height": 64,
+      "bitDepth": 8,
+      "colorType": 6,
+      "rgba8BaseBytes": 24576
+    },
+    {
+      "source": "assets/game/art/ui04/btn_primary_pressed.png",
+      "bytes": 1246,
+      "sha256": "9e4f0d0e4f8188f4e7bfd761c1864f41f216606cfe5a8e821544becbc8009a65",
+      "buildPaths": [
+        "assets/main/native/56/56c46251-6e56-595e-8ac0-5bb2717e88cf.png"
+      ],
+      "width": 96,
+      "height": 64,
+      "bitDepth": 8,
+      "colorType": 6,
+      "rgba8BaseBytes": 24576
+    },
+    {
+      "source": "assets/game/art/ui04/btn_secondary.png",
+      "bytes": 1247,
+      "sha256": "46674d242efddd09313b17ec0dca7797530be00e547a22e6f62856eadc6f140e",
+      "buildPaths": [
+        "assets/main/native/3d/3dc899c7-8729-54a7-aaaa-a5a12c6f3d6a.png"
+      ],
+      "width": 96,
+      "height": 64,
+      "bitDepth": 8,
+      "colorType": 6,
+      "rgba8BaseBytes": 24576
+    },
+    {
+      "source": "assets/game/art/ui04/btn_secondary_pressed.png",
+      "bytes": 1268,
+      "sha256": "7d2ed56f4bc6adbdefa6d3baf8e973341dd1979e1cc422fc25eebbeb025ce1cd",
+      "buildPaths": [
+        "assets/main/native/04/04f2fa8a-18e7-5693-9599-d92d1adf1c84.png"
+      ],
+      "width": 96,
+      "height": 64,
+      "bitDepth": 8,
+      "colorType": 6,
+      "rgba8BaseBytes": 24576
+    },
+    {
+      "source": "assets/game/art/ui04/cat_black.png",
+      "bytes": 64788,
+      "sha256": "2cc9d90b2bcc2e6e2c54321dc833cb98a9602b286b570833093bdb7eed5fbda4",
+      "buildPaths": [
+        "assets/main/native/a8/a88839da-630a-524c-8c50-4f2de4b3632c.png"
+      ],
+      "width": 256,
+      "height": 256,
+      "bitDepth": 8,
+      "colorType": 6,
+      "rgba8BaseBytes": 262144
+    },
+    {
+      "source": "assets/game/art/ui04/cat_blue.png",
+      "bytes": 67957,
+      "sha256": "bccfd91385d9fb852626642d4121a35511cb859aac32d7230c352c87e48922b1",
+      "buildPaths": [
+        "assets/main/native/aa/aa7da04e-de0f-52e0-9270-fdff4e8ae8fd.png"
+      ],
+      "width": 256,
+      "height": 256,
+      "bitDepth": 8,
+      "colorType": 6,
+      "rgba8BaseBytes": 262144
+    },
+    {
+      "source": "assets/game/art/ui04/cat_calico.png",
+      "bytes": 61720,
+      "sha256": "08bc1327913407961a00a29a42eaee9a5ca8d77a8ebfc7cdf81f693247b9ad92",
+      "buildPaths": [
+        "assets/main/native/8f/8f319762-787a-54ef-a508-0e752e2c3f9d.png"
+      ],
+      "width": 256,
+      "height": 256,
+      "bitDepth": 8,
+      "colorType": 6,
+      "rgba8BaseBytes": 262144
+    },
+    {
+      "source": "assets/game/art/ui04/cat_orange.png",
+      "bytes": 63173,
+      "sha256": "7d831cdfda2cd49f487b522b0b4025852c6e7d2724b176017335a438427a007c",
+      "buildPaths": [
+        "assets/main/native/c8/c82c7b2c-373e-505a-80d6-dc82e0036e1a.png"
+      ],
+      "width": 256,
+      "height": 256,
+      "bitDepth": 8,
+      "colorType": 6,
+      "rgba8BaseBytes": 262144
+    },
+    {
+      "source": "assets/game/art/ui04/cat_ragdoll.png",
+      "bytes": 63942,
+      "sha256": "406a25b6da6186107d54f238543e4c340e72b5437ae67496bdc4755e465959b6",
+      "buildPaths": [
+        "assets/main/native/2c/2c3e1e7c-7375-53d4-aaa5-c9c163e78eb8.png"
+      ],
+      "width": 256,
+      "height": 256,
+      "bitDepth": 8,
+      "colorType": 6,
+      "rgba8BaseBytes": 262144
+    },
+    {
+      "source": "assets/game/art/ui04/icon_pause.png",
+      "bytes": 377,
+      "sha256": "b8f0e52a708ab65f1a39a0b1e2cdc4f52a78f79087a2706924b4d7b9521c1909",
+      "buildPaths": [
+        "assets/main/native/10/1078a0f1-5638-544c-8a8a-67c8003a7362.png"
+      ],
+      "width": 64,
+      "height": 64,
+      "bitDepth": 8,
+      "colorType": 6,
+      "rgba8BaseBytes": 16384
+    },
+    {
+      "source": "assets/game/art/ui04/panel_popup.png",
+      "bytes": 1860,
+      "sha256": "f595f1280437a9a15842d101d8932b2db52fa4f4129a3338510b2e01698fbe9b",
+      "buildPaths": [
+        "assets/main/native/4f/4f0eaa63-819b-5215-ad44-83f223eae064.png"
+      ],
+      "width": 128,
+      "height": 128,
+      "bitDepth": 8,
+      "colorType": 6,
+      "rgba8BaseBytes": 65536
+    },
+    {
+      "source": "assets/ui-flow/mmhw_ui_flow.ttf",
+      "bytes": 118960,
+      "sha256": "40826803c64a16fb7d53e9aea5f5a94a2ad85a0e119d447da3fc4d1c55ff3992",
+      "buildPaths": [
+        "assets/main/native/f6/f6269b8b-6481-4a32-b6a5-431538ce894b/mmhw_ui_flow.ttf"
+      ]
+    }
+  ],
+  "licenses": [
+    {
+      "source": "assets/ui-flow/OFL.txt",
+      "build": "OFL.txt",
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "source": "assets/ui-flow/NOTICE.txt",
+      "build": "FONT-NOTICE.txt",
+      "sha256": "29206cc49e23da56f532fc2078227e8178123aff4ef90beaddac475021b03c10"
+    }
+  ],
+  "textureRGBA8BaseBytes": 1515520,
+  "note": "12 source textures plus scene font, exact native hashes; RGBA estimate excludes mipmaps/atlases/labels/engine/GPU overhead and is not measured device memory"
+}

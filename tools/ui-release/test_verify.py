@@ -20,6 +20,14 @@ class EvidenceIntegrity(unittest.TestCase):
     def test_missing_required_reports_cannot_pass(self):
         folder=self.root/'design/ui/ui08';folder.mkdir(parents=True)
         (folder/'evidence.json').write_text(json.dumps({'files':[self.record]}))
-        result=gate.verify(self.root);self.assertFalse(result['releaseReady']);self.assertFalse(result['localUiBatchPassed']);self.assertGreaterEqual(len(result['errors']),8)
+        result=gate.verify(self.root);self.assertFalse(result['uiStagePassed']);self.assertFalse(result['localUiBatchPassed']);self.assertGreaterEqual(len(result['errors']),8)
+    def test_future_development_does_not_block_ui_stage(self):
+        result=gate.stage_result([])
+        self.assertTrue(result['uiStagePassed']);self.assertEqual(result['status'],'UI_STAGE_COMPLETE')
+        self.assertEqual(result['gameReleaseAssessment'],'DEFERRED_TO_CODE_DEVELOPMENT')
+        self.assertNotIn('releaseReady',result)
+    def test_evidence_failure_still_blocks_ui_stage(self):
+        result=gate.stage_result(['changed: proof.json'])
+        self.assertFalse(result['uiStagePassed']);self.assertEqual(result['status'],'UI_STAGE_CHECK_FAILED')
 
 if __name__=='__main__':unittest.main()

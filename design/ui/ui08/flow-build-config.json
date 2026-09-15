@@ -1,0 +1,13 @@
+{
+  "platform": "web-mobile",
+  "debug": false,
+  "startScene": "5f337c54-11dc-4bf4-aa56-1ea4b905e356",
+  "scenes": [
+    {
+      "url": "db://assets/ui-flow/ui-flow.scene",
+      "uuid": "5f337c54-11dc-4bf4-aa56-1ea4b905e356"
+    }
+  ],
+  "buildPath": "/private/tmp/mmhw-ui08-flow-20260915/build",
+  "outputName": "ui08-flow"
+}

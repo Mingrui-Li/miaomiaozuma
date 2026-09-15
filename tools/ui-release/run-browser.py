@@ -3,7 +3,7 @@ from pathlib import Path
 import argparse,json,os,subprocess
 parser=argparse.ArgumentParser()
 parser.add_argument('kind',choices=['flow','catalog'])
-parser.add_argument('mode',choices=['regression','performance'])
+parser.add_argument('mode',choices=['regression','performance','memory'])
 parser.add_argument('--width',type=int,default=390)
 args=parser.parse_args()
 root=Path(__file__).resolve().parents[2]
@@ -11,8 +11,8 @@ out=root/'design/ui/ui08';out.mkdir(parents=True,exist_ok=True)
 label=f'{args.kind}-{args.mode}'+(f'-{args.width}' if args.kind=='catalog' and args.mode=='regression' else '')
 result=out/(label+'.json')
 if result.exists():raise SystemExit('Refusing to replace earlier evidence: '+str(result))
-if args.mode=='performance':
-    code=(root/'tools/ui-release/browser-performance.js').read_text().replace("kind='FLOW'",f"kind='{args.kind.upper()}'").replace('62320','62330' if args.kind=='catalog' else '62320')
+if args.mode in ['performance','memory']:
+    code=(root/f'tools/ui-release/browser-{args.mode}.js').read_text().replace("kind='FLOW'",f"kind='{args.kind.upper()}'").replace('62320','62330' if args.kind=='catalog' else '62320')
 else:
     code=(root/f'tools/ui-{args.kind}/browser-check.js').read_text()
     code=code.replace('output/playwright/ui06/','output/playwright/ui08/flow/')

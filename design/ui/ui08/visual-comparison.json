@@ -1,0 +1,2331 @@
+{
+  "passed": true,
+  "count": 332,
+  "method": "exact PNG SHA-256 equality with prior local UI-06/07 screenshots; no image resizing or rebaselining",
+  "rows": [
+    {
+      "baseline": "output/playwright/ui06/boot-error.png",
+      "candidate": "output/playwright/ui08/flow/boot-error.png",
+      "baselineSHA": "78bb9b1e1997badc937cbc6be32d87dd3eddc88a90fe531a161d7494797145e1",
+      "candidateSHA": "78bb9b1e1997badc937cbc6be32d87dd3eddc88a90fe531a161d7494797145e1",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui06/card-detail.png",
+      "candidate": "output/playwright/ui08/flow/card-detail.png",
+      "baselineSHA": "478d09e40c63c2115fcbde820bf9fcb361e52ce0d5c0e2113612cf86bd018c6a",
+      "candidateSHA": "478d09e40c63c2115fcbde820bf9fcb361e52ce0d5c0e2113612cf86bd018c6a",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui06/card12.png",
+      "candidate": "output/playwright/ui08/flow/card12.png",
+      "baselineSHA": "a315d6d7e7b0cece305a71a19b36061d7ad02520ba04953ada84c45d012b7049",
+      "candidateSHA": "a315d6d7e7b0cece305a71a19b36061d7ad02520ba04953ada84c45d012b7049",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui06/chapter10-locked.png",
+      "candidate": "output/playwright/ui08/flow/chapter10-locked.png",
+      "baselineSHA": "df792a005166510151381ebf2e6daff856b4e2c038918c5155259105c4766155",
+      "candidateSHA": "df792a005166510151381ebf2e6daff856b4e2c038918c5155259105c4766155",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui06/collection-locked.png",
+      "candidate": "output/playwright/ui08/flow/collection-locked.png",
+      "baselineSHA": "7a842a43da852efd82737f83b6a7cf48a927f61f9756f70f171240d9ff289646",
+      "candidateSHA": "7a842a43da852efd82737f83b6a7cf48a927f61f9756f70f171240d9ff289646",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui06/collection-new.png",
+      "candidate": "output/playwright/ui08/flow/collection-new.png",
+      "baselineSHA": "0c416d5c333cdee5d1266e4c63110624b04ecd41d1902be19dc516d609ae698a",
+      "candidateSHA": "0c416d5c333cdee5d1266e4c63110624b04ecd41d1902be19dc516d609ae698a",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui06/cosmetics-insufficient.png",
+      "candidate": "output/playwright/ui08/flow/cosmetics-insufficient.png",
+      "baselineSHA": "82f1a6fc2c28d178c13665f130a95479a5701e4d0ebbb411b2c58ba3d2ce0848",
+      "candidateSHA": "82f1a6fc2c28d178c13665f130a95479a5701e4d0ebbb411b2c58ba3d2ce0848",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui06/cosmetics.png",
+      "candidate": "output/playwright/ui08/flow/cosmetics.png",
+      "baselineSHA": "4c95391fae30ee4d9bfe2943e918b867541eb4a756da4c6d06f6fec0989e441d",
+      "candidateSHA": "4c95391fae30ee4d9bfe2943e918b867541eb4a756da4c6d06f6fec0989e441d",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui06/empty-tool.png",
+      "candidate": "output/playwright/ui08/flow/empty-tool.png",
+      "baselineSHA": "045e916e29dbc8e851f707022b614a12d1a7f46943b0527f00cc1fe0cc6abccc",
+      "candidateSHA": "045e916e29dbc8e851f707022b614a12d1a7f46943b0527f00cc1fe0cc6abccc",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui06/final-result.png",
+      "candidate": "output/playwright/ui08/flow/final-result.png",
+      "baselineSHA": "7d50788a5c29d3ad0d9df664b924b57a998f6240be76ca6721311cba9e11b02d",
+      "candidateSHA": "7d50788a5c29d3ad0d9df664b924b57a998f6240be76ca6721311cba9e11b02d",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui06/first-guide.png",
+      "candidate": "output/playwright/ui08/flow/first-guide.png",
+      "baselineSHA": "66ef9e14eee076ef28e36c8c3354e97076f1b602963559ff19c877a5e1f7ff71",
+      "candidateSHA": "66ef9e14eee076ef28e36c8c3354e97076f1b602963559ff19c877a5e1f7ff71",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui06/free-used.png",
+      "candidate": "output/playwright/ui08/flow/free-used.png",
+      "baselineSHA": "c826cefffb3388162617f1b292bcea8591c9a8a5273a03190afd6fa6317314ed",
+      "candidateSHA": "c826cefffb3388162617f1b292bcea8591c9a8a5273a03190afd6fa6317314ed",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui06/home.png",
+      "candidate": "output/playwright/ui08/flow/home.png",
+      "baselineSHA": "b25f79d3960c1c231553888515249f64fd4be570e06651a9eadfa584ccf3fd3e",
+      "candidateSHA": "b25f79d3960c1c231553888515249f64fd4be570e06651a9eadfa584ccf3fd3e",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui06/map-safe-360.png",
+      "candidate": "output/playwright/ui08/flow/map-safe-360.png",
+      "baselineSHA": "ce60991fc494c4bf3415dcfba2378e72ca567324df8b3815ebbbaa939c336ea5",
+      "candidateSHA": "ce60991fc494c4bf3415dcfba2378e72ca567324df8b3815ebbbaa939c336ea5",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui06/map-safe-390.png",
+      "candidate": "output/playwright/ui08/flow/map-safe-390.png",
+      "baselineSHA": "03a411fc15e0312f3837720ee323f0e37c0d573999ac0d6d045d13c6d99f3e6b",
+      "candidateSHA": "03a411fc15e0312f3837720ee323f0e37c0d573999ac0d6d045d13c6d99f3e6b",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui06/map-safe-430.png",
+      "candidate": "output/playwright/ui08/flow/map-safe-430.png",
+      "baselineSHA": "22f4691bc4ed88a978929c47f23be92a54a461ca249aa26b5b5315fd0d460af4",
+      "candidateSHA": "22f4691bc4ed88a978929c47f23be92a54a461ca249aa26b5b5315fd0d460af4",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui06/prepare24.png",
+      "candidate": "output/playwright/ui08/flow/prepare24.png",
+      "baselineSHA": "fbcd1ca4d2a612f225c4c7c14bbecc39a0aed67e73e58fb0faace2e89202c7f9",
+      "candidateSHA": "fbcd1ca4d2a612f225c4c7c14bbecc39a0aed67e73e58fb0faace2e89202c7f9",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui06/privacy.png",
+      "candidate": "output/playwright/ui08/flow/privacy.png",
+      "baselineSHA": "0eb7e6573fd2c8f18d955645a308ea598a5c682e7dc524d08527fedd78b61822",
+      "candidateSHA": "0eb7e6573fd2c8f18d955645a308ea598a5c682e7dc524d08527fedd78b61822",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui06/revive-cancel.png",
+      "candidate": "output/playwright/ui08/flow/revive-cancel.png",
+      "baselineSHA": "23f82a9018058723a7e289026e29772b22f98a59ee455249d6c5535cc26df124",
+      "candidateSHA": "23f82a9018058723a7e289026e29772b22f98a59ee455249d6c5535cc26df124",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui06/revive-safe-360.png",
+      "candidate": "output/playwright/ui08/flow/revive-safe-360.png",
+      "baselineSHA": "8c24097a7604f41ab1db94cd9231ae472166c689cfeb5bea04cbfe00c1bc7aa9",
+      "candidateSHA": "8c24097a7604f41ab1db94cd9231ae472166c689cfeb5bea04cbfe00c1bc7aa9",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui06/revive-safe-390.png",
+      "candidate": "output/playwright/ui08/flow/revive-safe-390.png",
+      "baselineSHA": "56bbdba1fe4881b80585813b9a451c8fdf23217fd37ba9901be5808048bccc56",
+      "candidateSHA": "56bbdba1fe4881b80585813b9a451c8fdf23217fd37ba9901be5808048bccc56",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui06/revive-safe-430.png",
+      "candidate": "output/playwright/ui08/flow/revive-safe-430.png",
+      "baselineSHA": "ca33e91ecf3d0ce9781bc8c2941230f94db9136849b395b5ccfdc35f8a810e11",
+      "candidateSHA": "ca33e91ecf3d0ce9781bc8c2941230f94db9136849b395b5ccfdc35f8a810e11",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui06/save-error.png",
+      "candidate": "output/playwright/ui08/flow/save-error.png",
+      "baselineSHA": "de527219461863b9ffe9d1732000a0d09a092930a4619c5607b8885ff2f1ab38",
+      "candidateSHA": "de527219461863b9ffe9d1732000a0d09a092930a4619c5607b8885ff2f1ab38",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui06/win-safe-360.png",
+      "candidate": "output/playwright/ui08/flow/win-safe-360.png",
+      "baselineSHA": "35e5dfa9487a9e983bd8080f4e93990590041319844d411ae246ec564c4fbb9d",
+      "candidateSHA": "35e5dfa9487a9e983bd8080f4e93990590041319844d411ae246ec564c4fbb9d",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui06/win-safe-390.png",
+      "candidate": "output/playwright/ui08/flow/win-safe-390.png",
+      "baselineSHA": "0140fa9cfccc4515e3a04da0d4d06fd273ea10c61ce013619cbe0168ffaaf298",
+      "candidateSHA": "0140fa9cfccc4515e3a04da0d4d06fd273ea10c61ce013619cbe0168ffaaf298",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui06/win-safe-430.png",
+      "candidate": "output/playwright/ui08/flow/win-safe-430.png",
+      "baselineSHA": "cd39d3e21cb025ae8c281c0f15d2e2b7ebbe61bf178dedcb15bd84e0945121d0",
+      "candidateSHA": "cd39d3e21cb025ae8c281c0f15d2e2b7ebbe61bf178dedcb15bd84e0945121d0",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L001.png",
+      "candidate": "output/playwright/ui08/catalog/360/L001.png",
+      "baselineSHA": "4371dfafafc9d0094816c9e3d5e5424059a9645b46c96a16fa03aa3a97098702",
+      "candidateSHA": "4371dfafafc9d0094816c9e3d5e5424059a9645b46c96a16fa03aa3a97098702",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L002.png",
+      "candidate": "output/playwright/ui08/catalog/360/L002.png",
+      "baselineSHA": "dc43ad6a6710b7a57a3816d0fb3d961ed7fea777fbf20ccf9f25d36addc89319",
+      "candidateSHA": "dc43ad6a6710b7a57a3816d0fb3d961ed7fea777fbf20ccf9f25d36addc89319",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L003.png",
+      "candidate": "output/playwright/ui08/catalog/360/L003.png",
+      "baselineSHA": "7a360622eef06fd4e6b9fd0d9459b8ca17a0e84b8dc213da13a1b6a6f8050cac",
+      "candidateSHA": "7a360622eef06fd4e6b9fd0d9459b8ca17a0e84b8dc213da13a1b6a6f8050cac",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L004.png",
+      "candidate": "output/playwright/ui08/catalog/360/L004.png",
+      "baselineSHA": "67592f01a128637fbf2932bc930cd5b19afba56d901463d6c4526e7762365f42",
+      "candidateSHA": "67592f01a128637fbf2932bc930cd5b19afba56d901463d6c4526e7762365f42",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L005.png",
+      "candidate": "output/playwright/ui08/catalog/360/L005.png",
+      "baselineSHA": "81feb2002c107ef5dfb5c69eeebbf50018d275ef1e5caef04724f08937f7c0c2",
+      "candidateSHA": "81feb2002c107ef5dfb5c69eeebbf50018d275ef1e5caef04724f08937f7c0c2",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L006.png",
+      "candidate": "output/playwright/ui08/catalog/360/L006.png",
+      "baselineSHA": "5171066113f0763b13fa7f6bbdc85a2ea50df86ece355813ec5b50a20e8b0a67",
+      "candidateSHA": "5171066113f0763b13fa7f6bbdc85a2ea50df86ece355813ec5b50a20e8b0a67",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L007.png",
+      "candidate": "output/playwright/ui08/catalog/360/L007.png",
+      "baselineSHA": "5690b4ad4614ec80fabf6aac9a6500a942e757ec4868231ade1ac34f0448fc4c",
+      "candidateSHA": "5690b4ad4614ec80fabf6aac9a6500a942e757ec4868231ade1ac34f0448fc4c",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L008.png",
+      "candidate": "output/playwright/ui08/catalog/360/L008.png",
+      "baselineSHA": "fa8d70e429f57ae6dc2a5b3256e736477905c864b82ef152f7e53406022d7caf",
+      "candidateSHA": "fa8d70e429f57ae6dc2a5b3256e736477905c864b82ef152f7e53406022d7caf",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L009.png",
+      "candidate": "output/playwright/ui08/catalog/360/L009.png",
+      "baselineSHA": "78f0457e45e87b1a6e61504015fe3e86c1fa7eedbe99fb81315471f641fa9fdd",
+      "candidateSHA": "78f0457e45e87b1a6e61504015fe3e86c1fa7eedbe99fb81315471f641fa9fdd",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L010.png",
+      "candidate": "output/playwright/ui08/catalog/360/L010.png",
+      "baselineSHA": "8af9f1e0ee7f3de06c7f1a3cc655294dac10f74172b65eada06b437fc0adc0f1",
+      "candidateSHA": "8af9f1e0ee7f3de06c7f1a3cc655294dac10f74172b65eada06b437fc0adc0f1",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L011.png",
+      "candidate": "output/playwright/ui08/catalog/360/L011.png",
+      "baselineSHA": "a66a8979c6ca9aed9aece60f4cbf06fbef9997d7f33a0a9447ac407c70a198da",
+      "candidateSHA": "a66a8979c6ca9aed9aece60f4cbf06fbef9997d7f33a0a9447ac407c70a198da",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L012.png",
+      "candidate": "output/playwright/ui08/catalog/360/L012.png",
+      "baselineSHA": "7e1aa099fde583bb6b3cf39dfc45080ee57dea033db24b0df060470d9c19c50a",
+      "candidateSHA": "7e1aa099fde583bb6b3cf39dfc45080ee57dea033db24b0df060470d9c19c50a",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L013.png",
+      "candidate": "output/playwright/ui08/catalog/360/L013.png",
+      "baselineSHA": "a33e263076d4c8a55d86e3f7c8f53bb094960dc51ba96fa644192f10e097cb10",
+      "candidateSHA": "a33e263076d4c8a55d86e3f7c8f53bb094960dc51ba96fa644192f10e097cb10",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L014.png",
+      "candidate": "output/playwright/ui08/catalog/360/L014.png",
+      "baselineSHA": "ac476e079583a1c399209c9d240c060a55cd043d6be0cc846150ebae6ab9f08e",
+      "candidateSHA": "ac476e079583a1c399209c9d240c060a55cd043d6be0cc846150ebae6ab9f08e",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L015.png",
+      "candidate": "output/playwright/ui08/catalog/360/L015.png",
+      "baselineSHA": "65faa3d2ff7540e8e060bedd634fcbe15925b3c67b2de7eda64f4eb0eeb38972",
+      "candidateSHA": "65faa3d2ff7540e8e060bedd634fcbe15925b3c67b2de7eda64f4eb0eeb38972",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L016.png",
+      "candidate": "output/playwright/ui08/catalog/360/L016.png",
+      "baselineSHA": "0d33d0370100bcf73195c06310e8fc496f892b3de1f4ce76d775dc427e3e4019",
+      "candidateSHA": "0d33d0370100bcf73195c06310e8fc496f892b3de1f4ce76d775dc427e3e4019",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L017.png",
+      "candidate": "output/playwright/ui08/catalog/360/L017.png",
+      "baselineSHA": "6cd97e1aca14995f39009a48d86eebefdc632841c2b6aa553a2acc17ea8f1bcb",
+      "candidateSHA": "6cd97e1aca14995f39009a48d86eebefdc632841c2b6aa553a2acc17ea8f1bcb",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L018.png",
+      "candidate": "output/playwright/ui08/catalog/360/L018.png",
+      "baselineSHA": "f91536d55618271ae2e159fa0e7029522af4fd673486d330a840ecb3257cbe00",
+      "candidateSHA": "f91536d55618271ae2e159fa0e7029522af4fd673486d330a840ecb3257cbe00",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L019.png",
+      "candidate": "output/playwright/ui08/catalog/360/L019.png",
+      "baselineSHA": "a4a7be39daa68a7dc0d434e0be2a32674486f4a0888722c0c37cb37e3bdf7cf6",
+      "candidateSHA": "a4a7be39daa68a7dc0d434e0be2a32674486f4a0888722c0c37cb37e3bdf7cf6",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L020.png",
+      "candidate": "output/playwright/ui08/catalog/360/L020.png",
+      "baselineSHA": "8e663a33329bcd0589891adc2d0e8c2fff699581712310490e6e573537e0ed27",
+      "candidateSHA": "8e663a33329bcd0589891adc2d0e8c2fff699581712310490e6e573537e0ed27",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L021.png",
+      "candidate": "output/playwright/ui08/catalog/360/L021.png",
+      "baselineSHA": "19d1ff5543edcd36dab13f6b9b00ba59fdeb9db9a4eee9e3f35a6ccd04480665",
+      "candidateSHA": "19d1ff5543edcd36dab13f6b9b00ba59fdeb9db9a4eee9e3f35a6ccd04480665",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L022.png",
+      "candidate": "output/playwright/ui08/catalog/360/L022.png",
+      "baselineSHA": "6a2f3ec14c2f6dfb8443f5793a950a9932a28f6f4c4c9543855f80878b5981da",
+      "candidateSHA": "6a2f3ec14c2f6dfb8443f5793a950a9932a28f6f4c4c9543855f80878b5981da",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L023.png",
+      "candidate": "output/playwright/ui08/catalog/360/L023.png",
+      "baselineSHA": "e87ce13e4d2e00867bfe807fc762f546d45ba3405196d77c9c6bca211d69c224",
+      "candidateSHA": "e87ce13e4d2e00867bfe807fc762f546d45ba3405196d77c9c6bca211d69c224",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L024.png",
+      "candidate": "output/playwright/ui08/catalog/360/L024.png",
+      "baselineSHA": "63ae0d9f94c2887390b794f25038728734e7454015ea4b5678c967b571459eb1",
+      "candidateSHA": "63ae0d9f94c2887390b794f25038728734e7454015ea4b5678c967b571459eb1",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L025.png",
+      "candidate": "output/playwright/ui08/catalog/360/L025.png",
+      "baselineSHA": "b36372c3d1471fb3d9a6120d37b95e6ba983e7a7444575835b780eba0fb21ea8",
+      "candidateSHA": "b36372c3d1471fb3d9a6120d37b95e6ba983e7a7444575835b780eba0fb21ea8",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L026.png",
+      "candidate": "output/playwright/ui08/catalog/360/L026.png",
+      "baselineSHA": "af2bfad7f05f846a372f592f9b84a95850ab2ba62e9fad43bcc007b05cff1b95",
+      "candidateSHA": "af2bfad7f05f846a372f592f9b84a95850ab2ba62e9fad43bcc007b05cff1b95",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L027.png",
+      "candidate": "output/playwright/ui08/catalog/360/L027.png",
+      "baselineSHA": "24d0c07a1e109c2c94ca1dd43ac50e90c6037c1468ac18fd5c1619760eccca67",
+      "candidateSHA": "24d0c07a1e109c2c94ca1dd43ac50e90c6037c1468ac18fd5c1619760eccca67",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L028.png",
+      "candidate": "output/playwright/ui08/catalog/360/L028.png",
+      "baselineSHA": "97b22b4f665b6204b5915986edd28769efe0400a56ba1d8e801538b733b29edc",
+      "candidateSHA": "97b22b4f665b6204b5915986edd28769efe0400a56ba1d8e801538b733b29edc",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L029.png",
+      "candidate": "output/playwright/ui08/catalog/360/L029.png",
+      "baselineSHA": "c106b4d1401d8cbd54463b688058f073ea4ee3737e21912df1968cbfa8f7ba42",
+      "candidateSHA": "c106b4d1401d8cbd54463b688058f073ea4ee3737e21912df1968cbfa8f7ba42",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L030.png",
+      "candidate": "output/playwright/ui08/catalog/360/L030.png",
+      "baselineSHA": "8793a850c74528737e818ef671be32f0c7ac468977b5c23a88fbe0bb639291f7",
+      "candidateSHA": "8793a850c74528737e818ef671be32f0c7ac468977b5c23a88fbe0bb639291f7",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L031.png",
+      "candidate": "output/playwright/ui08/catalog/360/L031.png",
+      "baselineSHA": "25af14d36692208243ad8cfb6bfd4d8f10662bb17781e6429778c5d70feaf717",
+      "candidateSHA": "25af14d36692208243ad8cfb6bfd4d8f10662bb17781e6429778c5d70feaf717",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L032.png",
+      "candidate": "output/playwright/ui08/catalog/360/L032.png",
+      "baselineSHA": "65bb9766e632e64853f8d7dbe26f7ef7a4e458a9bb3063d4ce6944cdc88f7949",
+      "candidateSHA": "65bb9766e632e64853f8d7dbe26f7ef7a4e458a9bb3063d4ce6944cdc88f7949",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L033.png",
+      "candidate": "output/playwright/ui08/catalog/360/L033.png",
+      "baselineSHA": "6d8a89c96d655ed3cf05bdca5b225fac3bc604dcad8b302652aef094bad6f1e2",
+      "candidateSHA": "6d8a89c96d655ed3cf05bdca5b225fac3bc604dcad8b302652aef094bad6f1e2",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L034.png",
+      "candidate": "output/playwright/ui08/catalog/360/L034.png",
+      "baselineSHA": "5253954e37d315a3b698444381864b30c1326fb78b781d7071bd541fc1fb5085",
+      "candidateSHA": "5253954e37d315a3b698444381864b30c1326fb78b781d7071bd541fc1fb5085",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L035.png",
+      "candidate": "output/playwright/ui08/catalog/360/L035.png",
+      "baselineSHA": "9df2fecd11576c2bed3a6cef1b0cc7a74be7e74e2910c1f1ac12fa33b4e9ea62",
+      "candidateSHA": "9df2fecd11576c2bed3a6cef1b0cc7a74be7e74e2910c1f1ac12fa33b4e9ea62",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L036.png",
+      "candidate": "output/playwright/ui08/catalog/360/L036.png",
+      "baselineSHA": "043c92ef14b40e74ef6392e0a59c8092b80306267c9329a37cf34478228e7fb3",
+      "candidateSHA": "043c92ef14b40e74ef6392e0a59c8092b80306267c9329a37cf34478228e7fb3",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L037.png",
+      "candidate": "output/playwright/ui08/catalog/360/L037.png",
+      "baselineSHA": "30f17a3ea9b05d59cf7ed013305e6e7754c51152fdbfcca19c16fbe82d1b29ad",
+      "candidateSHA": "30f17a3ea9b05d59cf7ed013305e6e7754c51152fdbfcca19c16fbe82d1b29ad",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L038.png",
+      "candidate": "output/playwright/ui08/catalog/360/L038.png",
+      "baselineSHA": "bbc202365be7855954d975450f1b4952c5d20f72958d878daac3e1ea8ff58df4",
+      "candidateSHA": "bbc202365be7855954d975450f1b4952c5d20f72958d878daac3e1ea8ff58df4",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L039.png",
+      "candidate": "output/playwright/ui08/catalog/360/L039.png",
+      "baselineSHA": "ee8a8693a4b1fcb073b2e15f3c6e3212cbe6fc33f1afeb376c2d39b42788ae64",
+      "candidateSHA": "ee8a8693a4b1fcb073b2e15f3c6e3212cbe6fc33f1afeb376c2d39b42788ae64",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L040.png",
+      "candidate": "output/playwright/ui08/catalog/360/L040.png",
+      "baselineSHA": "31a3efc643580922b832b5b85e202397a1978d56e2f6962aea0795c69223a744",
+      "candidateSHA": "31a3efc643580922b832b5b85e202397a1978d56e2f6962aea0795c69223a744",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L041.png",
+      "candidate": "output/playwright/ui08/catalog/360/L041.png",
+      "baselineSHA": "ae21a90f86c3342896bf52458da5ea06ad12bb158433214df9db23d3a3e0373f",
+      "candidateSHA": "ae21a90f86c3342896bf52458da5ea06ad12bb158433214df9db23d3a3e0373f",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L042.png",
+      "candidate": "output/playwright/ui08/catalog/360/L042.png",
+      "baselineSHA": "3836b089fe5af9bb468f88214addbb162f05e5df02f7485690f101589a9e84de",
+      "candidateSHA": "3836b089fe5af9bb468f88214addbb162f05e5df02f7485690f101589a9e84de",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L043.png",
+      "candidate": "output/playwright/ui08/catalog/360/L043.png",
+      "baselineSHA": "46209618bb05cc7603dbbee3c5f4fc8ffa49f94708ad0281553274875f8a1939",
+      "candidateSHA": "46209618bb05cc7603dbbee3c5f4fc8ffa49f94708ad0281553274875f8a1939",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L044.png",
+      "candidate": "output/playwright/ui08/catalog/360/L044.png",
+      "baselineSHA": "96f81997d3275b7790aa91a3d65b59b7cde3aa2f99cd6eeb7eda3550450b2739",
+      "candidateSHA": "96f81997d3275b7790aa91a3d65b59b7cde3aa2f99cd6eeb7eda3550450b2739",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L045.png",
+      "candidate": "output/playwright/ui08/catalog/360/L045.png",
+      "baselineSHA": "7b69c0df1227e8daf26054754e823b2babe89f0011a2915c75be14823ef8c105",
+      "candidateSHA": "7b69c0df1227e8daf26054754e823b2babe89f0011a2915c75be14823ef8c105",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L046.png",
+      "candidate": "output/playwright/ui08/catalog/360/L046.png",
+      "baselineSHA": "712970dd1a41e840362979c1e50d0347aa398afb0c71e2c1a4fa27ee208be384",
+      "candidateSHA": "712970dd1a41e840362979c1e50d0347aa398afb0c71e2c1a4fa27ee208be384",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L047.png",
+      "candidate": "output/playwright/ui08/catalog/360/L047.png",
+      "baselineSHA": "d15031a039eb2e53d53148338895f8c778c704f380d0e1e2988f822351f753d8",
+      "candidateSHA": "d15031a039eb2e53d53148338895f8c778c704f380d0e1e2988f822351f753d8",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L048.png",
+      "candidate": "output/playwright/ui08/catalog/360/L048.png",
+      "baselineSHA": "9b20fd3d83b3cbf47ec5929cb83390bfc214c9fbf1fb97d6e3537a2aa931cf38",
+      "candidateSHA": "9b20fd3d83b3cbf47ec5929cb83390bfc214c9fbf1fb97d6e3537a2aa931cf38",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L049.png",
+      "candidate": "output/playwright/ui08/catalog/360/L049.png",
+      "baselineSHA": "bc798b87253ed7ea891e37f6cfbce40ba4c73dc299c0868a3f8bc4ca3b698ce7",
+      "candidateSHA": "bc798b87253ed7ea891e37f6cfbce40ba4c73dc299c0868a3f8bc4ca3b698ce7",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L050.png",
+      "candidate": "output/playwright/ui08/catalog/360/L050.png",
+      "baselineSHA": "f11d2325370e3b6052e62566d81069e4bc5331f8a212ece7f375fcade957491e",
+      "candidateSHA": "f11d2325370e3b6052e62566d81069e4bc5331f8a212ece7f375fcade957491e",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L051.png",
+      "candidate": "output/playwright/ui08/catalog/360/L051.png",
+      "baselineSHA": "d5f7fbc814627d3aabc47f5b3d146deb6f11b3d34513ff993e07d08fb2299ab1",
+      "candidateSHA": "d5f7fbc814627d3aabc47f5b3d146deb6f11b3d34513ff993e07d08fb2299ab1",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L052.png",
+      "candidate": "output/playwright/ui08/catalog/360/L052.png",
+      "baselineSHA": "1d6361b78beffa9196df4e56ddd3d09972d1caaaddc7a2a0b14b88235dc53fdd",
+      "candidateSHA": "1d6361b78beffa9196df4e56ddd3d09972d1caaaddc7a2a0b14b88235dc53fdd",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L053.png",
+      "candidate": "output/playwright/ui08/catalog/360/L053.png",
+      "baselineSHA": "903b9b66fcdf89fa38e56ca6991972bf7770ef74e4d9ea288a88cfd2684548e2",
+      "candidateSHA": "903b9b66fcdf89fa38e56ca6991972bf7770ef74e4d9ea288a88cfd2684548e2",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L054.png",
+      "candidate": "output/playwright/ui08/catalog/360/L054.png",
+      "baselineSHA": "5900dec35a4f70e636a4e16a02a1943560724867fb520eddb10c155f581ef45a",
+      "candidateSHA": "5900dec35a4f70e636a4e16a02a1943560724867fb520eddb10c155f581ef45a",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L055.png",
+      "candidate": "output/playwright/ui08/catalog/360/L055.png",
+      "baselineSHA": "1d12f6b13c709a51ea5201033c3f2108ac01048ec4a7d41b82447875651dd4f2",
+      "candidateSHA": "1d12f6b13c709a51ea5201033c3f2108ac01048ec4a7d41b82447875651dd4f2",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L056.png",
+      "candidate": "output/playwright/ui08/catalog/360/L056.png",
+      "baselineSHA": "676a706bb602f224a58707d7dadee5cc22d65f2d0d12f604a5b911cb49683246",
+      "candidateSHA": "676a706bb602f224a58707d7dadee5cc22d65f2d0d12f604a5b911cb49683246",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L057.png",
+      "candidate": "output/playwright/ui08/catalog/360/L057.png",
+      "baselineSHA": "2b0751e99d274c023a9e45b7c7646f7adfeb2ceb71a79e1a574d63262118632f",
+      "candidateSHA": "2b0751e99d274c023a9e45b7c7646f7adfeb2ceb71a79e1a574d63262118632f",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L058.png",
+      "candidate": "output/playwright/ui08/catalog/360/L058.png",
+      "baselineSHA": "03aaba512a96c8875a5fd52befd24cc54e108e2944fa0232ebcfa96619cb326f",
+      "candidateSHA": "03aaba512a96c8875a5fd52befd24cc54e108e2944fa0232ebcfa96619cb326f",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L059.png",
+      "candidate": "output/playwright/ui08/catalog/360/L059.png",
+      "baselineSHA": "a85144eb968d22ae997edb236d078e0337b0f1c90db2782c85d6cfe56074e717",
+      "candidateSHA": "a85144eb968d22ae997edb236d078e0337b0f1c90db2782c85d6cfe56074e717",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L060.png",
+      "candidate": "output/playwright/ui08/catalog/360/L060.png",
+      "baselineSHA": "1711951249f25185c925676d99ecfcffb45a2ee4fa64f80e3efd3957c66aba01",
+      "candidateSHA": "1711951249f25185c925676d99ecfcffb45a2ee4fa64f80e3efd3957c66aba01",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L061.png",
+      "candidate": "output/playwright/ui08/catalog/360/L061.png",
+      "baselineSHA": "1bd77b0437b165ebbbd489b4e0ed32873c58c2359be157ff35fc1acae51ecc62",
+      "candidateSHA": "1bd77b0437b165ebbbd489b4e0ed32873c58c2359be157ff35fc1acae51ecc62",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L062.png",
+      "candidate": "output/playwright/ui08/catalog/360/L062.png",
+      "baselineSHA": "114cd1a7cd7037a3b4695efa90e1188182a1bdcdddc50f016aac22d4fd80c730",
+      "candidateSHA": "114cd1a7cd7037a3b4695efa90e1188182a1bdcdddc50f016aac22d4fd80c730",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L063.png",
+      "candidate": "output/playwright/ui08/catalog/360/L063.png",
+      "baselineSHA": "df42c659b044df579bb027f913e31839ea9eb42c9ec99fd31d066e8f9a266c3f",
+      "candidateSHA": "df42c659b044df579bb027f913e31839ea9eb42c9ec99fd31d066e8f9a266c3f",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L064.png",
+      "candidate": "output/playwright/ui08/catalog/360/L064.png",
+      "baselineSHA": "f5f67b5a6160b3fe4e484093e86ac3821b8c5e2d291aea12be64218d9f9e73e3",
+      "candidateSHA": "f5f67b5a6160b3fe4e484093e86ac3821b8c5e2d291aea12be64218d9f9e73e3",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L065.png",
+      "candidate": "output/playwright/ui08/catalog/360/L065.png",
+      "baselineSHA": "fcdd55151a3d2e01b59693d587773ba32fc891d6249b0d3add98bdd8546ebdcf",
+      "candidateSHA": "fcdd55151a3d2e01b59693d587773ba32fc891d6249b0d3add98bdd8546ebdcf",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L066.png",
+      "candidate": "output/playwright/ui08/catalog/360/L066.png",
+      "baselineSHA": "9376ac34b294c9cb2061a8ff50e9c5fd83c9870149de72448dd6547eb3d8adb0",
+      "candidateSHA": "9376ac34b294c9cb2061a8ff50e9c5fd83c9870149de72448dd6547eb3d8adb0",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L067.png",
+      "candidate": "output/playwright/ui08/catalog/360/L067.png",
+      "baselineSHA": "2502bde0a1df7a02fb3b2c30eb199e46f1fce5a5ac6f3152c1fc0599a490df51",
+      "candidateSHA": "2502bde0a1df7a02fb3b2c30eb199e46f1fce5a5ac6f3152c1fc0599a490df51",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L068.png",
+      "candidate": "output/playwright/ui08/catalog/360/L068.png",
+      "baselineSHA": "dfaf05831407784bd3ac0184af06d7d388f77406ec98669489118e5db525f991",
+      "candidateSHA": "dfaf05831407784bd3ac0184af06d7d388f77406ec98669489118e5db525f991",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L069.png",
+      "candidate": "output/playwright/ui08/catalog/360/L069.png",
+      "baselineSHA": "6e0469854cb7be6e113052f12004f67cd7227e8bc6dab18c90a7268ca32fddd7",
+      "candidateSHA": "6e0469854cb7be6e113052f12004f67cd7227e8bc6dab18c90a7268ca32fddd7",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L070.png",
+      "candidate": "output/playwright/ui08/catalog/360/L070.png",
+      "baselineSHA": "113662a3525d43513ee53e58fbfec6430703fa7b86941ad737a98a4a46802540",
+      "candidateSHA": "113662a3525d43513ee53e58fbfec6430703fa7b86941ad737a98a4a46802540",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L071.png",
+      "candidate": "output/playwright/ui08/catalog/360/L071.png",
+      "baselineSHA": "5a157aa9bdc32186069c699c57e85dc503b52f578d02e1759ff62d19b77f169f",
+      "candidateSHA": "5a157aa9bdc32186069c699c57e85dc503b52f578d02e1759ff62d19b77f169f",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L072.png",
+      "candidate": "output/playwright/ui08/catalog/360/L072.png",
+      "baselineSHA": "1248b13a5e6e2e659983c4476f3da081244c3628b05abfda71fa73459945e488",
+      "candidateSHA": "1248b13a5e6e2e659983c4476f3da081244c3628b05abfda71fa73459945e488",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L073.png",
+      "candidate": "output/playwright/ui08/catalog/360/L073.png",
+      "baselineSHA": "a62a2409f402090e766e489560a86250edcb7003534928c5374851ab092663e7",
+      "candidateSHA": "a62a2409f402090e766e489560a86250edcb7003534928c5374851ab092663e7",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L074.png",
+      "candidate": "output/playwright/ui08/catalog/360/L074.png",
+      "baselineSHA": "7865f04753dca3e7358aa43d36d08df572c93d04b16329eebf656d6840570a60",
+      "candidateSHA": "7865f04753dca3e7358aa43d36d08df572c93d04b16329eebf656d6840570a60",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L075.png",
+      "candidate": "output/playwright/ui08/catalog/360/L075.png",
+      "baselineSHA": "79292f7bb11cdaed568cc45b2ceac6b220a2a5c9e121e523943cf4c98d3d105b",
+      "candidateSHA": "79292f7bb11cdaed568cc45b2ceac6b220a2a5c9e121e523943cf4c98d3d105b",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L076.png",
+      "candidate": "output/playwright/ui08/catalog/360/L076.png",
+      "baselineSHA": "f902d16faf0e44bbfb9bbf0b249d0e6ee0260bdf3733afdf81000c53dbf6c6c0",
+      "candidateSHA": "f902d16faf0e44bbfb9bbf0b249d0e6ee0260bdf3733afdf81000c53dbf6c6c0",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L077.png",
+      "candidate": "output/playwright/ui08/catalog/360/L077.png",
+      "baselineSHA": "8eb0bb088f59977f1e5821f253c2c4778a327ea2df81a3416e5cc5e1538646b0",
+      "candidateSHA": "8eb0bb088f59977f1e5821f253c2c4778a327ea2df81a3416e5cc5e1538646b0",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L078.png",
+      "candidate": "output/playwright/ui08/catalog/360/L078.png",
+      "baselineSHA": "b02c3070144dc8364006b79fed1d2bfa8770fb4303d985b039bc9bf46b3b6b80",
+      "candidateSHA": "b02c3070144dc8364006b79fed1d2bfa8770fb4303d985b039bc9bf46b3b6b80",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L079.png",
+      "candidate": "output/playwright/ui08/catalog/360/L079.png",
+      "baselineSHA": "8b205d6f8a1f31d3af5aad8d718cf01def764dbe9ef2d4a0449739cab64fefe8",
+      "candidateSHA": "8b205d6f8a1f31d3af5aad8d718cf01def764dbe9ef2d4a0449739cab64fefe8",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L080.png",
+      "candidate": "output/playwright/ui08/catalog/360/L080.png",
+      "baselineSHA": "262d1ea9beaa418b7b0ec8e6d0a361600fbccb39337a2d39d4cc83c01af185a0",
+      "candidateSHA": "262d1ea9beaa418b7b0ec8e6d0a361600fbccb39337a2d39d4cc83c01af185a0",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L081.png",
+      "candidate": "output/playwright/ui08/catalog/360/L081.png",
+      "baselineSHA": "1c11eb8d3282dce2b48c635eaacaec2dcf6759c2ad779f3e943c4d6a1afb6b9c",
+      "candidateSHA": "1c11eb8d3282dce2b48c635eaacaec2dcf6759c2ad779f3e943c4d6a1afb6b9c",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L082.png",
+      "candidate": "output/playwright/ui08/catalog/360/L082.png",
+      "baselineSHA": "1fe59a8e88cacd7188a810963e3110237c90db109d3574d6213ded3a61ea5f6d",
+      "candidateSHA": "1fe59a8e88cacd7188a810963e3110237c90db109d3574d6213ded3a61ea5f6d",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L083.png",
+      "candidate": "output/playwright/ui08/catalog/360/L083.png",
+      "baselineSHA": "51aad1ca5b8c7fb55f7a5fe56049684442f030650553fe57066eb7a8436ae47b",
+      "candidateSHA": "51aad1ca5b8c7fb55f7a5fe56049684442f030650553fe57066eb7a8436ae47b",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L084.png",
+      "candidate": "output/playwright/ui08/catalog/360/L084.png",
+      "baselineSHA": "c7ccdd3063b8bcde935c071b65d18c9b2886eba9e565f5f6ab6c024043e3e864",
+      "candidateSHA": "c7ccdd3063b8bcde935c071b65d18c9b2886eba9e565f5f6ab6c024043e3e864",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L085.png",
+      "candidate": "output/playwright/ui08/catalog/360/L085.png",
+      "baselineSHA": "93e6679aea9c58558580dc98e57f9b7b818136d6975047e914869889405b1be4",
+      "candidateSHA": "93e6679aea9c58558580dc98e57f9b7b818136d6975047e914869889405b1be4",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L086.png",
+      "candidate": "output/playwright/ui08/catalog/360/L086.png",
+      "baselineSHA": "511c40bd52d415bcbf0daa30f43558718224c0b4c0e1930078834e8bcc0ff462",
+      "candidateSHA": "511c40bd52d415bcbf0daa30f43558718224c0b4c0e1930078834e8bcc0ff462",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L087.png",
+      "candidate": "output/playwright/ui08/catalog/360/L087.png",
+      "baselineSHA": "70b11c3ac7ec8665cc0de0be680d96416a542150be7d5c7a8a7ee247f2dc924c",
+      "candidateSHA": "70b11c3ac7ec8665cc0de0be680d96416a542150be7d5c7a8a7ee247f2dc924c",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L088.png",
+      "candidate": "output/playwright/ui08/catalog/360/L088.png",
+      "baselineSHA": "3fc78bf116e93fb8653762d449e26d702d45caaf02bb6274291aa8baa10d8048",
+      "candidateSHA": "3fc78bf116e93fb8653762d449e26d702d45caaf02bb6274291aa8baa10d8048",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L089.png",
+      "candidate": "output/playwright/ui08/catalog/360/L089.png",
+      "baselineSHA": "023d2b6ee7074edd4ba4040e0f9124968a9cc42693b984ff57a43d3c1094c56d",
+      "candidateSHA": "023d2b6ee7074edd4ba4040e0f9124968a9cc42693b984ff57a43d3c1094c56d",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L090.png",
+      "candidate": "output/playwright/ui08/catalog/360/L090.png",
+      "baselineSHA": "7a21316ccdfb9ecdb16070a2b2bcf3f6f5f2f626eaf0eec7a40f64fc40de441b",
+      "candidateSHA": "7a21316ccdfb9ecdb16070a2b2bcf3f6f5f2f626eaf0eec7a40f64fc40de441b",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L091.png",
+      "candidate": "output/playwright/ui08/catalog/360/L091.png",
+      "baselineSHA": "5e7e5479a2222603cccfbad985d26495cf0c819dca7cac7c70e4c91a103a58b1",
+      "candidateSHA": "5e7e5479a2222603cccfbad985d26495cf0c819dca7cac7c70e4c91a103a58b1",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L092.png",
+      "candidate": "output/playwright/ui08/catalog/360/L092.png",
+      "baselineSHA": "242d5036d6949878f150fd928d86ba561611c544a2695d7c7d6ee17dd572beb5",
+      "candidateSHA": "242d5036d6949878f150fd928d86ba561611c544a2695d7c7d6ee17dd572beb5",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L093.png",
+      "candidate": "output/playwright/ui08/catalog/360/L093.png",
+      "baselineSHA": "66376cad67a31be18d1ff8f4469008cecf4b020470b05c69a42be0b67c8e7b77",
+      "candidateSHA": "66376cad67a31be18d1ff8f4469008cecf4b020470b05c69a42be0b67c8e7b77",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L094.png",
+      "candidate": "output/playwright/ui08/catalog/360/L094.png",
+      "baselineSHA": "4ec67dae3902155b46976bfba75b9afe9fd40447377f5b66f648f374f3d7a6a6",
+      "candidateSHA": "4ec67dae3902155b46976bfba75b9afe9fd40447377f5b66f648f374f3d7a6a6",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L095.png",
+      "candidate": "output/playwright/ui08/catalog/360/L095.png",
+      "baselineSHA": "d3813f5313f48b3e085c5255f47ae3650eebfa1437b0b80e3d291fc8f47ae735",
+      "candidateSHA": "d3813f5313f48b3e085c5255f47ae3650eebfa1437b0b80e3d291fc8f47ae735",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L096.png",
+      "candidate": "output/playwright/ui08/catalog/360/L096.png",
+      "baselineSHA": "6537443e1edd839cf12d930bd6c76f66bc646ebcfe29177054c329c5dd0c142e",
+      "candidateSHA": "6537443e1edd839cf12d930bd6c76f66bc646ebcfe29177054c329c5dd0c142e",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L097.png",
+      "candidate": "output/playwright/ui08/catalog/360/L097.png",
+      "baselineSHA": "e1b683258952720c38ca69d3f89a9d9ab0ac6ab6264801baba9c22b304e5a141",
+      "candidateSHA": "e1b683258952720c38ca69d3f89a9d9ab0ac6ab6264801baba9c22b304e5a141",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L098.png",
+      "candidate": "output/playwright/ui08/catalog/360/L098.png",
+      "baselineSHA": "34c7a2b1f1ebc695f15902efe1a3ef376f60f721636f6c8f4410dac114a8af7f",
+      "candidateSHA": "34c7a2b1f1ebc695f15902efe1a3ef376f60f721636f6c8f4410dac114a8af7f",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L099.png",
+      "candidate": "output/playwright/ui08/catalog/360/L099.png",
+      "baselineSHA": "328741a85c588088d5adc24b9dbb57c2e0c37ac0b0578476295fe822ce968261",
+      "candidateSHA": "328741a85c588088d5adc24b9dbb57c2e0c37ac0b0578476295fe822ce968261",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/L100.png",
+      "candidate": "output/playwright/ui08/catalog/360/L100.png",
+      "baselineSHA": "55537f75e7e318a1cd7fd88d5c7cc8c110e82be663ebeba6be59fcb8dc4d88df",
+      "candidateSHA": "55537f75e7e318a1cd7fd88d5c7cc8c110e82be663ebeba6be59fcb8dc4d88df",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/obstacle-hp1.png",
+      "candidate": "output/playwright/ui08/catalog/360/obstacle-hp1.png",
+      "baselineSHA": "41e85994469fd282e13c21368e7b8faa53ab174c11d718ad475ce5d9e235dfe7",
+      "candidateSHA": "41e85994469fd282e13c21368e7b8faa53ab174c11d718ad475ce5d9e235dfe7",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/360/obstacle-revealed.png",
+      "candidate": "output/playwright/ui08/catalog/360/obstacle-revealed.png",
+      "baselineSHA": "51ad3c024e67bfaadd2caf407f481cd372753751d35041ddd5d7af85013f1ba3",
+      "candidateSHA": "51ad3c024e67bfaadd2caf407f481cd372753751d35041ddd5d7af85013f1ba3",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L001.png",
+      "candidate": "output/playwright/ui08/catalog/390/L001.png",
+      "baselineSHA": "bb21b2ccc09fef104d7a85d63c3342c91b94a3ed051569a18025e30470376c40",
+      "candidateSHA": "bb21b2ccc09fef104d7a85d63c3342c91b94a3ed051569a18025e30470376c40",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L002.png",
+      "candidate": "output/playwright/ui08/catalog/390/L002.png",
+      "baselineSHA": "25f3bb04c06ac11939cf2528349a5fd7776b8460cafb2518c6531e74ef35eb6e",
+      "candidateSHA": "25f3bb04c06ac11939cf2528349a5fd7776b8460cafb2518c6531e74ef35eb6e",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L003.png",
+      "candidate": "output/playwright/ui08/catalog/390/L003.png",
+      "baselineSHA": "66482630f7f7137596a4887f6ef7ad5f1d775f94add7bea498aee2948262d102",
+      "candidateSHA": "66482630f7f7137596a4887f6ef7ad5f1d775f94add7bea498aee2948262d102",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L004.png",
+      "candidate": "output/playwright/ui08/catalog/390/L004.png",
+      "baselineSHA": "ee7c96032dc26f5c1640238eadc68225104463448eed766c06e778b5ca74399d",
+      "candidateSHA": "ee7c96032dc26f5c1640238eadc68225104463448eed766c06e778b5ca74399d",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L005.png",
+      "candidate": "output/playwright/ui08/catalog/390/L005.png",
+      "baselineSHA": "b31ccc153af29c3daaa625715696a1dc18172a27b263bac53e86dccac3d2aa97",
+      "candidateSHA": "b31ccc153af29c3daaa625715696a1dc18172a27b263bac53e86dccac3d2aa97",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L006.png",
+      "candidate": "output/playwright/ui08/catalog/390/L006.png",
+      "baselineSHA": "a48b8f650fa11a036876f00bdbd761b48b9ea95d47bd17d74589d54bd15dc7ae",
+      "candidateSHA": "a48b8f650fa11a036876f00bdbd761b48b9ea95d47bd17d74589d54bd15dc7ae",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L007.png",
+      "candidate": "output/playwright/ui08/catalog/390/L007.png",
+      "baselineSHA": "17c221d880c1045f5fdab2886bb80b901b563e041df12c24c6aab3a1e90c6477",
+      "candidateSHA": "17c221d880c1045f5fdab2886bb80b901b563e041df12c24c6aab3a1e90c6477",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L008.png",
+      "candidate": "output/playwright/ui08/catalog/390/L008.png",
+      "baselineSHA": "27596103eae4fe5e50aa15028b2984f3fe48caa49bfcf93d23c60e3cd6581952",
+      "candidateSHA": "27596103eae4fe5e50aa15028b2984f3fe48caa49bfcf93d23c60e3cd6581952",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L009.png",
+      "candidate": "output/playwright/ui08/catalog/390/L009.png",
+      "baselineSHA": "3c0b63b43cac2948c31eb547735d35baa2e6098c4110ba22ce44fe4070910d40",
+      "candidateSHA": "3c0b63b43cac2948c31eb547735d35baa2e6098c4110ba22ce44fe4070910d40",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L010.png",
+      "candidate": "output/playwright/ui08/catalog/390/L010.png",
+      "baselineSHA": "a98f6f97cc8d4e4f632ea607b6e2124eb883504dfdd2ba1698fb3b61afc0bebf",
+      "candidateSHA": "a98f6f97cc8d4e4f632ea607b6e2124eb883504dfdd2ba1698fb3b61afc0bebf",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L011.png",
+      "candidate": "output/playwright/ui08/catalog/390/L011.png",
+      "baselineSHA": "1b763504d520bb2e4c7af02b7bb76df765f4221418c8a14c5914b0001cf5402f",
+      "candidateSHA": "1b763504d520bb2e4c7af02b7bb76df765f4221418c8a14c5914b0001cf5402f",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L012.png",
+      "candidate": "output/playwright/ui08/catalog/390/L012.png",
+      "baselineSHA": "7896d4f775a43ac0eef13b4b151d80102cd5be508707a3c3b6499b86b563f951",
+      "candidateSHA": "7896d4f775a43ac0eef13b4b151d80102cd5be508707a3c3b6499b86b563f951",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L013.png",
+      "candidate": "output/playwright/ui08/catalog/390/L013.png",
+      "baselineSHA": "e940d08508a692c6feae25812adf0720e9a0e2ae8f87355e5bf24e606ba4f60e",
+      "candidateSHA": "e940d08508a692c6feae25812adf0720e9a0e2ae8f87355e5bf24e606ba4f60e",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L014.png",
+      "candidate": "output/playwright/ui08/catalog/390/L014.png",
+      "baselineSHA": "279f63088f1969c8a63317f1f751205624be04a51d59739a45d202598b2f6a0d",
+      "candidateSHA": "279f63088f1969c8a63317f1f751205624be04a51d59739a45d202598b2f6a0d",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L015.png",
+      "candidate": "output/playwright/ui08/catalog/390/L015.png",
+      "baselineSHA": "affd7e61a3572d0a8e77d7071929c63a4afc0f7905a44b978afafc3da5cfe161",
+      "candidateSHA": "affd7e61a3572d0a8e77d7071929c63a4afc0f7905a44b978afafc3da5cfe161",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L016.png",
+      "candidate": "output/playwright/ui08/catalog/390/L016.png",
+      "baselineSHA": "45fcd8eae3253109dd81078a62d14c1be29cc3102aaa425b158ff57a0d32aa7f",
+      "candidateSHA": "45fcd8eae3253109dd81078a62d14c1be29cc3102aaa425b158ff57a0d32aa7f",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L017.png",
+      "candidate": "output/playwright/ui08/catalog/390/L017.png",
+      "baselineSHA": "aedaee9f9ab1394c59503f6aac09bb7f890db9e819d507dc2c33be8223a16aa6",
+      "candidateSHA": "aedaee9f9ab1394c59503f6aac09bb7f890db9e819d507dc2c33be8223a16aa6",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L018.png",
+      "candidate": "output/playwright/ui08/catalog/390/L018.png",
+      "baselineSHA": "95817e32c4c49226c669f00f27b31195df9ba0d78b31bd23b4cb11eda9397e22",
+      "candidateSHA": "95817e32c4c49226c669f00f27b31195df9ba0d78b31bd23b4cb11eda9397e22",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L019.png",
+      "candidate": "output/playwright/ui08/catalog/390/L019.png",
+      "baselineSHA": "cce1f5b0ed0af47016a3dadbf47754c7aa0be54b13ea02bf1ee5757719965077",
+      "candidateSHA": "cce1f5b0ed0af47016a3dadbf47754c7aa0be54b13ea02bf1ee5757719965077",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L020.png",
+      "candidate": "output/playwright/ui08/catalog/390/L020.png",
+      "baselineSHA": "35b918b9898b3b5166988de31e0b88b5660b1326878e22f4e52297d76492dff4",
+      "candidateSHA": "35b918b9898b3b5166988de31e0b88b5660b1326878e22f4e52297d76492dff4",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L021.png",
+      "candidate": "output/playwright/ui08/catalog/390/L021.png",
+      "baselineSHA": "b8b8ed3858bbfdeda8c216b876455824bc739404d0a1f54b883d77b5fd0784df",
+      "candidateSHA": "b8b8ed3858bbfdeda8c216b876455824bc739404d0a1f54b883d77b5fd0784df",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L022.png",
+      "candidate": "output/playwright/ui08/catalog/390/L022.png",
+      "baselineSHA": "eef611395e16cdbfce25809d7314e55341ae873702d25fdf4ce47241a70ff94f",
+      "candidateSHA": "eef611395e16cdbfce25809d7314e55341ae873702d25fdf4ce47241a70ff94f",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L023.png",
+      "candidate": "output/playwright/ui08/catalog/390/L023.png",
+      "baselineSHA": "33f6d5f8992e1ce36087786b762c39ab52f113a86db05e66cfefc4187616c9a6",
+      "candidateSHA": "33f6d5f8992e1ce36087786b762c39ab52f113a86db05e66cfefc4187616c9a6",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L024.png",
+      "candidate": "output/playwright/ui08/catalog/390/L024.png",
+      "baselineSHA": "69610e913a154a72fa743ca635fef855207d6d4d7b58a990b88f1b3e5f7b9e92",
+      "candidateSHA": "69610e913a154a72fa743ca635fef855207d6d4d7b58a990b88f1b3e5f7b9e92",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L025.png",
+      "candidate": "output/playwright/ui08/catalog/390/L025.png",
+      "baselineSHA": "05ca28bbef1a9c4bdfa560b0d1d0be44b589c6cee8525a72311a3e8df1a98b5e",
+      "candidateSHA": "05ca28bbef1a9c4bdfa560b0d1d0be44b589c6cee8525a72311a3e8df1a98b5e",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L026.png",
+      "candidate": "output/playwright/ui08/catalog/390/L026.png",
+      "baselineSHA": "fba48dde41f4fb7d7a77227e104be9d41ebd03e0507c52aed7621bd52bf109ea",
+      "candidateSHA": "fba48dde41f4fb7d7a77227e104be9d41ebd03e0507c52aed7621bd52bf109ea",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L027.png",
+      "candidate": "output/playwright/ui08/catalog/390/L027.png",
+      "baselineSHA": "34f3731387011245c0eccd97590f726a67714b2a21d5167285e5b2239603a9d6",
+      "candidateSHA": "34f3731387011245c0eccd97590f726a67714b2a21d5167285e5b2239603a9d6",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L028.png",
+      "candidate": "output/playwright/ui08/catalog/390/L028.png",
+      "baselineSHA": "a95fd1d9b3bfdf3fd4197d9feb6d9d60dedb7390d183f44471e50d8f118e9a37",
+      "candidateSHA": "a95fd1d9b3bfdf3fd4197d9feb6d9d60dedb7390d183f44471e50d8f118e9a37",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L029.png",
+      "candidate": "output/playwright/ui08/catalog/390/L029.png",
+      "baselineSHA": "10640eff30ab3eaae4298a097e174e2940e33d24f44bb97157d9ef0a02e5ee11",
+      "candidateSHA": "10640eff30ab3eaae4298a097e174e2940e33d24f44bb97157d9ef0a02e5ee11",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L030.png",
+      "candidate": "output/playwright/ui08/catalog/390/L030.png",
+      "baselineSHA": "25a06658dddd516b6f0ec7ae1582f0772e303f78d9b07595ffe0bac3e4cfad88",
+      "candidateSHA": "25a06658dddd516b6f0ec7ae1582f0772e303f78d9b07595ffe0bac3e4cfad88",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L031.png",
+      "candidate": "output/playwright/ui08/catalog/390/L031.png",
+      "baselineSHA": "acbd83a9c353b39129dbf373d989c8bd7e5aa81a3588efb8391c3fe5b1c0140e",
+      "candidateSHA": "acbd83a9c353b39129dbf373d989c8bd7e5aa81a3588efb8391c3fe5b1c0140e",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L032.png",
+      "candidate": "output/playwright/ui08/catalog/390/L032.png",
+      "baselineSHA": "cf62dae00d991cd1d101f36a7983f6474a8791ba84e17125da80d4628bb222e1",
+      "candidateSHA": "cf62dae00d991cd1d101f36a7983f6474a8791ba84e17125da80d4628bb222e1",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L033.png",
+      "candidate": "output/playwright/ui08/catalog/390/L033.png",
+      "baselineSHA": "6b269a81cb6c43c9c93931f2ffc81eec152b7552c1632587ac3467aaf10059a6",
+      "candidateSHA": "6b269a81cb6c43c9c93931f2ffc81eec152b7552c1632587ac3467aaf10059a6",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L034.png",
+      "candidate": "output/playwright/ui08/catalog/390/L034.png",
+      "baselineSHA": "976d0556c6b697756aaf461fdcd44b21d0fd8c0b4d16c7b2d0fc4e63d673dad4",
+      "candidateSHA": "976d0556c6b697756aaf461fdcd44b21d0fd8c0b4d16c7b2d0fc4e63d673dad4",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L035.png",
+      "candidate": "output/playwright/ui08/catalog/390/L035.png",
+      "baselineSHA": "cf178898e4b129256caf9352bc359ad32947db2f70e094b804613244f0e55feb",
+      "candidateSHA": "cf178898e4b129256caf9352bc359ad32947db2f70e094b804613244f0e55feb",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L036.png",
+      "candidate": "output/playwright/ui08/catalog/390/L036.png",
+      "baselineSHA": "7cc97bffae652b341de019123cb03fb4609e12c20418eb82fbf7bcbca4219b07",
+      "candidateSHA": "7cc97bffae652b341de019123cb03fb4609e12c20418eb82fbf7bcbca4219b07",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L037.png",
+      "candidate": "output/playwright/ui08/catalog/390/L037.png",
+      "baselineSHA": "e4eb64a2bf3006d9cc1882486a9a6774cf2cd5b214a524a88b24c1c1d6998044",
+      "candidateSHA": "e4eb64a2bf3006d9cc1882486a9a6774cf2cd5b214a524a88b24c1c1d6998044",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L038.png",
+      "candidate": "output/playwright/ui08/catalog/390/L038.png",
+      "baselineSHA": "46cc4df4fbd46ebd84f8881a6a5541f028b7538d8728058e0e6672562ba9f9ea",
+      "candidateSHA": "46cc4df4fbd46ebd84f8881a6a5541f028b7538d8728058e0e6672562ba9f9ea",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L039.png",
+      "candidate": "output/playwright/ui08/catalog/390/L039.png",
+      "baselineSHA": "68be0ee131d805c3b6f165c6a0cd0e16e8425f16755d2e3187c31442700c4561",
+      "candidateSHA": "68be0ee131d805c3b6f165c6a0cd0e16e8425f16755d2e3187c31442700c4561",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L040.png",
+      "candidate": "output/playwright/ui08/catalog/390/L040.png",
+      "baselineSHA": "accf19061934df89d38398e154c4cede198cfb65420559ff151f46a6f91d6321",
+      "candidateSHA": "accf19061934df89d38398e154c4cede198cfb65420559ff151f46a6f91d6321",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L041.png",
+      "candidate": "output/playwright/ui08/catalog/390/L041.png",
+      "baselineSHA": "b18621acb285f81dd0a070d6df2ba93cb8b3e5edba693899ac77fbae78f900c9",
+      "candidateSHA": "b18621acb285f81dd0a070d6df2ba93cb8b3e5edba693899ac77fbae78f900c9",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L042.png",
+      "candidate": "output/playwright/ui08/catalog/390/L042.png",
+      "baselineSHA": "972d1946df48be7dc1781d65c0060ab2aa2668237f7168962983c323adbb819e",
+      "candidateSHA": "972d1946df48be7dc1781d65c0060ab2aa2668237f7168962983c323adbb819e",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L043.png",
+      "candidate": "output/playwright/ui08/catalog/390/L043.png",
+      "baselineSHA": "e4edaae3f1f49c4c27849beb4f4fff87ae6c733832699f323c7df0467484dcc4",
+      "candidateSHA": "e4edaae3f1f49c4c27849beb4f4fff87ae6c733832699f323c7df0467484dcc4",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L044.png",
+      "candidate": "output/playwright/ui08/catalog/390/L044.png",
+      "baselineSHA": "c22e087b8aa1bbbdb29b94c332c9e5dc8eda94d5fbade233d6e26f975f801ae8",
+      "candidateSHA": "c22e087b8aa1bbbdb29b94c332c9e5dc8eda94d5fbade233d6e26f975f801ae8",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L045.png",
+      "candidate": "output/playwright/ui08/catalog/390/L045.png",
+      "baselineSHA": "bf0c59c67031211dac880e5745a53e42f6de7f6c1a12b1284d494282a9b150c1",
+      "candidateSHA": "bf0c59c67031211dac880e5745a53e42f6de7f6c1a12b1284d494282a9b150c1",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L046.png",
+      "candidate": "output/playwright/ui08/catalog/390/L046.png",
+      "baselineSHA": "79418eaf82358e72756e86ee02f50a54cc7141c023d0b650e89c091eb6383237",
+      "candidateSHA": "79418eaf82358e72756e86ee02f50a54cc7141c023d0b650e89c091eb6383237",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L047.png",
+      "candidate": "output/playwright/ui08/catalog/390/L047.png",
+      "baselineSHA": "dfdefdf72c5e21ea6b15bc33aa2f6f1003046d9a8544a9b20e4bac2cbe7e6bf5",
+      "candidateSHA": "dfdefdf72c5e21ea6b15bc33aa2f6f1003046d9a8544a9b20e4bac2cbe7e6bf5",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L048.png",
+      "candidate": "output/playwright/ui08/catalog/390/L048.png",
+      "baselineSHA": "fa01beb0554539ddd77a8c714dd3febed1574d1b1122a6017339f72dec08bd19",
+      "candidateSHA": "fa01beb0554539ddd77a8c714dd3febed1574d1b1122a6017339f72dec08bd19",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L049.png",
+      "candidate": "output/playwright/ui08/catalog/390/L049.png",
+      "baselineSHA": "4ca5b972faf4a57e6067de0747a0be05bf38d6d8379ecea43ea8eb7c4349dbfc",
+      "candidateSHA": "4ca5b972faf4a57e6067de0747a0be05bf38d6d8379ecea43ea8eb7c4349dbfc",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L050.png",
+      "candidate": "output/playwright/ui08/catalog/390/L050.png",
+      "baselineSHA": "bcfcb6880b4b383f38bccc9b06882776d7e9dfef7bbd90c7273bee99412ce184",
+      "candidateSHA": "bcfcb6880b4b383f38bccc9b06882776d7e9dfef7bbd90c7273bee99412ce184",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L051.png",
+      "candidate": "output/playwright/ui08/catalog/390/L051.png",
+      "baselineSHA": "2b2bd42ddd6010ea75762c5baf1c8bc3f71e469b511891d9496751075543b5cb",
+      "candidateSHA": "2b2bd42ddd6010ea75762c5baf1c8bc3f71e469b511891d9496751075543b5cb",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L052.png",
+      "candidate": "output/playwright/ui08/catalog/390/L052.png",
+      "baselineSHA": "25110021bae5354ee22cd5e2ee10f1ac1d7d2f9c77848a373825dd62ec5f6ca8",
+      "candidateSHA": "25110021bae5354ee22cd5e2ee10f1ac1d7d2f9c77848a373825dd62ec5f6ca8",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L053.png",
+      "candidate": "output/playwright/ui08/catalog/390/L053.png",
+      "baselineSHA": "66bbd58733f687663962aa0f856cdb9d7e318d0ecb9d2c1e80a995157dae8456",
+      "candidateSHA": "66bbd58733f687663962aa0f856cdb9d7e318d0ecb9d2c1e80a995157dae8456",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L054.png",
+      "candidate": "output/playwright/ui08/catalog/390/L054.png",
+      "baselineSHA": "24d874fe8ed9ce0b88ce718a350643dd53eab517d09a5ac91658cbcaa67d28c9",
+      "candidateSHA": "24d874fe8ed9ce0b88ce718a350643dd53eab517d09a5ac91658cbcaa67d28c9",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L055.png",
+      "candidate": "output/playwright/ui08/catalog/390/L055.png",
+      "baselineSHA": "928c75dcc4fb960ebdf8e69bb0ede2009e6019ecf285c2ddec1de79c56580036",
+      "candidateSHA": "928c75dcc4fb960ebdf8e69bb0ede2009e6019ecf285c2ddec1de79c56580036",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L056.png",
+      "candidate": "output/playwright/ui08/catalog/390/L056.png",
+      "baselineSHA": "f49f40c777c3e7b35219dcfe360ded8cd4329ba5d12e30af6e6102012a924fda",
+      "candidateSHA": "f49f40c777c3e7b35219dcfe360ded8cd4329ba5d12e30af6e6102012a924fda",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L057.png",
+      "candidate": "output/playwright/ui08/catalog/390/L057.png",
+      "baselineSHA": "7f5febad804a80f0900b456d0e7a9273c5a9189b0e739c3bedb529f5afd82fc9",
+      "candidateSHA": "7f5febad804a80f0900b456d0e7a9273c5a9189b0e739c3bedb529f5afd82fc9",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L058.png",
+      "candidate": "output/playwright/ui08/catalog/390/L058.png",
+      "baselineSHA": "41e00e93a0029185483ea9dbb3f38a79740f4b110d8e3d3c692143fd1b9e8f2e",
+      "candidateSHA": "41e00e93a0029185483ea9dbb3f38a79740f4b110d8e3d3c692143fd1b9e8f2e",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L059.png",
+      "candidate": "output/playwright/ui08/catalog/390/L059.png",
+      "baselineSHA": "9458aa2e79f88dd2ec1ec3f059f7c6a130c52097e6ddecad255f2fa0066d3e06",
+      "candidateSHA": "9458aa2e79f88dd2ec1ec3f059f7c6a130c52097e6ddecad255f2fa0066d3e06",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L060.png",
+      "candidate": "output/playwright/ui08/catalog/390/L060.png",
+      "baselineSHA": "6b5e9256165fa9f2440d1b2a95eaa1161e0e1f221df00b7ee2ca8a6b0b3aed0e",
+      "candidateSHA": "6b5e9256165fa9f2440d1b2a95eaa1161e0e1f221df00b7ee2ca8a6b0b3aed0e",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L061.png",
+      "candidate": "output/playwright/ui08/catalog/390/L061.png",
+      "baselineSHA": "ed2e7b49520a9f53286f2b1552279d4841861c0926ee03244518ec49c96bc66c",
+      "candidateSHA": "ed2e7b49520a9f53286f2b1552279d4841861c0926ee03244518ec49c96bc66c",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L062.png",
+      "candidate": "output/playwright/ui08/catalog/390/L062.png",
+      "baselineSHA": "54ed9ca8b08584a0ae5727a27a74d04268887fbb517cb9b1a453d863bb5eda1d",
+      "candidateSHA": "54ed9ca8b08584a0ae5727a27a74d04268887fbb517cb9b1a453d863bb5eda1d",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L063.png",
+      "candidate": "output/playwright/ui08/catalog/390/L063.png",
+      "baselineSHA": "70b7cc587789ef85e73bbf2021164c23d1401a0f8a77614735d91f27702b00c0",
+      "candidateSHA": "70b7cc587789ef85e73bbf2021164c23d1401a0f8a77614735d91f27702b00c0",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L064.png",
+      "candidate": "output/playwright/ui08/catalog/390/L064.png",
+      "baselineSHA": "2223fb9e9561723dc8640f2b529a982a2911c867e9882e9ac5f6777276dfa83f",
+      "candidateSHA": "2223fb9e9561723dc8640f2b529a982a2911c867e9882e9ac5f6777276dfa83f",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L065.png",
+      "candidate": "output/playwright/ui08/catalog/390/L065.png",
+      "baselineSHA": "8bfdfef83f98a5316d3b41559293078fab7ff2dbc9b849f3a6a59d1765bdfa22",
+      "candidateSHA": "8bfdfef83f98a5316d3b41559293078fab7ff2dbc9b849f3a6a59d1765bdfa22",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L066.png",
+      "candidate": "output/playwright/ui08/catalog/390/L066.png",
+      "baselineSHA": "0be4802a3322adb567bc0b283a4fb3637d013986bf04796f589366d360e901c1",
+      "candidateSHA": "0be4802a3322adb567bc0b283a4fb3637d013986bf04796f589366d360e901c1",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L067.png",
+      "candidate": "output/playwright/ui08/catalog/390/L067.png",
+      "baselineSHA": "89eec16d9ab5831e1be948c9e99fac02ac848a3d1aea6aafcc7d95da02047153",
+      "candidateSHA": "89eec16d9ab5831e1be948c9e99fac02ac848a3d1aea6aafcc7d95da02047153",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L068.png",
+      "candidate": "output/playwright/ui08/catalog/390/L068.png",
+      "baselineSHA": "57ccd6a3c8c345319ecaa881b7c251410c34dff7264e783e0b1aa2b6e4dcd102",
+      "candidateSHA": "57ccd6a3c8c345319ecaa881b7c251410c34dff7264e783e0b1aa2b6e4dcd102",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L069.png",
+      "candidate": "output/playwright/ui08/catalog/390/L069.png",
+      "baselineSHA": "cbfe3e00b7df5e394242ec75b559cc8119536e725e4489fab08664e36b4a639f",
+      "candidateSHA": "cbfe3e00b7df5e394242ec75b559cc8119536e725e4489fab08664e36b4a639f",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L070.png",
+      "candidate": "output/playwright/ui08/catalog/390/L070.png",
+      "baselineSHA": "a4ab5fe7e0c138cc1091d3b1502de68d7bcf69fe7de2b4a8e187d0d09fd657e2",
+      "candidateSHA": "a4ab5fe7e0c138cc1091d3b1502de68d7bcf69fe7de2b4a8e187d0d09fd657e2",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L071.png",
+      "candidate": "output/playwright/ui08/catalog/390/L071.png",
+      "baselineSHA": "9b9ddf3d51d80e6e77fac56ffd1db76c63f6600a2f38b3a60c3ebcc058236530",
+      "candidateSHA": "9b9ddf3d51d80e6e77fac56ffd1db76c63f6600a2f38b3a60c3ebcc058236530",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L072.png",
+      "candidate": "output/playwright/ui08/catalog/390/L072.png",
+      "baselineSHA": "2e73051eee670c09ff1a4f6a777ff6d62c04eb9fd78a16c70b98c49091d1f289",
+      "candidateSHA": "2e73051eee670c09ff1a4f6a777ff6d62c04eb9fd78a16c70b98c49091d1f289",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L073.png",
+      "candidate": "output/playwright/ui08/catalog/390/L073.png",
+      "baselineSHA": "c48034be17e160e1d7243c4cafdc0cc1d0eb4e731273553a11dbe8954c879dfc",
+      "candidateSHA": "c48034be17e160e1d7243c4cafdc0cc1d0eb4e731273553a11dbe8954c879dfc",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L074.png",
+      "candidate": "output/playwright/ui08/catalog/390/L074.png",
+      "baselineSHA": "f61b7d4295bdb6c38afc184a40ab786cae7c7f3faaefc5bc4b97dde83d24d314",
+      "candidateSHA": "f61b7d4295bdb6c38afc184a40ab786cae7c7f3faaefc5bc4b97dde83d24d314",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L075.png",
+      "candidate": "output/playwright/ui08/catalog/390/L075.png",
+      "baselineSHA": "30cea120a22237372a4a114ff6809b1e96dbd35e9ae01c8a9bc567f04de1cc2a",
+      "candidateSHA": "30cea120a22237372a4a114ff6809b1e96dbd35e9ae01c8a9bc567f04de1cc2a",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L076.png",
+      "candidate": "output/playwright/ui08/catalog/390/L076.png",
+      "baselineSHA": "37ccdc41d499322b2f51857d923d7fc40b2325d9959d5af08557bc1d76b71c74",
+      "candidateSHA": "37ccdc41d499322b2f51857d923d7fc40b2325d9959d5af08557bc1d76b71c74",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L077.png",
+      "candidate": "output/playwright/ui08/catalog/390/L077.png",
+      "baselineSHA": "ff7ab1ecf5dbe753fb0ce825b09b5b5e5e7197598c9c475d2762401133181fe4",
+      "candidateSHA": "ff7ab1ecf5dbe753fb0ce825b09b5b5e5e7197598c9c475d2762401133181fe4",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L078.png",
+      "candidate": "output/playwright/ui08/catalog/390/L078.png",
+      "baselineSHA": "498804163ef048e9326ad11c0d69bc9cce234bc6b182f8660e149c9db015326b",
+      "candidateSHA": "498804163ef048e9326ad11c0d69bc9cce234bc6b182f8660e149c9db015326b",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L079.png",
+      "candidate": "output/playwright/ui08/catalog/390/L079.png",
+      "baselineSHA": "ce617163c9ff23c3f51b39c43791a528cd3547286b201b2e37e5d96d609396e2",
+      "candidateSHA": "ce617163c9ff23c3f51b39c43791a528cd3547286b201b2e37e5d96d609396e2",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L080.png",
+      "candidate": "output/playwright/ui08/catalog/390/L080.png",
+      "baselineSHA": "7e0b33ae38e64db996ed02096203f162a3b0e00ee8365772a005c61063e9cfc1",
+      "candidateSHA": "7e0b33ae38e64db996ed02096203f162a3b0e00ee8365772a005c61063e9cfc1",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L081.png",
+      "candidate": "output/playwright/ui08/catalog/390/L081.png",
+      "baselineSHA": "ad9b14eebdd379e53125db5259f6e1201c0faa7fb788215bcf41e5ebd6c063af",
+      "candidateSHA": "ad9b14eebdd379e53125db5259f6e1201c0faa7fb788215bcf41e5ebd6c063af",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L082.png",
+      "candidate": "output/playwright/ui08/catalog/390/L082.png",
+      "baselineSHA": "a985499353dafefebad9bbe13e025ee5a4a8a64b0813fa727ff6845de701dc0b",
+      "candidateSHA": "a985499353dafefebad9bbe13e025ee5a4a8a64b0813fa727ff6845de701dc0b",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L083.png",
+      "candidate": "output/playwright/ui08/catalog/390/L083.png",
+      "baselineSHA": "5c79c9d3f7eecfb23d998c4e409b8a0bdba9d6b8b68c0feee578d38a080924cc",
+      "candidateSHA": "5c79c9d3f7eecfb23d998c4e409b8a0bdba9d6b8b68c0feee578d38a080924cc",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L084.png",
+      "candidate": "output/playwright/ui08/catalog/390/L084.png",
+      "baselineSHA": "d16fdde755ec17ab8895fe3da622673503b29316ebd1e067348a341c0d5c11b6",
+      "candidateSHA": "d16fdde755ec17ab8895fe3da622673503b29316ebd1e067348a341c0d5c11b6",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L085.png",
+      "candidate": "output/playwright/ui08/catalog/390/L085.png",
+      "baselineSHA": "b0a95106ab05ad43cfee3873a78ba869cceb9281da815cbcc95d67474537e76b",
+      "candidateSHA": "b0a95106ab05ad43cfee3873a78ba869cceb9281da815cbcc95d67474537e76b",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L086.png",
+      "candidate": "output/playwright/ui08/catalog/390/L086.png",
+      "baselineSHA": "00a87ac9b7c0cb299dd5420e918bcabb4aacc8e25eb7e600388b49715ada8f1a",
+      "candidateSHA": "00a87ac9b7c0cb299dd5420e918bcabb4aacc8e25eb7e600388b49715ada8f1a",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L087.png",
+      "candidate": "output/playwright/ui08/catalog/390/L087.png",
+      "baselineSHA": "451008ed05459de631a39c8f6d232839c9f252215b3f7df88e6d5251ab8a3bdd",
+      "candidateSHA": "451008ed05459de631a39c8f6d232839c9f252215b3f7df88e6d5251ab8a3bdd",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L088.png",
+      "candidate": "output/playwright/ui08/catalog/390/L088.png",
+      "baselineSHA": "c9eae46e36088d835b6a9465ce3fcd1545164ea08d6d6fdd4cc812daa4749e48",
+      "candidateSHA": "c9eae46e36088d835b6a9465ce3fcd1545164ea08d6d6fdd4cc812daa4749e48",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L089.png",
+      "candidate": "output/playwright/ui08/catalog/390/L089.png",
+      "baselineSHA": "635e9b611b3dfc1398e9b50e0441d03ab3d48d756c77dd6e93811e8c22e3bc8d",
+      "candidateSHA": "635e9b611b3dfc1398e9b50e0441d03ab3d48d756c77dd6e93811e8c22e3bc8d",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L090.png",
+      "candidate": "output/playwright/ui08/catalog/390/L090.png",
+      "baselineSHA": "e12a8a5cc61b5df45c118a39e96e225b8898a9d4443e18032cf9a0a4974055a3",
+      "candidateSHA": "e12a8a5cc61b5df45c118a39e96e225b8898a9d4443e18032cf9a0a4974055a3",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L091.png",
+      "candidate": "output/playwright/ui08/catalog/390/L091.png",
+      "baselineSHA": "72449c035039eae3cd1a2e144cf2fa7c131d8242c9d1339e8b1d61012d68e949",
+      "candidateSHA": "72449c035039eae3cd1a2e144cf2fa7c131d8242c9d1339e8b1d61012d68e949",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L092.png",
+      "candidate": "output/playwright/ui08/catalog/390/L092.png",
+      "baselineSHA": "a40732e68ecb0aed5a3fbffb04248b3a1d3e4399057bb4d15fe8e09fd843579f",
+      "candidateSHA": "a40732e68ecb0aed5a3fbffb04248b3a1d3e4399057bb4d15fe8e09fd843579f",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L093.png",
+      "candidate": "output/playwright/ui08/catalog/390/L093.png",
+      "baselineSHA": "81530e0137b9c749dda722506aff1f2aaeaa861499492a777654d10465c8a00d",
+      "candidateSHA": "81530e0137b9c749dda722506aff1f2aaeaa861499492a777654d10465c8a00d",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L094.png",
+      "candidate": "output/playwright/ui08/catalog/390/L094.png",
+      "baselineSHA": "eca971990a41bc963d03870fc435793bca7e3f90a59a1da2f763a491fc0cc8eb",
+      "candidateSHA": "eca971990a41bc963d03870fc435793bca7e3f90a59a1da2f763a491fc0cc8eb",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L095.png",
+      "candidate": "output/playwright/ui08/catalog/390/L095.png",
+      "baselineSHA": "4f71424cf8670030c86279070ac36c79793439f22b1914cdec96a7b553c6771c",
+      "candidateSHA": "4f71424cf8670030c86279070ac36c79793439f22b1914cdec96a7b553c6771c",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L096.png",
+      "candidate": "output/playwright/ui08/catalog/390/L096.png",
+      "baselineSHA": "240263caccc9ad36f2124cef1b8157fc21cfb671c0d3e8e4265df288bc330dbd",
+      "candidateSHA": "240263caccc9ad36f2124cef1b8157fc21cfb671c0d3e8e4265df288bc330dbd",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L097.png",
+      "candidate": "output/playwright/ui08/catalog/390/L097.png",
+      "baselineSHA": "8327ac4eb289a859bfb615744c500357372e9497eae53be8334489a8d39e6617",
+      "candidateSHA": "8327ac4eb289a859bfb615744c500357372e9497eae53be8334489a8d39e6617",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L098.png",
+      "candidate": "output/playwright/ui08/catalog/390/L098.png",
+      "baselineSHA": "34b635404159ca5fc0e6f04c5b1f2819aea3d65ecbbd30e93bf4a7fdc92d81a2",
+      "candidateSHA": "34b635404159ca5fc0e6f04c5b1f2819aea3d65ecbbd30e93bf4a7fdc92d81a2",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L099.png",
+      "candidate": "output/playwright/ui08/catalog/390/L099.png",
+      "baselineSHA": "fa5fc913019225a42afbc949d5c7b449ca99487326477ad809fd65565029fa84",
+      "candidateSHA": "fa5fc913019225a42afbc949d5c7b449ca99487326477ad809fd65565029fa84",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/L100.png",
+      "candidate": "output/playwright/ui08/catalog/390/L100.png",
+      "baselineSHA": "df27cdb7b30f4cc0b340fc1adbb918d75c59967c4b737c78fa67227b5faefe7e",
+      "candidateSHA": "df27cdb7b30f4cc0b340fc1adbb918d75c59967c4b737c78fa67227b5faefe7e",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/obstacle-hp1.png",
+      "candidate": "output/playwright/ui08/catalog/390/obstacle-hp1.png",
+      "baselineSHA": "60509b814ea06a2646cd5c5d87aa558bbb24a9b100956512dbc1919c537b51ff",
+      "candidateSHA": "60509b814ea06a2646cd5c5d87aa558bbb24a9b100956512dbc1919c537b51ff",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/390/obstacle-revealed.png",
+      "candidate": "output/playwright/ui08/catalog/390/obstacle-revealed.png",
+      "baselineSHA": "59864de1e757941cc6bf65f63c382472ef34691e775a66a17663789e645467ff",
+      "candidateSHA": "59864de1e757941cc6bf65f63c382472ef34691e775a66a17663789e645467ff",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L001.png",
+      "candidate": "output/playwright/ui08/catalog/430/L001.png",
+      "baselineSHA": "37a1bc41ef16a29efd018693b548f46532425d102d4524ae6b6aeb09b07e5b04",
+      "candidateSHA": "37a1bc41ef16a29efd018693b548f46532425d102d4524ae6b6aeb09b07e5b04",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L002.png",
+      "candidate": "output/playwright/ui08/catalog/430/L002.png",
+      "baselineSHA": "cd39a0669d97535d05b3540777565cf29a7e58c8dbaaf1285b6c163e4bf85a5b",
+      "candidateSHA": "cd39a0669d97535d05b3540777565cf29a7e58c8dbaaf1285b6c163e4bf85a5b",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L003.png",
+      "candidate": "output/playwright/ui08/catalog/430/L003.png",
+      "baselineSHA": "4911c81a44b0763b37cd43febd8f59abb7a8cba3020d1bca0ecdab673394c3a2",
+      "candidateSHA": "4911c81a44b0763b37cd43febd8f59abb7a8cba3020d1bca0ecdab673394c3a2",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L004.png",
+      "candidate": "output/playwright/ui08/catalog/430/L004.png",
+      "baselineSHA": "bddea10d5c83921b33fc231a1e55d74d18a0a0b3cd183659c80feef8836b5885",
+      "candidateSHA": "bddea10d5c83921b33fc231a1e55d74d18a0a0b3cd183659c80feef8836b5885",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L005.png",
+      "candidate": "output/playwright/ui08/catalog/430/L005.png",
+      "baselineSHA": "1c17bcf3ec2b8ccdca54d9f5d5627d2ada1bebb58baf1eebbee62128134dd1d6",
+      "candidateSHA": "1c17bcf3ec2b8ccdca54d9f5d5627d2ada1bebb58baf1eebbee62128134dd1d6",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L006.png",
+      "candidate": "output/playwright/ui08/catalog/430/L006.png",
+      "baselineSHA": "abb03f6b1d143cdda9d5f0caaad628aa9e2dd72c05d234c0a7a6600bdc811683",
+      "candidateSHA": "abb03f6b1d143cdda9d5f0caaad628aa9e2dd72c05d234c0a7a6600bdc811683",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L007.png",
+      "candidate": "output/playwright/ui08/catalog/430/L007.png",
+      "baselineSHA": "444e91dd297a65f15d42e7765b11c503fe3e7e25cde7a4e1304d6fc870374e82",
+      "candidateSHA": "444e91dd297a65f15d42e7765b11c503fe3e7e25cde7a4e1304d6fc870374e82",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L008.png",
+      "candidate": "output/playwright/ui08/catalog/430/L008.png",
+      "baselineSHA": "b9aa4ae961b02c03a02546ee0fd1981898c7e7f1eed8c141a52941a3d1073c97",
+      "candidateSHA": "b9aa4ae961b02c03a02546ee0fd1981898c7e7f1eed8c141a52941a3d1073c97",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L009.png",
+      "candidate": "output/playwright/ui08/catalog/430/L009.png",
+      "baselineSHA": "afbf22df8b71d46c96aa5415116377a3e08b930ebaad461505539b4993047cca",
+      "candidateSHA": "afbf22df8b71d46c96aa5415116377a3e08b930ebaad461505539b4993047cca",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L010.png",
+      "candidate": "output/playwright/ui08/catalog/430/L010.png",
+      "baselineSHA": "ba8d4a2e4b44c4eb5fc29723446df9a9c75ae1765a02bcf54a0d1e9fbe09d54a",
+      "candidateSHA": "ba8d4a2e4b44c4eb5fc29723446df9a9c75ae1765a02bcf54a0d1e9fbe09d54a",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L011.png",
+      "candidate": "output/playwright/ui08/catalog/430/L011.png",
+      "baselineSHA": "12a627f726d7a5682eeda21f292a044e5b6b282fe372ec561d075663b9116134",
+      "candidateSHA": "12a627f726d7a5682eeda21f292a044e5b6b282fe372ec561d075663b9116134",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L012.png",
+      "candidate": "output/playwright/ui08/catalog/430/L012.png",
+      "baselineSHA": "3d53a03f74ac3462cf615c2cb75bab44adbae2e15e1807921f9daecae93e6237",
+      "candidateSHA": "3d53a03f74ac3462cf615c2cb75bab44adbae2e15e1807921f9daecae93e6237",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L013.png",
+      "candidate": "output/playwright/ui08/catalog/430/L013.png",
+      "baselineSHA": "ca8ce56042c71aaaa63caa3fff078adb8e6f445365b2c42c21896bda096ec87e",
+      "candidateSHA": "ca8ce56042c71aaaa63caa3fff078adb8e6f445365b2c42c21896bda096ec87e",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L014.png",
+      "candidate": "output/playwright/ui08/catalog/430/L014.png",
+      "baselineSHA": "1128d77d4748751ebdc67353d19ea8162ab468b2f6f657210fa2fd5695b94535",
+      "candidateSHA": "1128d77d4748751ebdc67353d19ea8162ab468b2f6f657210fa2fd5695b94535",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L015.png",
+      "candidate": "output/playwright/ui08/catalog/430/L015.png",
+      "baselineSHA": "6e9087cc576f3315750d157ceef5f93a6fb155edc7ec35de96bcddb575cc18cc",
+      "candidateSHA": "6e9087cc576f3315750d157ceef5f93a6fb155edc7ec35de96bcddb575cc18cc",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L016.png",
+      "candidate": "output/playwright/ui08/catalog/430/L016.png",
+      "baselineSHA": "21a91b8be843c538c8e3aa257faaaa3230fc4a6a59a65740d0a8dc9b1ef7684f",
+      "candidateSHA": "21a91b8be843c538c8e3aa257faaaa3230fc4a6a59a65740d0a8dc9b1ef7684f",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L017.png",
+      "candidate": "output/playwright/ui08/catalog/430/L017.png",
+      "baselineSHA": "504947283685a6f117f73e14ec9a591068f727de4c344caf49f59d3b4ce2f710",
+      "candidateSHA": "504947283685a6f117f73e14ec9a591068f727de4c344caf49f59d3b4ce2f710",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L018.png",
+      "candidate": "output/playwright/ui08/catalog/430/L018.png",
+      "baselineSHA": "2e01c92579f7f9e9b42af9e92c689b129061335c6e267f820046f230b2f9209e",
+      "candidateSHA": "2e01c92579f7f9e9b42af9e92c689b129061335c6e267f820046f230b2f9209e",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L019.png",
+      "candidate": "output/playwright/ui08/catalog/430/L019.png",
+      "baselineSHA": "57f7e497ee1ff64dfe80731abb38de0ad585a222bc21bb1d0a368c73f38aeabe",
+      "candidateSHA": "57f7e497ee1ff64dfe80731abb38de0ad585a222bc21bb1d0a368c73f38aeabe",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L020.png",
+      "candidate": "output/playwright/ui08/catalog/430/L020.png",
+      "baselineSHA": "89675b49313a13b5ef7d1f81f997cd463a55e9eeb1020e5ba09655bc08ed2f6b",
+      "candidateSHA": "89675b49313a13b5ef7d1f81f997cd463a55e9eeb1020e5ba09655bc08ed2f6b",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L021.png",
+      "candidate": "output/playwright/ui08/catalog/430/L021.png",
+      "baselineSHA": "4b1e5209a4dfe4698157e979e9e2667bce6c73e5c6049aa784f5e99911b230a7",
+      "candidateSHA": "4b1e5209a4dfe4698157e979e9e2667bce6c73e5c6049aa784f5e99911b230a7",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L022.png",
+      "candidate": "output/playwright/ui08/catalog/430/L022.png",
+      "baselineSHA": "32351cf4f86f96330a92530320703bf9f0598f094ec379fa762ad017dcef7dc4",
+      "candidateSHA": "32351cf4f86f96330a92530320703bf9f0598f094ec379fa762ad017dcef7dc4",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L023.png",
+      "candidate": "output/playwright/ui08/catalog/430/L023.png",
+      "baselineSHA": "e45d46a90432765a36c4d72842385436a7b183cce25735051b43856493e3f331",
+      "candidateSHA": "e45d46a90432765a36c4d72842385436a7b183cce25735051b43856493e3f331",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L024.png",
+      "candidate": "output/playwright/ui08/catalog/430/L024.png",
+      "baselineSHA": "75c363332532250f4157a4c781ce9862ba86a966c65d07cddaf5e3511eb94522",
+      "candidateSHA": "75c363332532250f4157a4c781ce9862ba86a966c65d07cddaf5e3511eb94522",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L025.png",
+      "candidate": "output/playwright/ui08/catalog/430/L025.png",
+      "baselineSHA": "dbc3ecb729cdf840a1615a4b69f78ec3211350eac17e624f094796681a49181c",
+      "candidateSHA": "dbc3ecb729cdf840a1615a4b69f78ec3211350eac17e624f094796681a49181c",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L026.png",
+      "candidate": "output/playwright/ui08/catalog/430/L026.png",
+      "baselineSHA": "63615050e5a31a6be44f1d8a9e2a34b9c37f91b836514b0b00256531d6ce4a0c",
+      "candidateSHA": "63615050e5a31a6be44f1d8a9e2a34b9c37f91b836514b0b00256531d6ce4a0c",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L027.png",
+      "candidate": "output/playwright/ui08/catalog/430/L027.png",
+      "baselineSHA": "c7f9dd08ac77624147da700936b0351c2011d602c061069851db8756ef014317",
+      "candidateSHA": "c7f9dd08ac77624147da700936b0351c2011d602c061069851db8756ef014317",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L028.png",
+      "candidate": "output/playwright/ui08/catalog/430/L028.png",
+      "baselineSHA": "b71af29949c56c532e6a3cdbb769cd199ca5c2c1d242c3c72b048d2f4a9c0d85",
+      "candidateSHA": "b71af29949c56c532e6a3cdbb769cd199ca5c2c1d242c3c72b048d2f4a9c0d85",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L029.png",
+      "candidate": "output/playwright/ui08/catalog/430/L029.png",
+      "baselineSHA": "f1aa1407c1f1fa2f930eb7df5cfe1ac644b9b4572c0177a16ee2e325a0e1b7f3",
+      "candidateSHA": "f1aa1407c1f1fa2f930eb7df5cfe1ac644b9b4572c0177a16ee2e325a0e1b7f3",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L030.png",
+      "candidate": "output/playwright/ui08/catalog/430/L030.png",
+      "baselineSHA": "7910887c9e2eb037e4a53b72b05439b20bd7d33b8cdec4d6acaaebc2087981e3",
+      "candidateSHA": "7910887c9e2eb037e4a53b72b05439b20bd7d33b8cdec4d6acaaebc2087981e3",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L031.png",
+      "candidate": "output/playwright/ui08/catalog/430/L031.png",
+      "baselineSHA": "08c0b3c150dace748c14a887277aff8ea75c9a12b8aeb394d2995cf290db7dbf",
+      "candidateSHA": "08c0b3c150dace748c14a887277aff8ea75c9a12b8aeb394d2995cf290db7dbf",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L032.png",
+      "candidate": "output/playwright/ui08/catalog/430/L032.png",
+      "baselineSHA": "6f01d504bcd28de64697f651f3ee61093b153128f98878830959c189d0148735",
+      "candidateSHA": "6f01d504bcd28de64697f651f3ee61093b153128f98878830959c189d0148735",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L033.png",
+      "candidate": "output/playwright/ui08/catalog/430/L033.png",
+      "baselineSHA": "85dc45dcaf8835f2d1efbbd2cd0508362d02766234e2ae3d16ba1a8ee294cd5a",
+      "candidateSHA": "85dc45dcaf8835f2d1efbbd2cd0508362d02766234e2ae3d16ba1a8ee294cd5a",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L034.png",
+      "candidate": "output/playwright/ui08/catalog/430/L034.png",
+      "baselineSHA": "73a0e1c5ba37fee59d5fd85df2d828da9f9f4b4d1c359e750ac35a9bf9609907",
+      "candidateSHA": "73a0e1c5ba37fee59d5fd85df2d828da9f9f4b4d1c359e750ac35a9bf9609907",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L035.png",
+      "candidate": "output/playwright/ui08/catalog/430/L035.png",
+      "baselineSHA": "38994fe2bdf1fa99db4997bbc5789cfe278674a75726a61cab4e0a897361bd19",
+      "candidateSHA": "38994fe2bdf1fa99db4997bbc5789cfe278674a75726a61cab4e0a897361bd19",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L036.png",
+      "candidate": "output/playwright/ui08/catalog/430/L036.png",
+      "baselineSHA": "0d644ad4229c2ec71c3436329c136c19332e65f0a9c0a906e9b6d433d2e03f6e",
+      "candidateSHA": "0d644ad4229c2ec71c3436329c136c19332e65f0a9c0a906e9b6d433d2e03f6e",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L037.png",
+      "candidate": "output/playwright/ui08/catalog/430/L037.png",
+      "baselineSHA": "cb935bb6f206e6b1a2b9c4a82ca7a0632948a75c28a0ef064558ef8b0b9d8c07",
+      "candidateSHA": "cb935bb6f206e6b1a2b9c4a82ca7a0632948a75c28a0ef064558ef8b0b9d8c07",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L038.png",
+      "candidate": "output/playwright/ui08/catalog/430/L038.png",
+      "baselineSHA": "451d2676a683334925eabe4e3b1b11ec42847300829e497c35baf8065e841b43",
+      "candidateSHA": "451d2676a683334925eabe4e3b1b11ec42847300829e497c35baf8065e841b43",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L039.png",
+      "candidate": "output/playwright/ui08/catalog/430/L039.png",
+      "baselineSHA": "53f9f479c26211cd7ec8ad1a8e51f1f1c1dbd18a41ef95f5a7924e62515eeddc",
+      "candidateSHA": "53f9f479c26211cd7ec8ad1a8e51f1f1c1dbd18a41ef95f5a7924e62515eeddc",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L040.png",
+      "candidate": "output/playwright/ui08/catalog/430/L040.png",
+      "baselineSHA": "0f96fecd0bfe4c0b70e71ff8693303789021128b4ff6e9e3132adee421cfe740",
+      "candidateSHA": "0f96fecd0bfe4c0b70e71ff8693303789021128b4ff6e9e3132adee421cfe740",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L041.png",
+      "candidate": "output/playwright/ui08/catalog/430/L041.png",
+      "baselineSHA": "df282413488ab12347691148f13872391ee836b8160db54e17c9e7cfc2711550",
+      "candidateSHA": "df282413488ab12347691148f13872391ee836b8160db54e17c9e7cfc2711550",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L042.png",
+      "candidate": "output/playwright/ui08/catalog/430/L042.png",
+      "baselineSHA": "e984a4248a0e9eb26392289caf5347c650bbe399bca18d97137c72a759e835ce",
+      "candidateSHA": "e984a4248a0e9eb26392289caf5347c650bbe399bca18d97137c72a759e835ce",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L043.png",
+      "candidate": "output/playwright/ui08/catalog/430/L043.png",
+      "baselineSHA": "572d15f8a9f0928233ff66b375dc8590eb35807d5b4eb1c5f9bd409b28d69480",
+      "candidateSHA": "572d15f8a9f0928233ff66b375dc8590eb35807d5b4eb1c5f9bd409b28d69480",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L044.png",
+      "candidate": "output/playwright/ui08/catalog/430/L044.png",
+      "baselineSHA": "4051188e3edf73045e5d781d0151bdc62a4794c5ede5c29846162b94a66a01ed",
+      "candidateSHA": "4051188e3edf73045e5d781d0151bdc62a4794c5ede5c29846162b94a66a01ed",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L045.png",
+      "candidate": "output/playwright/ui08/catalog/430/L045.png",
+      "baselineSHA": "e73abf25fa865bae0e82824e70435eefd1af1494c7cd850116d40b45291b3e9c",
+      "candidateSHA": "e73abf25fa865bae0e82824e70435eefd1af1494c7cd850116d40b45291b3e9c",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L046.png",
+      "candidate": "output/playwright/ui08/catalog/430/L046.png",
+      "baselineSHA": "24cf6392d5231b3f92e78e85071f2f8c869f41eb80b7d3b7fd56e426a2576f28",
+      "candidateSHA": "24cf6392d5231b3f92e78e85071f2f8c869f41eb80b7d3b7fd56e426a2576f28",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L047.png",
+      "candidate": "output/playwright/ui08/catalog/430/L047.png",
+      "baselineSHA": "16b4d498a93af32a45739729b44dcd2d5e20ba5a80eedd41fd259e4c7d3c41c9",
+      "candidateSHA": "16b4d498a93af32a45739729b44dcd2d5e20ba5a80eedd41fd259e4c7d3c41c9",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L048.png",
+      "candidate": "output/playwright/ui08/catalog/430/L048.png",
+      "baselineSHA": "358268835ac9b0bcd8c73ed474ffef66956978662c7619ba5f57d1eb2395e7f4",
+      "candidateSHA": "358268835ac9b0bcd8c73ed474ffef66956978662c7619ba5f57d1eb2395e7f4",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L049.png",
+      "candidate": "output/playwright/ui08/catalog/430/L049.png",
+      "baselineSHA": "7fea2f323d7f425255cea3a2351277a4247eb676b566be7c5dcb6726bce38e29",
+      "candidateSHA": "7fea2f323d7f425255cea3a2351277a4247eb676b566be7c5dcb6726bce38e29",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L050.png",
+      "candidate": "output/playwright/ui08/catalog/430/L050.png",
+      "baselineSHA": "5482cf984e36cc1eb69de525e8082215d43c5095996ec5771dfea5c2938ef52e",
+      "candidateSHA": "5482cf984e36cc1eb69de525e8082215d43c5095996ec5771dfea5c2938ef52e",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L051.png",
+      "candidate": "output/playwright/ui08/catalog/430/L051.png",
+      "baselineSHA": "8ef7268a35052215c2a2ed0f72da683a6298d6d706007493c5933b363da032c0",
+      "candidateSHA": "8ef7268a35052215c2a2ed0f72da683a6298d6d706007493c5933b363da032c0",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L052.png",
+      "candidate": "output/playwright/ui08/catalog/430/L052.png",
+      "baselineSHA": "1a51c181badeea728a9b5d04fd6b42f099bc33b8e068fdf72313a1deb9f99a90",
+      "candidateSHA": "1a51c181badeea728a9b5d04fd6b42f099bc33b8e068fdf72313a1deb9f99a90",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L053.png",
+      "candidate": "output/playwright/ui08/catalog/430/L053.png",
+      "baselineSHA": "e3ce9f8fbe2205ab8866d6ba675ae8e0a45913384af1921661440384b4f59832",
+      "candidateSHA": "e3ce9f8fbe2205ab8866d6ba675ae8e0a45913384af1921661440384b4f59832",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L054.png",
+      "candidate": "output/playwright/ui08/catalog/430/L054.png",
+      "baselineSHA": "26ea6f7ef8ed7ea97161bd4a699a5a382206fd8de91192255272b3748220aa02",
+      "candidateSHA": "26ea6f7ef8ed7ea97161bd4a699a5a382206fd8de91192255272b3748220aa02",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L055.png",
+      "candidate": "output/playwright/ui08/catalog/430/L055.png",
+      "baselineSHA": "3f90b15af12e49392621e1d16e8fa9370f05e10346c6eca8b1fca1ddfecf3b13",
+      "candidateSHA": "3f90b15af12e49392621e1d16e8fa9370f05e10346c6eca8b1fca1ddfecf3b13",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L056.png",
+      "candidate": "output/playwright/ui08/catalog/430/L056.png",
+      "baselineSHA": "2098f39f8981a5f28a3a6c5a74dce608018e778cd05f1b6deadeca1a18c46b45",
+      "candidateSHA": "2098f39f8981a5f28a3a6c5a74dce608018e778cd05f1b6deadeca1a18c46b45",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L057.png",
+      "candidate": "output/playwright/ui08/catalog/430/L057.png",
+      "baselineSHA": "fccc2696f28ff301be89954246843c4eb776ce949fb3fa4a9e2ef5300871a887",
+      "candidateSHA": "fccc2696f28ff301be89954246843c4eb776ce949fb3fa4a9e2ef5300871a887",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L058.png",
+      "candidate": "output/playwright/ui08/catalog/430/L058.png",
+      "baselineSHA": "a0e0876d9c9029b7e6480ff4b7af2d0fd58d4fcd286ae71fd28af1fc78e367af",
+      "candidateSHA": "a0e0876d9c9029b7e6480ff4b7af2d0fd58d4fcd286ae71fd28af1fc78e367af",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L059.png",
+      "candidate": "output/playwright/ui08/catalog/430/L059.png",
+      "baselineSHA": "4d802bbb89873f8954ebde155ce90b58d06640d2a8b3db9d6ca359cbf9d49a4a",
+      "candidateSHA": "4d802bbb89873f8954ebde155ce90b58d06640d2a8b3db9d6ca359cbf9d49a4a",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L060.png",
+      "candidate": "output/playwright/ui08/catalog/430/L060.png",
+      "baselineSHA": "512ab9c9de2777f6c648044029bcab39ef78ba77f8bef4e2780100e6c6d1daff",
+      "candidateSHA": "512ab9c9de2777f6c648044029bcab39ef78ba77f8bef4e2780100e6c6d1daff",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L061.png",
+      "candidate": "output/playwright/ui08/catalog/430/L061.png",
+      "baselineSHA": "d8644083f7ae12e0f26b464cce562860ce7bb705bad6431d55b76dafd0de7484",
+      "candidateSHA": "d8644083f7ae12e0f26b464cce562860ce7bb705bad6431d55b76dafd0de7484",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L062.png",
+      "candidate": "output/playwright/ui08/catalog/430/L062.png",
+      "baselineSHA": "648b96e61fbb16b6fb92fe8c15db0209255eaa5b9d8be53aea07142d743e5775",
+      "candidateSHA": "648b96e61fbb16b6fb92fe8c15db0209255eaa5b9d8be53aea07142d743e5775",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L063.png",
+      "candidate": "output/playwright/ui08/catalog/430/L063.png",
+      "baselineSHA": "973fb1c8421acdc8b75ed7d60a2eb7f5bc303fa952e89b9e6abc62b75099d5c4",
+      "candidateSHA": "973fb1c8421acdc8b75ed7d60a2eb7f5bc303fa952e89b9e6abc62b75099d5c4",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L064.png",
+      "candidate": "output/playwright/ui08/catalog/430/L064.png",
+      "baselineSHA": "06aaee12d0d334c0b6d9479159727917d5cfc86b429d1b61f615dac904c11c6f",
+      "candidateSHA": "06aaee12d0d334c0b6d9479159727917d5cfc86b429d1b61f615dac904c11c6f",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L065.png",
+      "candidate": "output/playwright/ui08/catalog/430/L065.png",
+      "baselineSHA": "ce52effb1e94d9cf79808d9af6ceeb12f9f0d03a3fe8eb0baf7c714546c74db4",
+      "candidateSHA": "ce52effb1e94d9cf79808d9af6ceeb12f9f0d03a3fe8eb0baf7c714546c74db4",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L066.png",
+      "candidate": "output/playwright/ui08/catalog/430/L066.png",
+      "baselineSHA": "3734a0831a6e15cc48a8ec09aadeeb6f5effecdd369c47a50809c76a0cf93096",
+      "candidateSHA": "3734a0831a6e15cc48a8ec09aadeeb6f5effecdd369c47a50809c76a0cf93096",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L067.png",
+      "candidate": "output/playwright/ui08/catalog/430/L067.png",
+      "baselineSHA": "96278f6df6370cd2c2b0ad627d3a192f590bae60b9d27ba2a5074720af5e5307",
+      "candidateSHA": "96278f6df6370cd2c2b0ad627d3a192f590bae60b9d27ba2a5074720af5e5307",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L068.png",
+      "candidate": "output/playwright/ui08/catalog/430/L068.png",
+      "baselineSHA": "58c5a70c36eb7e3f36d8496259621262eabb396e3774dcded80a869abcafb33b",
+      "candidateSHA": "58c5a70c36eb7e3f36d8496259621262eabb396e3774dcded80a869abcafb33b",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L069.png",
+      "candidate": "output/playwright/ui08/catalog/430/L069.png",
+      "baselineSHA": "a0bb653dba69504e2ec56a07a189cfb9e4494ffbb4fadbf22d85a0576a24281b",
+      "candidateSHA": "a0bb653dba69504e2ec56a07a189cfb9e4494ffbb4fadbf22d85a0576a24281b",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L070.png",
+      "candidate": "output/playwright/ui08/catalog/430/L070.png",
+      "baselineSHA": "8d83c7d0bcda4992185f76372482227d9a2bd8beab0851f9cd050d79b97cce2b",
+      "candidateSHA": "8d83c7d0bcda4992185f76372482227d9a2bd8beab0851f9cd050d79b97cce2b",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L071.png",
+      "candidate": "output/playwright/ui08/catalog/430/L071.png",
+      "baselineSHA": "df57e3be823e351631ee39cb7ee8451d3fe19e6a2baecd9e58b09498b12c1996",
+      "candidateSHA": "df57e3be823e351631ee39cb7ee8451d3fe19e6a2baecd9e58b09498b12c1996",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L072.png",
+      "candidate": "output/playwright/ui08/catalog/430/L072.png",
+      "baselineSHA": "a7e7602a3dac39a1141e86145fb6d1a827764da5bc35f514b7515edf59fae5da",
+      "candidateSHA": "a7e7602a3dac39a1141e86145fb6d1a827764da5bc35f514b7515edf59fae5da",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L073.png",
+      "candidate": "output/playwright/ui08/catalog/430/L073.png",
+      "baselineSHA": "12bf8d9ae20d50ab12a69fcdaa90759c965b394dc49f0974a36914edaab7bbed",
+      "candidateSHA": "12bf8d9ae20d50ab12a69fcdaa90759c965b394dc49f0974a36914edaab7bbed",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L074.png",
+      "candidate": "output/playwright/ui08/catalog/430/L074.png",
+      "baselineSHA": "d7d576994a59eb70204ab314584acbf74db41799ef07e09c4e74190fd132c1b0",
+      "candidateSHA": "d7d576994a59eb70204ab314584acbf74db41799ef07e09c4e74190fd132c1b0",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L075.png",
+      "candidate": "output/playwright/ui08/catalog/430/L075.png",
+      "baselineSHA": "137b96a8554b31c0a4e3d23dfa030e8cb929c65da56b637d59fc01c89f022a71",
+      "candidateSHA": "137b96a8554b31c0a4e3d23dfa030e8cb929c65da56b637d59fc01c89f022a71",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L076.png",
+      "candidate": "output/playwright/ui08/catalog/430/L076.png",
+      "baselineSHA": "56ef4a6efad4ebca2fad4d53577a742f8de135cf6d0ee472f8dd331284b07984",
+      "candidateSHA": "56ef4a6efad4ebca2fad4d53577a742f8de135cf6d0ee472f8dd331284b07984",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L077.png",
+      "candidate": "output/playwright/ui08/catalog/430/L077.png",
+      "baselineSHA": "7f816eb2021f49d75e69a608b933631b1c5dfa96dd2961f7c24f4d0e8447c080",
+      "candidateSHA": "7f816eb2021f49d75e69a608b933631b1c5dfa96dd2961f7c24f4d0e8447c080",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L078.png",
+      "candidate": "output/playwright/ui08/catalog/430/L078.png",
+      "baselineSHA": "c00b8aae6d8b8e5bc4a14418a29ee415fa3627d074e6e0363ca8746e52c96bde",
+      "candidateSHA": "c00b8aae6d8b8e5bc4a14418a29ee415fa3627d074e6e0363ca8746e52c96bde",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L079.png",
+      "candidate": "output/playwright/ui08/catalog/430/L079.png",
+      "baselineSHA": "73cbe060f34072c344b030cfc21de9201bd8431535c593aac821c752ac8f5f93",
+      "candidateSHA": "73cbe060f34072c344b030cfc21de9201bd8431535c593aac821c752ac8f5f93",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L080.png",
+      "candidate": "output/playwright/ui08/catalog/430/L080.png",
+      "baselineSHA": "090f4835958064fa1d9f65cc1d5e290e1d71c34815fbf9a79242e57d55cea79f",
+      "candidateSHA": "090f4835958064fa1d9f65cc1d5e290e1d71c34815fbf9a79242e57d55cea79f",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L081.png",
+      "candidate": "output/playwright/ui08/catalog/430/L081.png",
+      "baselineSHA": "882c6e9e0322893137499805289baf650bfb2deae7dc7195c6ebcf738d5324a2",
+      "candidateSHA": "882c6e9e0322893137499805289baf650bfb2deae7dc7195c6ebcf738d5324a2",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L082.png",
+      "candidate": "output/playwright/ui08/catalog/430/L082.png",
+      "baselineSHA": "a56764dd1b2ecae0eda5576143643c3196daaacd85b2016d8a85585e35e9366a",
+      "candidateSHA": "a56764dd1b2ecae0eda5576143643c3196daaacd85b2016d8a85585e35e9366a",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L083.png",
+      "candidate": "output/playwright/ui08/catalog/430/L083.png",
+      "baselineSHA": "d393375b83ee942d98b4107143883f3afc693600f967595c73ff78d0ae1a6920",
+      "candidateSHA": "d393375b83ee942d98b4107143883f3afc693600f967595c73ff78d0ae1a6920",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L084.png",
+      "candidate": "output/playwright/ui08/catalog/430/L084.png",
+      "baselineSHA": "0a7775fb9382b528bc4925a0ba6ba8698c887016d4ad2ce769113fad6f8af9aa",
+      "candidateSHA": "0a7775fb9382b528bc4925a0ba6ba8698c887016d4ad2ce769113fad6f8af9aa",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L085.png",
+      "candidate": "output/playwright/ui08/catalog/430/L085.png",
+      "baselineSHA": "356649c14822efce2501f385d7d48796e04263a3b1f3f1fb3909501a95fbc8eb",
+      "candidateSHA": "356649c14822efce2501f385d7d48796e04263a3b1f3f1fb3909501a95fbc8eb",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L086.png",
+      "candidate": "output/playwright/ui08/catalog/430/L086.png",
+      "baselineSHA": "cb49bf0617af7b7adb80782f734b10f5bd13757c9dd18a2c8ddf4dc0ce533268",
+      "candidateSHA": "cb49bf0617af7b7adb80782f734b10f5bd13757c9dd18a2c8ddf4dc0ce533268",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L087.png",
+      "candidate": "output/playwright/ui08/catalog/430/L087.png",
+      "baselineSHA": "69682b891c3ac4c47cfe006e39804149c7ddb2b2ac2b544124a49429e79b089a",
+      "candidateSHA": "69682b891c3ac4c47cfe006e39804149c7ddb2b2ac2b544124a49429e79b089a",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L088.png",
+      "candidate": "output/playwright/ui08/catalog/430/L088.png",
+      "baselineSHA": "2df0aa9b4a702d308980442e5bad7bf2be62592e95b67bf759f72949aad5ce55",
+      "candidateSHA": "2df0aa9b4a702d308980442e5bad7bf2be62592e95b67bf759f72949aad5ce55",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L089.png",
+      "candidate": "output/playwright/ui08/catalog/430/L089.png",
+      "baselineSHA": "19bb11b65cce6e98b75de7e863779c5371bc0c56d027f058d1f049c8c6bcc325",
+      "candidateSHA": "19bb11b65cce6e98b75de7e863779c5371bc0c56d027f058d1f049c8c6bcc325",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L090.png",
+      "candidate": "output/playwright/ui08/catalog/430/L090.png",
+      "baselineSHA": "820707aad30888ed4bf9aeae607b85e8457c9f40481a48ca49d932032a34cb9e",
+      "candidateSHA": "820707aad30888ed4bf9aeae607b85e8457c9f40481a48ca49d932032a34cb9e",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L091.png",
+      "candidate": "output/playwright/ui08/catalog/430/L091.png",
+      "baselineSHA": "2f87eb7ea29086b2ecd88e30b38342801b53df4fafeb603efcc87bb413c32c68",
+      "candidateSHA": "2f87eb7ea29086b2ecd88e30b38342801b53df4fafeb603efcc87bb413c32c68",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L092.png",
+      "candidate": "output/playwright/ui08/catalog/430/L092.png",
+      "baselineSHA": "cb133b48c67e7e776f8d0ee781a7d40778cc1574176d7dfc92d58dca1f058bdd",
+      "candidateSHA": "cb133b48c67e7e776f8d0ee781a7d40778cc1574176d7dfc92d58dca1f058bdd",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L093.png",
+      "candidate": "output/playwright/ui08/catalog/430/L093.png",
+      "baselineSHA": "a23da5b55217b179347666ffe0e90ec6b18a8aab0355f5da917b6701032d8e97",
+      "candidateSHA": "a23da5b55217b179347666ffe0e90ec6b18a8aab0355f5da917b6701032d8e97",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L094.png",
+      "candidate": "output/playwright/ui08/catalog/430/L094.png",
+      "baselineSHA": "66d0ea6d7f3a6885eb2010d65bbce5e31b23faffd69e1f64a73646ec7f9b040c",
+      "candidateSHA": "66d0ea6d7f3a6885eb2010d65bbce5e31b23faffd69e1f64a73646ec7f9b040c",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L095.png",
+      "candidate": "output/playwright/ui08/catalog/430/L095.png",
+      "baselineSHA": "a589726c6e2e26c5c2afd8912efdb819732be41b23d39b0325a84840940af7ae",
+      "candidateSHA": "a589726c6e2e26c5c2afd8912efdb819732be41b23d39b0325a84840940af7ae",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L096.png",
+      "candidate": "output/playwright/ui08/catalog/430/L096.png",
+      "baselineSHA": "b87dfe5464e4ea0e8897e3f270061e9afeb7030d43d4028b73cb75adafb577aa",
+      "candidateSHA": "b87dfe5464e4ea0e8897e3f270061e9afeb7030d43d4028b73cb75adafb577aa",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L097.png",
+      "candidate": "output/playwright/ui08/catalog/430/L097.png",
+      "baselineSHA": "b1554a2dbf969c72f78b3f300f0f949a0782d9cc695e8dda1fef0b0a1aff6691",
+      "candidateSHA": "b1554a2dbf969c72f78b3f300f0f949a0782d9cc695e8dda1fef0b0a1aff6691",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L098.png",
+      "candidate": "output/playwright/ui08/catalog/430/L098.png",
+      "baselineSHA": "38e9e6f8daafd98e510a9b87c5ffad705f708987f8ad9177bba38712e66e8e19",
+      "candidateSHA": "38e9e6f8daafd98e510a9b87c5ffad705f708987f8ad9177bba38712e66e8e19",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L099.png",
+      "candidate": "output/playwright/ui08/catalog/430/L099.png",
+      "baselineSHA": "e3ef1cb7a379f755b378d1a5646485762e8664572c2ad41bae9facff2196b161",
+      "candidateSHA": "e3ef1cb7a379f755b378d1a5646485762e8664572c2ad41bae9facff2196b161",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/L100.png",
+      "candidate": "output/playwright/ui08/catalog/430/L100.png",
+      "baselineSHA": "9b1f9dee7f93237be538851fbe6fa7ba7799f02e47eb00fcfd5a5000d778cf61",
+      "candidateSHA": "9b1f9dee7f93237be538851fbe6fa7ba7799f02e47eb00fcfd5a5000d778cf61",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/obstacle-hp1.png",
+      "candidate": "output/playwright/ui08/catalog/430/obstacle-hp1.png",
+      "baselineSHA": "9ee7aae9c8e08172c6bf96188c6094e88d915921299e709abc3d2bf26dd9c775",
+      "candidateSHA": "9ee7aae9c8e08172c6bf96188c6094e88d915921299e709abc3d2bf26dd9c775",
+      "identical": true
+    },
+    {
+      "baseline": "output/playwright/ui07/build/430/obstacle-revealed.png",
+      "candidate": "output/playwright/ui08/catalog/430/obstacle-revealed.png",
+      "baselineSHA": "11e4d0d7102ffacf3ac118e3b16cc5d35f5ab9f38f292f11bcb35fafeda428b9",
+      "candidateSHA": "11e4d0d7102ffacf3ac118e3b16cc5d35f5ab9f38f292f11bcb35fafeda428b9",
+      "identical": true
+    }
+  ]
+}

@@ -340,7 +340,7 @@
     ]
   },
   "candidate": {
-    "path": "/private/tmp/mmhw-ui08-flow-20260915/build/ui08-flow",
+    "path": "build/ui08-flow-verified",
     "bytes": 2584075,
     "gzipEstimateBytes": 988399,
     "files": [

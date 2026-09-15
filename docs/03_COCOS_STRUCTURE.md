@@ -1,5 +1,7 @@
 # 03 · Cocos 场景与组织记忆
 
+2026-09-15 UI-08：`tools/ui-release/`在临时副本裁剪引擎模块并关闭debug构建，复用UI-06/UI-07原场景，没有新建一套UI或修改原工程设置。两份最终包与性能/回归证据见 [17](17_UI_RELEASE_READINESS.md)。
+
 2026-09-15：UI-07新增 `assets/ui-catalog/` 的独立百关场景、CatalogBase/CatalogPreview、无cc依赖的ReviewLayout、源派生JSON及新字体子集；复用已验收Prefab/纹理，旧场景不改。百关静态适配证据与限制见 [16](16_UI_CATALOG_QA.md)。
 
 2026-09-14：UI-06新增 `assets/ui-flow/FlowView.ts` 页面组合、无cc依赖的FlowModel演示状态、FlowBase布局绘制及独立场景。沿用UI-05 Prefab，不改已验收场景；地图/卡片按分页复用节点，详细行为与限制见 [15](15_UI_FLOW_PREVIEW.md)。

@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "kind": "CATALOG",
+  "samples": [
+    {
+      "cycles": 0,
+      "heap": {
+        "usedSize": 21165764,
+        "totalSize": 21880832,
+        "embedderHeapUsedSize": 1860544,
+        "backingStorageSize": 4064860
+      },
+      "retainedNodes": 57
+    },
+    {
+      "cycles": 40,
+      "heap": {
+        "usedSize": 21496432,
+        "totalSize": 22667264,
+        "embedderHeapUsedSize": 1946920,
+        "backingStorageSize": 4064876
+      },
+      "retainedNodes": 57
+    },
+    {
+      "cycles": 80,
+      "heap": {
+        "usedSize": 21718240,
+        "totalSize": 23191552,
+        "embedderHeapUsedSize": 2016624,
+        "backingStorageSize": 4064876
+      },
+      "retainedNodes": 57
+    },
+    {
+      "cycles": 120,
+      "heap": {
+        "usedSize": 21821488,
+        "totalSize": 23453696,
+        "embedderHeapUsedSize": 1876416,
+        "backingStorageSize": 4064876
+      },
+      "retainedNodes": 57
+    }
+  ],
+  "nodesStable": true,
+  "postGcGrowthBytes": 655724,
+  "diagnostics": [],
+  "note": "Desktop Chromium forced-GC diagnostic after approximate heap rose; 5 warmup + 120 pause cycles. JS heap only, not GPU/Android memory or a complete leak proof."
+}
