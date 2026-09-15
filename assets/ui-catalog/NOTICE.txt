@@ -1,0 +1,4 @@
+MMHW UI Catalog is a renamed subset of Noto Sans SC 2.004, weight 500.
+Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name Source.
+Licensed under the SIL Open Font License 1.1. See OFL.txt.
+Source preserved at art/source/ui05/NotoSansSC-VF.ttf.

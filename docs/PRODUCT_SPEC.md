@@ -80,7 +80,7 @@
 | Revive | Lost | Flowing | 无 |
 
 - `Frenzy` 是持续 4 秒的会话修饰状态，不是阻断发射的独占状态；在 Flowing 中仍可正常瞄准发射。
-- Source 生成是 Flowing 内的系统行为，不是第二条独立猫链。
+- D024：Source生成仅在Flowing内进行；Resolving中暂停生成和整链移动，不产生第二条独立猫链。
 - 状态切换必须由唯一 `GameSession` 管理，UI 不直接修改状态。
 - 切后台自动进入 Paused；恢复前不移动队伍。
 - 广告播放前保存局内快照；广告关闭后根据回调进入 Revive 或保持 Lost。
@@ -136,6 +136,7 @@
 
 ### 5.5 胜负
 
+- D024：危险反馈按链头 `s/L ≥ 0.75 / 0.90 / 0.95` 递进；这是视觉预警，不改变下面的失败判定。
 - 所有关卡目标均为清空本关计划生成的全部猫咪。
 - `sourceClosed === true && activePieceCount === 0 && projectileCount === 0 && pendingResolveCount === 0` 时具备胜利候选条件。
 - 任意链段的链头中心距离达到 `pathLength - catRadius` 时立即失败。

@@ -1,0 +1,521 @@
+{
+  "passed": true,
+  "chapters": [
+    [
+      "level1",
+      "level2",
+      "level3",
+      "level4",
+      "level5",
+      "level6",
+      "level7",
+      "level8",
+      "level9",
+      "level10"
+    ],
+    [
+      "level11",
+      "level12",
+      "level13",
+      "level14",
+      "level15",
+      "level16",
+      "level17",
+      "level18",
+      "level19",
+      "level20"
+    ],
+    [
+      "level21",
+      "level22",
+      "level23",
+      "level24",
+      "level25",
+      "level26",
+      "level27",
+      "level28",
+      "level29",
+      "level30"
+    ],
+    [
+      "level31",
+      "level32",
+      "level33",
+      "level34",
+      "level35",
+      "level36",
+      "level37",
+      "level38",
+      "level39",
+      "level40"
+    ],
+    [
+      "level41",
+      "level42",
+      "level43",
+      "level44",
+      "level45",
+      "level46",
+      "level47",
+      "level48",
+      "level49",
+      "level50"
+    ],
+    [
+      "level51",
+      "level52",
+      "level53",
+      "level54",
+      "level55",
+      "level56",
+      "level57",
+      "level58",
+      "level59",
+      "level60"
+    ],
+    [
+      "level61",
+      "level62",
+      "level63",
+      "level64",
+      "level65",
+      "level66",
+      "level67",
+      "level68",
+      "level69",
+      "level70"
+    ],
+    [
+      "level71",
+      "level72",
+      "level73",
+      "level74",
+      "level75",
+      "level76",
+      "level77",
+      "level78",
+      "level79",
+      "level80"
+    ],
+    [
+      "level81",
+      "level82",
+      "level83",
+      "level84",
+      "level85",
+      "level86",
+      "level87",
+      "level88",
+      "level89",
+      "level90"
+    ],
+    [
+      "level91",
+      "level92",
+      "level93",
+      "level94",
+      "level95",
+      "level96",
+      "level97",
+      "level98",
+      "level99",
+      "level100"
+    ]
+  ],
+  "sizes": [
+    {
+      "width": 360,
+      "height": 640,
+      "fit": {
+        "x": 83.39580209895047,
+        "y": 136,
+        "width": 583.2083958020991,
+        "height": 1037.3333333333335,
+        "scale": 0.7776111944027987
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "fit": {
+        "x": 0,
+        "y": 136.38461538461536,
+        "width": 750,
+        "height": 1334,
+        "scale": 1
+      }
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "fit": {
+        "x": 0,
+        "y": 141.93023255813944,
+        "width": 750,
+        "height": 1334,
+        "scale": 1
+      }
+    }
+  ],
+  "diagnostics": [],
+  "final": {
+    "engine": "Cocos Creator 3.8.8",
+    "fixtureOnly": true,
+    "sourceSHA": "fab0b72c634d89b6b4081c16a4253c2b1046183308304091b8f0510e75c72e7c",
+    "level": 24,
+    "panel": "lose",
+    "home": false,
+    "notched": true,
+    "bounds": false,
+    "viewport": {
+      "width": 750,
+      "height": 1625.581395348837
+    },
+    "engineViewport": {
+      "x": 0,
+      "y": 0,
+      "width": 430,
+      "height": 932
+    },
+    "visibleOrigin": {
+      "x": 0,
+      "y": 0
+    },
+    "canvasWorld": {
+      "x": 375,
+      "y": 812.7906976744185,
+      "z": 0
+    },
+    "safe": {
+      "x": 0,
+      "y": 72,
+      "width": 750,
+      "height": 1493.581395348837
+    },
+    "toolbarHeight": 83.72093023255813,
+    "fontLoaded": true,
+    "fit": {
+      "x": 0,
+      "y": 141.93023255813944,
+      "width": 750,
+      "height": 1334,
+      "scale": 1
+    },
+    "next": {
+      "x": 475.4562859340631,
+      "y": 701.9171806906621,
+      "gap": 16.08281930933788,
+      "docked": false
+    },
+    "topGap": 20,
+    "bottomGap": 26,
+    "shots": 0,
+    "swaps": 0,
+    "resumes": 0,
+    "selected": "",
+    "notice": "UI-06 演示数据 · 不写入正式存档",
+    "retainedNodes": 196,
+    "prefabs": {
+      "button": true,
+      "panel": true,
+      "hud": true,
+      "home": true
+    },
+    "stateSample": 0,
+    "sound": true,
+    "vibration": true,
+    "assetBatch": {
+      "cats": 5,
+      "ui": 7
+    },
+    "cssScale": 0.5733333333333334,
+    "controls": [
+      {
+        "name": "revive",
+        "rect": {
+          "x": 135,
+          "y": 675,
+          "width": 480,
+          "height": 88
+        },
+        "visualRect": {
+          "x": 135,
+          "y": 675,
+          "width": 480,
+          "height": 88
+        },
+        "space": "stage",
+        "state": "normal"
+      },
+      {
+        "name": "freeRestart",
+        "rect": {
+          "x": 135,
+          "y": 840,
+          "width": 480,
+          "height": 88
+        },
+        "visualRect": {
+          "x": 135,
+          "y": 840,
+          "width": 480,
+          "height": 88
+        },
+        "space": "stage",
+        "state": "normal"
+      },
+      {
+        "name": "freeMap",
+        "rect": {
+          "x": 135,
+          "y": 1005,
+          "width": 480,
+          "height": 88
+        },
+        "visualRect": {
+          "x": 135,
+          "y": 1005,
+          "width": 480,
+          "height": 88
+        },
+        "space": "stage",
+        "state": "normal"
+      },
+      {
+        "name": "debug-home",
+        "rect": {
+          "x": 3,
+          "y": 1485.348837209302,
+          "width": 119,
+          "height": 76.74418604651163
+        },
+        "visualRect": {
+          "x": 3,
+          "y": 1485.348837209302,
+          "width": 119,
+          "height": 76.74418604651163
+        },
+        "space": "screen",
+        "state": "normal"
+      },
+      {
+        "name": "debug-safe",
+        "rect": {
+          "x": 128,
+          "y": 1485.348837209302,
+          "width": 119,
+          "height": 76.74418604651163
+        },
+        "visualRect": {
+          "x": 128,
+          "y": 1485.348837209302,
+          "width": 119,
+          "height": 76.74418604651163
+        },
+        "space": "screen",
+        "state": "normal"
+      },
+      {
+        "name": "debug-states",
+        "rect": {
+          "x": 253,
+          "y": 1485.348837209302,
+          "width": 119,
+          "height": 76.74418604651163
+        },
+        "visualRect": {
+          "x": 253,
+          "y": 1485.348837209302,
+          "width": 119,
+          "height": 76.74418604651163
+        },
+        "space": "screen",
+        "state": "normal"
+      },
+      {
+        "name": "debug-win",
+        "rect": {
+          "x": 378,
+          "y": 1485.348837209302,
+          "width": 119,
+          "height": 76.74418604651163
+        },
+        "visualRect": {
+          "x": 378,
+          "y": 1485.348837209302,
+          "width": 119,
+          "height": 76.74418604651163
+        },
+        "space": "screen",
+        "state": "normal"
+      },
+      {
+        "name": "debug-lose",
+        "rect": {
+          "x": 503,
+          "y": 1485.348837209302,
+          "width": 119,
+          "height": 76.74418604651163
+        },
+        "visualRect": {
+          "x": 503,
+          "y": 1485.348837209302,
+          "width": 119,
+          "height": 76.74418604651163
+        },
+        "space": "screen",
+        "state": "normal"
+      },
+      {
+        "name": "debug-boot",
+        "rect": {
+          "x": 628,
+          "y": 1485.348837209302,
+          "width": 119,
+          "height": 76.74418604651163
+        },
+        "visualRect": {
+          "x": 628,
+          "y": 1485.348837209302,
+          "width": 119,
+          "height": 76.74418604651163
+        },
+        "space": "screen",
+        "state": "normal"
+      }
+    ],
+    "page": "game",
+    "chapter": 2,
+    "cardPage": 0,
+    "current": 24,
+    "selectedLevel": 24,
+    "fish": 298,
+    "stars": 24,
+    "settings": {
+      "music": true,
+      "sound": true,
+      "vibration": true
+    },
+    "owned": [
+      "nest0",
+      "trail0"
+    ],
+    "equipped": {
+      "nest": "nest0",
+      "trail": "trail0"
+    },
+    "viewed": [
+      0
+    ],
+    "pending": null,
+    "requestOutcome": "success",
+    "toast": "",
+    "guide": 0,
+    "inventory": [
+      2,
+      0,
+      1
+    ],
+    "busy": false,
+    "labels": [
+      {
+        "name": "HarnessCaption",
+        "text": "UI-06 · 页面与状态预览",
+        "size": 22,
+        "actual": 22
+      },
+      {
+        "name": "SourceLabel",
+        "text": "入口",
+        "size": 20,
+        "actual": 20
+      },
+      {
+        "name": "LairLabel",
+        "text": "老巢",
+        "size": 20,
+        "actual": 20
+      },
+      {
+        "name": "Caption",
+        "text": "",
+        "size": 26,
+        "actual": 26
+      },
+      {
+        "name": "Level",
+        "text": "第 24 关",
+        "size": 32,
+        "actual": 32
+      },
+      {
+        "name": "Goal",
+        "text": "目标：全部回窝",
+        "size": 28,
+        "actual": 28
+      },
+      {
+        "name": "Purr",
+        "text": "呼噜",
+        "size": 24,
+        "actual": 24
+      },
+      {
+        "name": "Caption",
+        "text": "逗猫棒 ×2",
+        "size": 26,
+        "actual": 26
+      },
+      {
+        "name": "Caption",
+        "text": "猫薄荷 ×0",
+        "size": 26,
+        "actual": 26
+      },
+      {
+        "name": "Caption",
+        "text": "彩虹猫 ×1",
+        "size": 26,
+        "actual": 26
+      },
+      {
+        "name": "Status",
+        "text": "UI-06 演示数据 · 不写入正式存档",
+        "size": 20,
+        "actual": 20
+      },
+      {
+        "name": "FlowDialogTitle",
+        "text": "罐头仓库挤满啦",
+        "size": 39,
+        "actual": 39
+      },
+      {
+        "name": "DialogCopy500",
+        "text": "队伍后退25%，末端3只猫回窝",
+        "size": 27,
+        "actual": 27
+      },
+      {
+        "name": "Caption",
+        "text": "视频 · 看完继续",
+        "size": 32,
+        "actual": 32
+      },
+      {
+        "name": "Caption",
+        "text": "免费重新开始",
+        "size": 32,
+        "actual": 32
+      },
+      {
+        "name": "Caption",
+        "text": "返回地图",
+        "size": 32,
+        "actual": 32
+      }
+    ],
+    "revivePhase": "",
+    "restoreCredit": false
+  }
+}

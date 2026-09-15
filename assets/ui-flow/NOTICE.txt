@@ -1,0 +1,6 @@
+MMHW UI Flow is a modified subset of Noto Sans SC VF, version 2.004.
+Original copyright: © 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
+Licensed under the SIL Open Font License 1.1; see OFL.txt.
+Modified for UI-06: weight 500, glyph subset and renamed family.
+Source: https://github.com/notofonts/noto-cjk/blob/main/Sans/Variable/TTF/Subset/NotoSansSC-VF.ttf
+Source SHA-256: d68bafcb48a2707749396aa12bbbd833cb70401f3a9a689fd2902c7e0d295964

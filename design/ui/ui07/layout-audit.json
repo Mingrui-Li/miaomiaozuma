@@ -1,0 +1,6208 @@
+{
+  "date": "2026-09-14",
+  "sourceSHA": "fab0b72c634d89b6b4081c16a4253c2b1046183308304091b8f0510e75c72e7c",
+  "method": "2px canonical samples, 0.25px render tolerance, full occupied tube and endpoint footprints",
+  "scope": "static layout only; obstacle glyphs fit cat bounds; no gameplay/phone/performance claim",
+  "rows": [
+    {
+      "id": 1,
+      "catDiameter": 64,
+      "trackWidth": 88,
+      "source": {
+        "x": 100,
+        "y": 320
+      },
+      "lair": {
+        "x": 650,
+        "y": 420
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "occupied": {
+        "left": 56,
+        "right": 694,
+        "top": 276,
+        "bottom": 1074
+      },
+      "topGap": 108,
+      "bottomGap": 114,
+      "launcherGap": 179,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 24.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 42,
+      "renderError": 0.2284596341516792,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 23.888215892053974,
+          "pauseGap": 109.05880462724937,
+          "toolGap": 99.0588046272494
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 33.28,
+          "pauseGap": 124,
+          "toolGap": 114
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 36.693333333333335,
+          "pauseGap": 124,
+          "toolGap": 114
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 2,
+      "catDiameter": 64,
+      "trackWidth": 88,
+      "source": {
+        "x": 170,
+        "y": 270
+      },
+      "lair": {
+        "x": 95,
+        "y": 590
+      },
+      "sourceDirection": {
+        "x": 0.9018159921782944,
+        "y": 0.43212025670116266
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "occupied": {
+        "left": 51,
+        "right": 682.568723,
+        "top": 216.64255004482172,
+        "bottom": 1070.236584
+      },
+      "topGap": 48.64255004482172,
+      "bottomGap": 117.763416,
+      "launcherGap": 155.17033770626702,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 24.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 56,
+      "renderError": 0.22869447331314977,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 23.888215892053974,
+          "pauseGap": 49.70135467207106,
+          "toolGap": 102.82222062724941
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 33.28,
+          "pauseGap": 64.64255004482172,
+          "toolGap": 117.763416
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 36.693333333333335,
+          "pauseGap": 64.64255004482172,
+          "toolGap": 117.763416
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 3,
+      "catDiameter": 64,
+      "trackWidth": 88,
+      "source": {
+        "x": 181,
+        "y": 240
+      },
+      "lair": {
+        "x": 181,
+        "y": 1110
+      },
+      "sourceDirection": {
+        "x": 0.010174388167331449,
+        "y": 0.9999482395731394
+      },
+      "lairDirection": {
+        "x": -0.010174388167331449,
+        "y": 0.9999482395731394
+      },
+      "occupied": {
+        "left": 137,
+        "right": 612.994878,
+        "top": 196,
+        "bottom": 1154
+      },
+      "topGap": 28,
+      "bottomGap": 34,
+      "launcherGap": 77.29733523816233,
+      "next": {
+        "x": 383.7155742747658,
+        "y": 774.6194698091746,
+        "gap": 10.238317378225801,
+        "docked": false
+      },
+      "renderPoints": 56,
+      "renderError": 0.24949712241904062,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 23.888215892053974,
+          "pauseGap": 29.058804627249373,
+          "toolGap": 19.0588046272494
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 33.28,
+          "pauseGap": 44,
+          "toolGap": 34
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 36.693333333333335,
+          "pauseGap": 44,
+          "toolGap": 34
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 4,
+      "catDiameter": 64,
+      "trackWidth": 88,
+      "source": {
+        "x": 112.792041,
+        "y": 463.128936
+      },
+      "lair": {
+        "x": 301.124759,
+        "y": 503.819773
+      },
+      "sourceDirection": {
+        "x": 0.4885792845866523,
+        "y": -0.8725195027463829
+      },
+      "lairDirection": {
+        "x": 0.8601178095581984,
+        "y": -0.5100954358556902
+      },
+      "occupied": {
+        "left": 58.34808950667859,
+        "right": 664.079257,
+        "top": 266.675231,
+        "bottom": 1027.5053870000002
+      },
+      "topGap": 98.675231,
+      "bottomGap": 160.49461299999984,
+      "launcherGap": 72.11867268852149,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 24.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 105,
+      "renderError": 0.24842306382388843,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 23.888215892053974,
+          "pauseGap": 99.73403562724937,
+          "toolGap": 145.55341762724925
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 33.28,
+          "pauseGap": 114.675231,
+          "toolGap": 160.49461299999984
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 36.693333333333335,
+          "pauseGap": 114.675231,
+          "toolGap": 160.49461299999984
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 5,
+      "catDiameter": 64,
+      "trackWidth": 88,
+      "source": {
+        "x": 95,
+        "y": 275
+      },
+      "lair": {
+        "x": 390,
+        "y": 505
+      },
+      "sourceDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 51,
+        "right": 689,
+        "top": 231,
+        "bottom": 1104
+      },
+      "topGap": 63,
+      "bottomGap": 84,
+      "launcherGap": 74,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 24.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 98,
+      "renderError": 0.24016397336001574,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 23.888215892053974,
+          "pauseGap": 64.05880462724937,
+          "toolGap": 69.0588046272494
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 33.28,
+          "pauseGap": 79,
+          "toolGap": 84
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 36.693333333333335,
+          "pauseGap": 79,
+          "toolGap": 84
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 6,
+      "catDiameter": 64,
+      "trackWidth": 88,
+      "source": {
+        "x": 65,
+        "y": 1098
+      },
+      "lair": {
+        "x": 686,
+        "y": 1098
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "lairDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 21,
+        "right": 730,
+        "top": 418,
+        "bottom": 1142
+      },
+      "topGap": 250,
+      "bottomGap": 46,
+      "launcherGap": 115,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "renderPoints": 92,
+      "renderError": 0.2409399058630718,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 23.888215892053974,
+          "pauseGap": 251.05880462724937,
+          "toolGap": 31.0588046272494
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 33.28,
+          "pauseGap": 266,
+          "toolGap": 46
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 36.693333333333335,
+          "pauseGap": 266,
+          "toolGap": 46
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 7,
+      "catDiameter": 64,
+      "trackWidth": 88,
+      "source": {
+        "x": 686,
+        "y": 886
+      },
+      "lair": {
+        "x": 272,
+        "y": 462
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "lairDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 21,
+        "right": 730,
+        "top": 206,
+        "bottom": 1142
+      },
+      "topGap": 38,
+      "bottomGap": 46,
+      "launcherGap": 115.00013674898594,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "renderPoints": 142,
+      "renderError": 0.24000372319901847,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 23.888215892053974,
+          "pauseGap": 39.05880462724937,
+          "toolGap": 31.0588046272494
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 33.28,
+          "pauseGap": 54,
+          "toolGap": 46
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 36.693333333333335,
+          "pauseGap": 54,
+          "toolGap": 46
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 8,
+      "catDiameter": 64,
+      "trackWidth": 88,
+      "source": {
+        "x": 272,
+        "y": 886
+      },
+      "lair": {
+        "x": 686,
+        "y": 250
+      },
+      "sourceDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "occupied": {
+        "left": 21,
+        "right": 730,
+        "top": 206,
+        "bottom": 1142
+      },
+      "topGap": 38,
+      "bottomGap": 46,
+      "launcherGap": 115,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "renderPoints": 138,
+      "renderError": 0.2411227555864287,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 23.888215892053974,
+          "pauseGap": 39.05880462724937,
+          "toolGap": 31.0588046272494
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 33.28,
+          "pauseGap": 54,
+          "toolGap": 46
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 36.693333333333335,
+          "pauseGap": 54,
+          "toolGap": 46
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 9,
+      "catDiameter": 64,
+      "trackWidth": 88,
+      "source": {
+        "x": 65,
+        "y": 462
+      },
+      "lair": {
+        "x": 479,
+        "y": 1098
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "lairDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 21,
+        "right": 730,
+        "top": 206,
+        "bottom": 1142
+      },
+      "topGap": 38,
+      "bottomGap": 46,
+      "launcherGap": 115,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "renderPoints": 141,
+      "renderError": 0.24195773490342298,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 23.888215892053974,
+          "pauseGap": 39.05880462724937,
+          "toolGap": 31.0588046272494
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 33.28,
+          "pauseGap": 54,
+          "toolGap": 46
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 36.693333333333335,
+          "pauseGap": 54,
+          "toolGap": 46
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 10,
+      "catDiameter": 64,
+      "trackWidth": 88,
+      "source": {
+        "x": 65,
+        "y": 250
+      },
+      "lair": {
+        "x": 479,
+        "y": 886
+      },
+      "sourceDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 21,
+        "right": 730,
+        "top": 206,
+        "bottom": 1142
+      },
+      "topGap": 38,
+      "bottomGap": 46,
+      "launcherGap": 115,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "renderPoints": 95,
+      "renderError": 0.24212532483131505,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 23.888215892053974,
+          "pauseGap": 39.05880462724937,
+          "toolGap": 31.0588046272494
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 33.28,
+          "pauseGap": 54,
+          "toolGap": 46
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 36.693333333333335,
+          "pauseGap": 54,
+          "toolGap": 46
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 11,
+      "catDiameter": 64,
+      "trackWidth": 88,
+      "source": {
+        "x": 65,
+        "y": 674
+      },
+      "lair": {
+        "x": 686,
+        "y": 1098
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "lairDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 21,
+        "right": 730,
+        "top": 206,
+        "bottom": 1142
+      },
+      "topGap": 38,
+      "bottomGap": 46,
+      "launcherGap": 115,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "renderPoints": 120,
+      "renderError": 0.24433647265577166,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 23.888215892053974,
+          "pauseGap": 39.05880462724937,
+          "toolGap": 31.0588046272494
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 33.28,
+          "pauseGap": 54,
+          "toolGap": 46
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 36.693333333333335,
+          "pauseGap": 54,
+          "toolGap": 46
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 12,
+      "catDiameter": 64,
+      "trackWidth": 88,
+      "source": {
+        "x": 479,
+        "y": 1098
+      },
+      "lair": {
+        "x": 65,
+        "y": 250
+      },
+      "sourceDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 21,
+        "right": 730,
+        "top": 206,
+        "bottom": 1142
+      },
+      "topGap": 38,
+      "bottomGap": 46,
+      "launcherGap": 115,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "renderPoints": 105,
+      "renderError": 0.24061882385691882,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 23.888215892053974,
+          "pauseGap": 39.05880462724937,
+          "toolGap": 31.0588046272494
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 33.28,
+          "pauseGap": 54,
+          "toolGap": 46
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 36.693333333333335,
+          "pauseGap": 54,
+          "toolGap": 46
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 13,
+      "catDiameter": 64,
+      "trackWidth": 88,
+      "source": {
+        "x": 95,
+        "y": 290
+      },
+      "lair": {
+        "x": 460,
+        "y": 830
+      },
+      "sourceDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 51,
+        "right": 694,
+        "top": 246,
+        "bottom": 1114
+      },
+      "topGap": 78,
+      "bottomGap": 74,
+      "launcherGap": 59,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 23.999999999999986,
+        "docked": false
+      },
+      "renderPoints": 101,
+      "renderError": 0.21837729521184673,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 23.888215892053974,
+          "pauseGap": 79.05880462724937,
+          "toolGap": 59.0588046272494
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 33.28,
+          "pauseGap": 94,
+          "toolGap": 74
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 36.693333333333335,
+          "pauseGap": 94,
+          "toolGap": 74
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 14,
+      "catDiameter": 64,
+      "trackWidth": 88,
+      "source": {
+        "x": 479,
+        "y": 462
+      },
+      "lair": {
+        "x": 272,
+        "y": 1098
+      },
+      "sourceDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 21,
+        "right": 730,
+        "top": 206,
+        "bottom": 1142
+      },
+      "topGap": 38,
+      "bottomGap": 46,
+      "launcherGap": 115,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "renderPoints": 135,
+      "renderError": 0.24513344016867442,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 23.888215892053974,
+          "pauseGap": 39.05880462724937,
+          "toolGap": 31.0588046272494
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 33.28,
+          "pauseGap": 54,
+          "toolGap": 46
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 36.693333333333335,
+          "pauseGap": 54,
+          "toolGap": 46
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 15,
+      "catDiameter": 64,
+      "trackWidth": 88,
+      "source": {
+        "x": 272,
+        "y": 462
+      },
+      "lair": {
+        "x": 272,
+        "y": 886
+      },
+      "sourceDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 21,
+        "right": 730,
+        "top": 206,
+        "bottom": 1142
+      },
+      "topGap": 38,
+      "bottomGap": 46,
+      "launcherGap": 115,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "renderPoints": 102,
+      "renderError": 0.24451905948083863,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 23.888215892053974,
+          "pauseGap": 39.05880462724937,
+          "toolGap": 31.0588046272494
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 33.28,
+          "pauseGap": 54,
+          "toolGap": 46
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 36.693333333333335,
+          "pauseGap": 54,
+          "toolGap": 46
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 16,
+      "catDiameter": 64,
+      "trackWidth": 88,
+      "source": {
+        "x": 272,
+        "y": 1098
+      },
+      "lair": {
+        "x": 686,
+        "y": 250
+      },
+      "sourceDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 21,
+        "right": 730,
+        "top": 206,
+        "bottom": 1142
+      },
+      "topGap": 38,
+      "bottomGap": 46,
+      "launcherGap": 115,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "renderPoints": 134,
+      "renderError": 0.24238515095049554,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 23.888215892053974,
+          "pauseGap": 39.05880462724937,
+          "toolGap": 31.0588046272494
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 33.28,
+          "pauseGap": 54,
+          "toolGap": 46
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 36.693333333333335,
+          "pauseGap": 54,
+          "toolGap": 46
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 17,
+      "catDiameter": 64,
+      "trackWidth": 88,
+      "source": {
+        "x": 142.72098,
+        "y": 955.31722
+      },
+      "lair": {
+        "x": 421.512545,
+        "y": 499.77632
+      },
+      "sourceDirection": {
+        "x": -0.5311860990786764,
+        "y": -0.8472551729824838
+      },
+      "lairDirection": {
+        "x": 0.8414396220282007,
+        "y": 0.5403511473856967
+      },
+      "occupied": {
+        "left": 28.817864999999998,
+        "right": 660.3415,
+        "top": 263.436168,
+        "bottom": 1010.4548708824464
+      },
+      "topGap": 95.43616800000001,
+      "bottomGap": 177.54512911755364,
+      "launcherGap": 80.90477506860842,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 24.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 129,
+      "renderError": 0.2402969034675067,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 23.888215892053974,
+          "pauseGap": 96.49497262724938,
+          "toolGap": 162.60393374480304
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 33.28,
+          "pauseGap": 111.43616800000001,
+          "toolGap": 177.54512911755364
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 36.693333333333335,
+          "pauseGap": 111.43616800000001,
+          "toolGap": 177.54512911755364
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 18,
+      "catDiameter": 64,
+      "trackWidth": 88,
+      "source": {
+        "x": 65,
+        "y": 1098
+      },
+      "lair": {
+        "x": 65,
+        "y": 250
+      },
+      "sourceDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 21,
+        "right": 730,
+        "top": 206,
+        "bottom": 1142
+      },
+      "topGap": 38,
+      "bottomGap": 46,
+      "launcherGap": 115,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "renderPoints": 112,
+      "renderError": 0.23539351279922618,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 23.888215892053974,
+          "pauseGap": 39.05880462724937,
+          "toolGap": 31.0588046272494
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 33.28,
+          "pauseGap": 54,
+          "toolGap": 46
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 36.693333333333335,
+          "pauseGap": 54,
+          "toolGap": 46
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 19,
+      "catDiameter": 64,
+      "trackWidth": 88,
+      "source": {
+        "x": 479,
+        "y": 886
+      },
+      "lair": {
+        "x": 686,
+        "y": 250
+      },
+      "sourceDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 21,
+        "right": 730,
+        "top": 206,
+        "bottom": 1142
+      },
+      "topGap": 38,
+      "bottomGap": 46,
+      "launcherGap": 115,
+      "next": {
+        "x": 466.7450289603671,
+        "y": 739.2405608713171,
+        "gap": 24.000000000000014,
+        "docked": false
+      },
+      "renderPoints": 99,
+      "renderError": 0.2405990975983638,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 23.888215892053974,
+          "pauseGap": 39.05880462724937,
+          "toolGap": 31.0588046272494
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 33.28,
+          "pauseGap": 54,
+          "toolGap": 46
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 36.693333333333335,
+          "pauseGap": 54,
+          "toolGap": 46
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 20,
+      "catDiameter": 64,
+      "trackWidth": 88,
+      "source": {
+        "x": 100,
+        "y": 265
+      },
+      "lair": {
+        "x": 515,
+        "y": 845
+      },
+      "sourceDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "occupied": {
+        "left": 51,
+        "right": 699,
+        "top": 221,
+        "bottom": 1104
+      },
+      "topGap": 53,
+      "bottomGap": 84,
+      "launcherGap": 44,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 24.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 86,
+      "renderError": 0.23290953600432893,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 23.888215892053974,
+          "pauseGap": 54.05880462724937,
+          "toolGap": 69.0588046272494
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 33.28,
+          "pauseGap": 69,
+          "toolGap": 84
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 36.693333333333335,
+          "pauseGap": 69,
+          "toolGap": 84
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 21,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 67.855202,
+        "y": 645.108449
+      },
+      "lair": {
+        "x": 491.985067,
+        "y": 590.445648
+      },
+      "sourceDirection": {
+        "x": 0.05869767643990548,
+        "y": -0.9982758049660204
+      },
+      "lairDirection": {
+        "x": 0.1431107993731885,
+        "y": 0.9897066732637336
+      },
+      "occupied": {
+        "left": 25.57626274376297,
+        "right": 656.390655,
+        "top": 253.986239,
+        "bottom": 1021.216201
+      },
+      "topGap": 85.98623900000001,
+      "bottomGap": 166.78379900000004,
+      "launcherGap": 56.343147891177665,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 131,
+      "renderError": 0.24773504703489516,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 87.04504362724938,
+          "toolGap": 151.84260362724945
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 101.98623900000001,
+          "toolGap": 166.78379900000004
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 101.98623900000001,
+          "toolGap": 166.78379900000004
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 22,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 688,
+        "y": 564
+      },
+      "lair": {
+        "x": 62,
+        "y": 954
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "occupied": {
+        "left": 22,
+        "right": 728,
+        "top": 192,
+        "bottom": 1158
+      },
+      "topGap": 24,
+      "bottomGap": 30,
+      "launcherGap": 57,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 118,
+      "renderError": 0.2141402543071291,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 15.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 30
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 30
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 23,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 456.393004,
+        "y": 253.506957
+      },
+      "lair": {
+        "x": 422.271384,
+        "y": 830.765561
+      },
+      "sourceDirection": {
+        "x": 0.8890495449122819,
+        "y": 0.4578109945067557
+      },
+      "lairDirection": {
+        "x": -0.9443039688802203,
+        "y": 0.32907448147351687
+      },
+      "occupied": {
+        "left": 126.086228,
+        "right": 691.307458,
+        "top": 199.63253542323847,
+        "bottom": 1067.997041
+      },
+      "topGap": 31.632535423238465,
+      "bottomGap": 120.00295899999992,
+      "launcherGap": 53.471622964150754,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 172.58114912339718,
+        "docked": true
+      },
+      "renderPoints": 132,
+      "renderError": 0.23916003016060475,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 32.69134005048781,
+          "toolGap": 105.06176362724932
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 47.632535423238465,
+          "toolGap": 120.00295899999992
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 47.632535423238465,
+          "toolGap": 120.00295899999992
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 24,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 62,
+        "y": 1122
+      },
+      "lair": {
+        "x": 688,
+        "y": 228
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "lairDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 22,
+        "right": 728,
+        "top": 188,
+        "bottom": 1162
+      },
+      "topGap": 20,
+      "bottomGap": 26,
+      "launcherGap": 23,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "renderPoints": 107,
+      "renderError": 0.21692074919081678,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 21.058804627249373,
+          "toolGap": 11.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 36,
+          "toolGap": 26
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 36,
+          "toolGap": 26
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 25,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 520,
+        "y": 1122
+      },
+      "lair": {
+        "x": 62,
+        "y": 564
+      },
+      "sourceDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "occupied": {
+        "left": 22,
+        "right": 723.999883,
+        "top": 192,
+        "bottom": 1162
+      },
+      "topGap": 24,
+      "bottomGap": 26,
+      "launcherGap": 57,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 171,
+      "renderError": 0.21412300009864838,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 11.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 26
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 26
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 26,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 688,
+        "y": 564
+      },
+      "lair": {
+        "x": 62,
+        "y": 396
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "occupied": {
+        "left": 22,
+        "right": 728,
+        "top": 192.00017,
+        "bottom": 1157.999665
+      },
+      "topGap": 24.000169999999997,
+      "bottomGap": 30.00033499999995,
+      "launcherGap": 23,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.80617384099483,
+        "docked": true
+      },
+      "renderPoints": 160,
+      "renderError": 0.2141229379090481,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.05897462724934,
+          "toolGap": 15.059139627249351
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40.00017,
+          "toolGap": 30.00033499999995
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40.00017,
+          "toolGap": 30.00033499999995
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 27,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 688,
+        "y": 396
+      },
+      "lair": {
+        "x": 230,
+        "y": 786
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "lairDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 26,
+        "right": 728,
+        "top": 192,
+        "bottom": 1157.99974
+      },
+      "topGap": 24,
+      "bottomGap": 30.000260000000026,
+      "launcherGap": 23,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 214,
+      "renderError": 0.2140937896261214,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 15.059064627249427
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 30.000260000000026
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 30.000260000000026
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 28,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 62,
+        "y": 954
+      },
+      "lair": {
+        "x": 230,
+        "y": 396
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "occupied": {
+        "left": 22,
+        "right": 724,
+        "top": 192.000241,
+        "bottom": 994
+      },
+      "topGap": 24.00024099999999,
+      "bottomGap": 194,
+      "launcherGap": 23,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "renderPoints": 123,
+      "renderError": 0.21413387262937214,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.059045627249333,
+          "toolGap": 179.0588046272494
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40.00024099999999,
+          "toolGap": 194
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40.00024099999999,
+          "toolGap": 194
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 29,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 272.999508,
+        "y": 281.068935
+      },
+      "lair": {
+        "x": 400.188176,
+        "y": 836.763391
+      },
+      "sourceDirection": {
+        "x": 0.9397019552122065,
+        "y": -0.34199449611120397
+      },
+      "lairDirection": {
+        "x": -0.9991943013170839,
+        "y": 0.040134127814922003
+      },
+      "occupied": {
+        "left": 122.17927800000001,
+        "right": 684.618631,
+        "top": 230.571257,
+        "bottom": 1045.416952
+      },
+      "topGap": 62.571257,
+      "bottomGap": 142.58304799999996,
+      "launcherGap": 68.21229541220114,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 201.24468592188833,
+        "docked": true
+      },
+      "renderPoints": 161,
+      "renderError": 0.21267623809698896,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 63.630061627249376,
+          "toolGap": 127.64185262724936
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 78.571257,
+          "toolGap": 142.58304799999996
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 78.571257,
+          "toolGap": 142.58304799999996
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 30,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 62,
+        "y": 564
+      },
+      "lair": {
+        "x": 688,
+        "y": 228
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "occupied": {
+        "left": 22,
+        "right": 728,
+        "top": 188,
+        "bottom": 1158
+      },
+      "topGap": 20,
+      "bottomGap": 30,
+      "launcherGap": 57,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 116,
+      "renderError": 0.21414155513120603,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 21.058804627249373,
+          "toolGap": 15.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 36,
+          "toolGap": 30
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 36,
+          "toolGap": 30
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 31,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 57.267215,
+        "y": 599.525239
+      },
+      "lair": {
+        "x": 496.098027,
+        "y": 707.818762
+      },
+      "sourceDirection": {
+        "x": 0.12163479177377948,
+        "y": -0.9925749228295812
+      },
+      "lairDirection": {
+        "x": -0.1975884028454143,
+        "y": 0.9802850723442635
+      },
+      "occupied": {
+        "left": 12.698826415865572,
+        "right": 670.240794,
+        "top": 257.791875,
+        "bottom": 1017.553599
+      },
+      "topGap": 89.791875,
+      "bottomGap": 170.44640100000004,
+      "launcherGap": 37.05202651645071,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 159,
+      "renderError": 0.24495468487435257,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 90.85067962724938,
+          "toolGap": 155.50520562724944
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 105.791875,
+          "toolGap": 170.44640100000004
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 105.791875,
+          "toolGap": 170.44640100000004
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 32,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 62,
+        "y": 564
+      },
+      "lair": {
+        "x": 520,
+        "y": 564
+      },
+      "sourceDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "occupied": {
+        "left": 22,
+        "right": 724,
+        "top": 192,
+        "bottom": 1157.999137
+      },
+      "topGap": 24,
+      "bottomGap": 30.00086299999998,
+      "launcherGap": 23,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 20.592978100853458,
+        "docked": false
+      },
+      "renderPoints": 142,
+      "renderError": 0.21414132007013176,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 15.059667627249382
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 30.00086299999998
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 30.00086299999998
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 33,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 520,
+        "y": 954
+      },
+      "lair": {
+        "x": 230,
+        "y": 228
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "lairDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 26,
+        "right": 724,
+        "top": 188,
+        "bottom": 1157.999793
+      },
+      "topGap": 20,
+      "bottomGap": 30.000207000000046,
+      "launcherGap": 23,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 130,
+      "renderError": 0.21414180793583737,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 21.058804627249373,
+          "toolGap": 15.059011627249447
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 36,
+          "toolGap": 30.000207000000046
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 36,
+          "toolGap": 30.000207000000046
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 34,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 520,
+        "y": 1122
+      },
+      "lair": {
+        "x": 688,
+        "y": 396
+      },
+      "sourceDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "occupied": {
+        "left": 26,
+        "right": 728,
+        "top": 192,
+        "bottom": 1162
+      },
+      "topGap": 24,
+      "bottomGap": 26,
+      "launcherGap": 23,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "renderPoints": 136,
+      "renderError": 0.21413279006710081,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 11.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 26
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 26
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 35,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 303.181352,
+        "y": 1083.709148
+      },
+      "lair": {
+        "x": 482.929444,
+        "y": 539.427622
+      },
+      "sourceDirection": {
+        "x": -0.988136736773554,
+        "y": -0.153576656554673
+      },
+      "lairDirection": {
+        "x": 0.5264206671106884,
+        "y": 0.8502242534994742
+      },
+      "occupied": {
+        "left": 33.632101000000006,
+        "right": 655.054538,
+        "top": 302.302966,
+        "bottom": 1129.377683733129
+      },
+      "topGap": 134.30296600000003,
+      "bottomGap": 58.62231626687094,
+      "launcherGap": 85.28772189259115,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 160,
+      "renderError": 0.23438712514258758,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 135.3617706272494,
+          "toolGap": 43.68112089412034
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 150.30296600000003,
+          "toolGap": 58.62231626687094
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 150.30296600000003,
+          "toolGap": 58.62231626687094
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 36,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 230,
+        "y": 396
+      },
+      "lair": {
+        "x": 62,
+        "y": 1122
+      },
+      "sourceDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 22,
+        "right": 724,
+        "top": 192,
+        "bottom": 1162
+      },
+      "topGap": 24,
+      "bottomGap": 26,
+      "launcherGap": 57,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 172,
+      "renderError": 0.24379643364861697,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 11.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 26
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 26
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 37,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 77.698147,
+        "y": 800.60158
+      },
+      "lair": {
+        "x": 500.889061,
+        "y": 711.327208
+      },
+      "sourceDirection": {
+        "x": -0.1780548900693209,
+        "y": -0.9840205567580395
+      },
+      "lairDirection": {
+        "x": -0.2445048043757406,
+        "y": 0.9696480808196245
+      },
+      "occupied": {
+        "left": 32.62824500000001,
+        "right": 659.469551,
+        "top": 263.486332,
+        "bottom": 1015.639181
+      },
+      "topGap": 95.486332,
+      "bottomGap": 172.360819,
+      "launcherGap": 42.89192200634392,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 161,
+      "renderError": 0.19876863402985512,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 96.54513662724938,
+          "toolGap": 157.4196236272494
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 111.486332,
+          "toolGap": 172.360819
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 111.486332,
+          "toolGap": 172.360819
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 38,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 520,
+        "y": 1122
+      },
+      "lair": {
+        "x": 520,
+        "y": 228
+      },
+      "sourceDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "occupied": {
+        "left": 26,
+        "right": 723.999302,
+        "top": 188,
+        "bottom": 1162
+      },
+      "topGap": 20,
+      "bottomGap": 26,
+      "launcherGap": 57,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 136,
+      "renderError": 0.21413809386041294,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 21.058804627249373,
+          "toolGap": 11.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 36,
+          "toolGap": 26
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 36,
+          "toolGap": 26
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 39,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 666.58267,
+        "y": 845.290713
+      },
+      "lair": {
+        "x": 334.746634,
+        "y": 508.659766
+      },
+      "sourceDirection": {
+        "x": -0.34498590020613473,
+        "y": 0.9386078673540739
+      },
+      "lairDirection": {
+        "x": 0.9684391572204334,
+        "y": -0.2492500727425702
+      },
+      "occupied": {
+        "left": 69.990026,
+        "right": 717.9264207024083,
+        "top": 326.439498,
+        "bottom": 1118.262962
+      },
+      "topGap": 158.43949800000001,
+      "bottomGap": 69.73703799999998,
+      "launcherGap": 63.9702835920169,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 161,
+      "renderError": 0.22379526056996904,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 159.4983026272494,
+          "toolGap": 54.795842627249385
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 174.43949800000001,
+          "toolGap": 69.73703799999998
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 174.43949800000001,
+          "toolGap": 69.73703799999998
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 40,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 62,
+        "y": 786
+      },
+      "lair": {
+        "x": 688,
+        "y": 396
+      },
+      "sourceDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "occupied": {
+        "left": 22,
+        "right": 728,
+        "top": 192.000175,
+        "bottom": 1157.999494
+      },
+      "topGap": 24.000175000000013,
+      "bottomGap": 30.000506000000087,
+      "launcherGap": 23,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 20.592620196286745,
+        "docked": false
+      },
+      "renderPoints": 162,
+      "renderError": 0.2150242666870613,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058979627249386,
+          "toolGap": 15.059310627249488
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40.00017500000001,
+          "toolGap": 30.000506000000087
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40.00017500000001,
+          "toolGap": 30.000506000000087
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 41,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 230,
+        "y": 228
+      },
+      "lair": {
+        "x": 520,
+        "y": 228
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "lairDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 190,
+        "right": 724,
+        "top": 188,
+        "bottom": 1158
+      },
+      "topGap": 20,
+      "bottomGap": 30,
+      "launcherGap": 57,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 112,
+      "renderError": 0.21414331290522415,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 21.058804627249373,
+          "toolGap": 15.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 36,
+          "toolGap": 30
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 36,
+          "toolGap": 30
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 42,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 520,
+        "y": 396
+      },
+      "lair": {
+        "x": 62,
+        "y": 564
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "occupied": {
+        "left": 22,
+        "right": 724,
+        "top": 192,
+        "bottom": 1158
+      },
+      "topGap": 24,
+      "bottomGap": 30,
+      "launcherGap": 57,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 150,
+      "renderError": 0.21415214811667754,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 15.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 30
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 30
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 43,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 688,
+        "y": 228
+      },
+      "lair": {
+        "x": 520,
+        "y": 786
+      },
+      "sourceDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "occupied": {
+        "left": 26,
+        "right": 728,
+        "top": 188,
+        "bottom": 1158
+      },
+      "topGap": 20,
+      "bottomGap": 30,
+      "launcherGap": 23,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 168,
+      "renderError": 0.2191233164883682,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 21.058804627249373,
+          "toolGap": 15.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 36,
+          "toolGap": 30
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 36,
+          "toolGap": 30
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 44,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 62,
+        "y": 564
+      },
+      "lair": {
+        "x": 62,
+        "y": 396
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "occupied": {
+        "left": 22,
+        "right": 555.999869,
+        "top": 192,
+        "bottom": 1158
+      },
+      "topGap": 24,
+      "bottomGap": 30,
+      "launcherGap": 57,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 120,
+      "renderError": 0.21413667538415307,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 15.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 30
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 30
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 45,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 552.077741,
+        "y": 1014.877673
+      },
+      "lair": {
+        "x": 465.813188,
+        "y": 560.359102
+      },
+      "sourceDirection": {
+        "x": -0.7761192318118063,
+        "y": 0.630586186029992
+      },
+      "lairDirection": {
+        "x": 0.3891462501598518,
+        "y": 0.9211759853505335
+      },
+      "occupied": {
+        "left": 65.546034,
+        "right": 628.952225,
+        "top": 306.700884,
+        "bottom": 1111.9791
+      },
+      "topGap": 138.70088399999997,
+      "bottomGap": 76.02089999999998,
+      "launcherGap": 58.25173711436642,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 161,
+      "renderError": 0.22101431086281323,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 139.75968862724935,
+          "toolGap": 61.079704627249384
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 154.70088399999997,
+          "toolGap": 76.02089999999998
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 154.70088399999997,
+          "toolGap": 76.02089999999998
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 46,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 688,
+        "y": 396
+      },
+      "lair": {
+        "x": 688,
+        "y": 1122
+      },
+      "sourceDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 26.000026,
+        "right": 728,
+        "top": 192,
+        "bottom": 1162
+      },
+      "topGap": 24,
+      "bottomGap": 26,
+      "launcherGap": 23,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 156.93673656773464,
+        "docked": true
+      },
+      "renderPoints": 152,
+      "renderError": 0.21411281084606154,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 11.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 26
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 26
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 47,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 62,
+        "y": 564
+      },
+      "lair": {
+        "x": 688,
+        "y": 228
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "occupied": {
+        "left": 22,
+        "right": 728,
+        "top": 188,
+        "bottom": 1158
+      },
+      "topGap": 20,
+      "bottomGap": 30,
+      "launcherGap": 57,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 118,
+      "renderError": 0.2141495730352993,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 21.058804627249373,
+          "toolGap": 15.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 36,
+          "toolGap": 30
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 36,
+          "toolGap": 30
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 48,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 128.020597,
+        "y": 961.85407
+      },
+      "lair": {
+        "x": 498.956204,
+        "y": 759.756763
+      },
+      "sourceDirection": {
+        "x": -0.4902671038478497,
+        "y": -0.8715722384774779
+      },
+      "lairDirection": {
+        "x": -0.4844650331105071,
+        "y": 0.8748106261890257
+      },
+      "occupied": {
+        "left": 37.722505,
+        "right": 660.137976,
+        "top": 284.657054,
+        "bottom": 1016.3276436930131
+      },
+      "topGap": 116.65705400000002,
+      "bottomGap": 171.6723563069869,
+      "launcherGap": 57.639217160913574,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 163,
+      "renderError": 0.24640402520404814,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 117.71585862724939,
+          "toolGap": 156.7311609342363
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 132.65705400000002,
+          "toolGap": 171.6723563069869
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 132.65705400000002,
+          "toolGap": 171.6723563069869
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 49,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 62,
+        "y": 786
+      },
+      "lair": {
+        "x": 62,
+        "y": 228
+      },
+      "sourceDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 22,
+        "right": 724,
+        "top": 188,
+        "bottom": 1157.99996
+      },
+      "topGap": 20,
+      "bottomGap": 30.0000399999999,
+      "launcherGap": 23,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 144,
+      "renderError": 0.2141332938294424,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 21.058804627249373,
+          "toolGap": 15.0588446272493
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 36,
+          "toolGap": 30.0000399999999
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 36,
+          "toolGap": 30.0000399999999
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 50,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 230,
+        "y": 954
+      },
+      "lair": {
+        "x": 688,
+        "y": 1122
+      },
+      "sourceDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 26,
+        "right": 728,
+        "top": 192,
+        "bottom": 1162
+      },
+      "topGap": 24,
+      "bottomGap": 26,
+      "launcherGap": 23,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 20.59245043612141,
+        "docked": false
+      },
+      "renderPoints": 117,
+      "renderError": 0.21413354166008494,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 11.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 26
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 26
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 51,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 54.891247,
+        "y": 655.168944
+      },
+      "lair": {
+        "x": 336.598146,
+        "y": 832.020377
+      },
+      "sourceDirection": {
+        "x": 0.08137330908877538,
+        "y": -0.9966836933390365
+      },
+      "lairDirection": {
+        "x": -0.8565566389080658,
+        "y": -0.5160530247392388
+      },
+      "occupied": {
+        "left": 11.768966902887525,
+        "right": 678.819137,
+        "top": 264.138735,
+        "bottom": 1032.807538
+      },
+      "topGap": 96.138735,
+      "bottomGap": 155.19246199999998,
+      "launcherGap": 71.31040068113163,
+      "next": {
+        "x": 399.846628329842,
+        "y": 767.7288793237506,
+        "gap": 11.907306027510003,
+        "docked": false
+      },
+      "renderPoints": 190,
+      "renderError": 0.24982317481419966,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 97.19753962724937,
+          "toolGap": 140.25126662724938
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 112.138735,
+          "toolGap": 155.19246199999998
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 112.138735,
+          "toolGap": 155.19246199999998
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 52,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 688,
+        "y": 1122
+      },
+      "lair": {
+        "x": 230,
+        "y": 228
+      },
+      "sourceDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 26.000141999999997,
+        "right": 728,
+        "top": 188,
+        "bottom": 1162
+      },
+      "topGap": 20,
+      "bottomGap": 26,
+      "launcherGap": 23,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 185,
+      "renderError": 0.21411673453937596,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 21.058804627249373,
+          "toolGap": 11.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 36,
+          "toolGap": 26
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 36,
+          "toolGap": 26
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 53,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 62,
+        "y": 786
+      },
+      "lair": {
+        "x": 688,
+        "y": 1122
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "lairDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 22,
+        "right": 728,
+        "top": 192.000469,
+        "bottom": 1162
+      },
+      "topGap": 24.00046900000001,
+      "bottomGap": 26,
+      "launcherGap": 23,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.80576850957942,
+        "docked": true
+      },
+      "renderPoints": 136,
+      "renderError": 0.21413950927540926,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.059273627249382,
+          "toolGap": 11.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40.00046900000001,
+          "toolGap": 26
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40.00046900000001,
+          "toolGap": 26
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 54,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 688,
+        "y": 228
+      },
+      "lair": {
+        "x": 520,
+        "y": 954
+      },
+      "sourceDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 26.000970000000002,
+        "right": 728,
+        "top": 188,
+        "bottom": 1158
+      },
+      "topGap": 20,
+      "bottomGap": 30,
+      "launcherGap": 23,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "renderPoints": 183,
+      "renderError": 0.2141177922830751,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 21.058804627249373,
+          "toolGap": 15.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 36,
+          "toolGap": 30
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 36,
+          "toolGap": 30
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 55,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 200.660323,
+        "y": 332.386519
+      },
+      "lair": {
+        "x": 247.969732,
+        "y": 683.577317
+      },
+      "sourceDirection": {
+        "x": 0.7798718883429686,
+        "y": -0.6259391645937904
+      },
+      "lairDirection": {
+        "x": 0.05042033811657894,
+        "y": -0.9987280858693269
+      },
+      "occupied": {
+        "left": 112.382588,
+        "right": 687.014165,
+        "top": 237.33846499999999,
+        "bottom": 1049.767546
+      },
+      "topGap": 69.33846499999999,
+      "bottomGap": 138.23245399999996,
+      "launcherGap": 39.31951678776633,
+      "next": {
+        "x": 403.98773305148234,
+        "y": 783.1836925443756,
+        "gap": 24.55158680340938,
+        "docked": false
+      },
+      "renderPoints": 193,
+      "renderError": 0.20058573904159743,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 70.39726962724936,
+          "toolGap": 123.29125862724936
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 85.33846499999999,
+          "toolGap": 138.23245399999996
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 85.33846499999999,
+          "toolGap": 138.23245399999996
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 56,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 688,
+        "y": 228
+      },
+      "lair": {
+        "x": 230,
+        "y": 396
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "lairDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 26.000236,
+        "right": 728,
+        "top": 188,
+        "bottom": 1157.998782
+      },
+      "topGap": 20,
+      "bottomGap": 30.001218000000108,
+      "launcherGap": 23,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 48,
+        "docked": true
+      },
+      "renderPoints": 133,
+      "renderError": 0.2141408671748221,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 21.058804627249373,
+          "toolGap": 15.06002262724951
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 36,
+          "toolGap": 30.001218000000108
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 36,
+          "toolGap": 30.001218000000108
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 57,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 230,
+        "y": 396
+      },
+      "lair": {
+        "x": 520,
+        "y": 1122
+      },
+      "sourceDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 26,
+        "right": 723.999831,
+        "top": 192,
+        "bottom": 1162
+      },
+      "topGap": 24,
+      "bottomGap": 26,
+      "launcherGap": 23,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 20.59257575085634,
+        "docked": false
+      },
+      "renderPoints": 131,
+      "renderError": 0.2141456611653584,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 11.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 26
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 26
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 58,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 166.674242,
+        "y": 989.695307
+      },
+      "lair": {
+        "x": 425.452924,
+        "y": 832.871533
+      },
+      "sourceDirection": {
+        "x": -0.6328656484026595,
+        "y": -0.7742616296006677
+      },
+      "lairDirection": {
+        "x": -0.9158184840447849,
+        "y": 0.4015924604395752
+      },
+      "occupied": {
+        "left": 33.332082,
+        "right": 661.866797,
+        "top": 283.657032,
+        "bottom": 1045.980398120133
+      },
+      "topGap": 115.65703200000002,
+      "bottomGap": 142.01960187986697,
+      "launcherGap": 53.157476785759854,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 244.33959025371337,
+        "docked": true
+      },
+      "renderPoints": 192,
+      "renderError": 0.24774106729870496,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 116.71583662724939,
+          "toolGap": 127.07840650711637
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 131.65703200000002,
+          "toolGap": 142.01960187986697
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 131.65703200000002,
+          "toolGap": 142.01960187986697
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 59,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 230,
+        "y": 396
+      },
+      "lair": {
+        "x": 230,
+        "y": 564
+      },
+      "sourceDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "occupied": {
+        "left": 26,
+        "right": 724,
+        "top": 192,
+        "bottom": 1158
+      },
+      "topGap": 24,
+      "bottomGap": 30,
+      "launcherGap": 57,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 141,
+      "renderError": 0.21416727155679002,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 15.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 30
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 30
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 60,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 230,
+        "y": 954
+      },
+      "lair": {
+        "x": 62,
+        "y": 228
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "occupied": {
+        "left": 22,
+        "right": 724,
+        "top": 188,
+        "bottom": 1157.999759
+      },
+      "topGap": 20,
+      "bottomGap": 30.00024099999996,
+      "launcherGap": 23,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "renderPoints": 154,
+      "renderError": 0.21413358965227955,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 21.058804627249373,
+          "toolGap": 15.059045627249361
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 36,
+          "toolGap": 30.00024099999996
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 36,
+          "toolGap": 30.00024099999996
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 61,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 62,
+        "y": 1122
+      },
+      "lair": {
+        "x": 520,
+        "y": 954
+      },
+      "sourceDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "occupied": {
+        "left": 22,
+        "right": 724,
+        "top": 192.000071,
+        "bottom": 1162
+      },
+      "topGap": 24.00007099999999,
+      "bottomGap": 26,
+      "launcherGap": 23,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 391.77948895707317,
+        "docked": true
+      },
+      "renderPoints": 164,
+      "renderError": 0.21412067461568918,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058875627249364,
+          "toolGap": 11.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40.00007099999999,
+          "toolGap": 26
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40.00007099999999,
+          "toolGap": 26
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 62,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 520,
+        "y": 954
+      },
+      "lair": {
+        "x": 62,
+        "y": 786
+      },
+      "sourceDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "occupied": {
+        "left": 22,
+        "right": 724,
+        "top": 360,
+        "bottom": 1157.9999
+      },
+      "topGap": 192,
+      "bottomGap": 30.000099999999975,
+      "launcherGap": 23,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 225.46610936284708,
+        "docked": true
+      },
+      "renderPoints": 137,
+      "renderError": 0.2141326972912807,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 193.05880462724937,
+          "toolGap": 15.058904627249376
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 208,
+          "toolGap": 30.000099999999975
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 208,
+          "toolGap": 30.000099999999975
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 63,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 520,
+        "y": 954
+      },
+      "lair": {
+        "x": 230,
+        "y": 396
+      },
+      "sourceDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 26,
+        "right": 724,
+        "top": 192,
+        "bottom": 1158
+      },
+      "topGap": 24,
+      "bottomGap": 30,
+      "launcherGap": 23,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 184,
+      "renderError": 0.21413157330125532,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 15.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 30
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 30
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 64,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 230,
+        "y": 564
+      },
+      "lair": {
+        "x": 520,
+        "y": 954
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "lairDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 26,
+        "right": 724,
+        "top": 192,
+        "bottom": 1158
+      },
+      "topGap": 24,
+      "bottomGap": 30,
+      "launcherGap": 23,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "renderPoints": 166,
+      "renderError": 0.22007016153045236,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 15.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 30
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 30
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 65,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 62,
+        "y": 954
+      },
+      "lair": {
+        "x": 520,
+        "y": 954
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "occupied": {
+        "left": 22,
+        "right": 724,
+        "top": 192,
+        "bottom": 1157.999791
+      },
+      "topGap": 24,
+      "bottomGap": 30.00020900000004,
+      "launcherGap": 23,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.806794061196825,
+        "docked": true
+      },
+      "renderPoints": 163,
+      "renderError": 0.21414284066938907,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 15.059013627249442
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 30.00020900000004
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 30.00020900000004
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 66,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 688,
+        "y": 1122
+      },
+      "lair": {
+        "x": 62,
+        "y": 396
+      },
+      "sourceDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "occupied": {
+        "left": 22,
+        "right": 728,
+        "top": 192,
+        "bottom": 1162
+      },
+      "topGap": 24,
+      "bottomGap": 26,
+      "launcherGap": 23,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "renderPoints": 202,
+      "renderError": 0.21412102083170415,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 11.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 26
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 26
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 67,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 520,
+        "y": 1122
+      },
+      "lair": {
+        "x": 688,
+        "y": 786
+      },
+      "sourceDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "occupied": {
+        "left": 26.000377,
+        "right": 728,
+        "top": 192,
+        "bottom": 1162
+      },
+      "topGap": 24,
+      "bottomGap": 26,
+      "launcherGap": 23,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.806493246678656,
+        "docked": true
+      },
+      "renderPoints": 147,
+      "renderError": 0.2141555108151583,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 11.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 26
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 26
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 68,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 520,
+        "y": 1122
+      },
+      "lair": {
+        "x": 520,
+        "y": 954
+      },
+      "sourceDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 26,
+        "right": 724,
+        "top": 192,
+        "bottom": 1162
+      },
+      "topGap": 24,
+      "bottomGap": 26,
+      "launcherGap": 23,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "renderPoints": 157,
+      "renderError": 0.21415591898073405,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 11.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 26
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 26
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 69,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 230,
+        "y": 396
+      },
+      "lair": {
+        "x": 688,
+        "y": 786
+      },
+      "sourceDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "occupied": {
+        "left": 26,
+        "right": 728,
+        "top": 192,
+        "bottom": 1157.999412
+      },
+      "topGap": 24,
+      "bottomGap": 30.000588000000107,
+      "launcherGap": 23,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 136,
+      "renderError": 0.21413749383138225,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 15.059392627249508
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 30.000588000000107
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 30.000588000000107
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 70,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 62,
+        "y": 786
+      },
+      "lair": {
+        "x": 520,
+        "y": 954
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "lairDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 22,
+        "right": 724,
+        "top": 192,
+        "bottom": 1158
+      },
+      "topGap": 24,
+      "bottomGap": 30,
+      "launcherGap": 23,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "renderPoints": 135,
+      "renderError": 0.21415640194249386,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 15.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 30
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 30
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 71,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 520,
+        "y": 228
+      },
+      "lair": {
+        "x": 230,
+        "y": 1122
+      },
+      "sourceDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 26,
+        "right": 724,
+        "top": 188,
+        "bottom": 1162
+      },
+      "topGap": 20,
+      "bottomGap": 26,
+      "launcherGap": 23,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "renderPoints": 184,
+      "renderError": 0.2141244751352772,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 21.058804627249373,
+          "toolGap": 11.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 36,
+          "toolGap": 26
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 36,
+          "toolGap": 26
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 72,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 62,
+        "y": 396
+      },
+      "lair": {
+        "x": 520,
+        "y": 228
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "lairDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 22,
+        "right": 724,
+        "top": 188,
+        "bottom": 1157.999172
+      },
+      "topGap": 20,
+      "bottomGap": 30.000827999999956,
+      "launcherGap": 23,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 146,
+      "renderError": 0.21414777059572646,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 21.058804627249373,
+          "toolGap": 15.059632627249357
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 36,
+          "toolGap": 30.000827999999956
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 36,
+          "toolGap": 30.000827999999956
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 73,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 230,
+        "y": 228
+      },
+      "lair": {
+        "x": 520,
+        "y": 954
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "lairDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 26.000014,
+        "right": 724,
+        "top": 188,
+        "bottom": 1158
+      },
+      "topGap": 20,
+      "bottomGap": 30,
+      "launcherGap": 23,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.806080913000415,
+        "docked": true
+      },
+      "renderPoints": 108,
+      "renderError": 0.21417229572119717,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 21.058804627249373,
+          "toolGap": 15.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 36,
+          "toolGap": 30
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 36,
+          "toolGap": 30
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 74,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 477.412847,
+        "y": 267.901847
+      },
+      "lair": {
+        "x": 440.705584,
+        "y": 540.59413
+      },
+      "sourceDirection": {
+        "x": 0.8714103523534023,
+        "y": 0.490554785738881
+      },
+      "lairDirection": {
+        "x": 0.7236556883996166,
+        "y": 0.6901611729493895
+      },
+      "occupied": {
+        "left": 89.204291,
+        "right": 706.127528,
+        "top": 213.42324147630865,
+        "bottom": 1083.55797
+      },
+      "topGap": 45.42324147630865,
+      "bottomGap": 104.44202999999993,
+      "launcherGap": 61.60668988797917,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 225,
+      "renderError": 0.20602541604451044,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 46.48204610355802,
+          "toolGap": 89.50083462724933
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 61.42324147630865,
+          "toolGap": 104.44202999999993
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 61.42324147630865,
+          "toolGap": 104.44202999999993
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 75,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 62,
+        "y": 786
+      },
+      "lair": {
+        "x": 520,
+        "y": 396
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "lairDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 22,
+        "right": 724,
+        "top": 192,
+        "bottom": 1157.999716
+      },
+      "topGap": 24,
+      "bottomGap": 30.000283999999965,
+      "launcherGap": 23,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 109,
+      "renderError": 0.21415366706886255,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 15.059088627249366
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 30.000283999999965
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 30.000283999999965
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 76,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 693.724003,
+        "y": 639.036975
+      },
+      "lair": {
+        "x": 501.052257,
+        "y": 691.292707
+      },
+      "sourceDirection": {
+        "x": 0.027706635544480142,
+        "y": 0.9996160974828314
+      },
+      "lairDirection": {
+        "x": -0.15272691017300397,
+        "y": 0.9882684305941414
+      },
+      "occupied": {
+        "left": 67.246057,
+        "right": 733.7086468993133,
+        "top": 324.493117,
+        "bottom": 1097.286044
+      },
+      "topGap": 156.49311699999998,
+      "bottomGap": 90.71395600000005,
+      "launcherGap": 39.1008410522208,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 196,
+      "renderError": 0.24982923571175056,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 157.55192162724936,
+          "toolGap": 75.77276062724945
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 172.49311699999998,
+          "toolGap": 90.71395600000005
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 172.49311699999998,
+          "toolGap": 90.71395600000005
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 77,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 62,
+        "y": 786
+      },
+      "lair": {
+        "x": 520,
+        "y": 564
+      },
+      "sourceDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "occupied": {
+        "left": 22,
+        "right": 724,
+        "top": 192,
+        "bottom": 1158
+      },
+      "topGap": 24,
+      "bottomGap": 30,
+      "launcherGap": 23,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 20.592566649039554,
+        "docked": false
+      },
+      "renderPoints": 158,
+      "renderError": 0.22100125092892597,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 15.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 30
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 30
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 78,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 600.626941,
+        "y": 970.474935
+      },
+      "lair": {
+        "x": 426.565637,
+        "y": 827.896516
+      },
+      "sourceDirection": {
+        "x": -0.6308490147881122,
+        "y": 0.7759056131649443
+      },
+      "lairDirection": {
+        "x": -0.9116910683006265,
+        "y": 0.41087637554483725
+      },
+      "occupied": {
+        "left": 56.830635,
+        "right": 656.8971261181222,
+        "top": 303.496859,
+        "bottom": 1119.098633
+      },
+      "topGap": 135.49685899999997,
+      "bottomGap": 68.90136699999994,
+      "launcherGap": 51.17568248488976,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 262.5010013259301,
+        "docked": true
+      },
+      "renderPoints": 220,
+      "renderError": 0.24869419630008702,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 136.55566362724934,
+          "toolGap": 53.96017162724934
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 151.49685899999997,
+          "toolGap": 68.90136699999994
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 151.49685899999997,
+          "toolGap": 68.90136699999994
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 79,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 520,
+        "y": 396
+      },
+      "lair": {
+        "x": 62,
+        "y": 1122
+      },
+      "sourceDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 22,
+        "right": 724,
+        "top": 192,
+        "bottom": 1162
+      },
+      "topGap": 24,
+      "bottomGap": 26,
+      "launcherGap": 23,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 191,
+      "renderError": 0.21742774228357994,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 11.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 26
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 26
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 80,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 520,
+        "y": 564
+      },
+      "lair": {
+        "x": 230,
+        "y": 954
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "lairDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 26,
+        "right": 724,
+        "top": 192,
+        "bottom": 1158
+      },
+      "topGap": 24,
+      "bottomGap": 30,
+      "launcherGap": 23,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 20.592498786370257,
+        "docked": false
+      },
+      "renderPoints": 175,
+      "renderError": 0.21413662231285652,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 15.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 30
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 30
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 81,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 520,
+        "y": 1122
+      },
+      "lair": {
+        "x": 62,
+        "y": 1122
+      },
+      "sourceDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "occupied": {
+        "left": 22,
+        "right": 724,
+        "top": 192,
+        "bottom": 1162
+      },
+      "topGap": 24,
+      "bottomGap": 26,
+      "launcherGap": 23,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "renderPoints": 170,
+      "renderError": 0.21772672273184104,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 11.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 26
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 26
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 82,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 62,
+        "y": 1122
+      },
+      "lair": {
+        "x": 688,
+        "y": 228
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "lairDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 22,
+        "right": 728,
+        "top": 188,
+        "bottom": 1162
+      },
+      "topGap": 20,
+      "bottomGap": 26,
+      "launcherGap": 23,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 50.462112512353215,
+        "docked": true
+      },
+      "renderPoints": 180,
+      "renderError": 0.2141412129611729,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 21.058804627249373,
+          "toolGap": 11.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 36,
+          "toolGap": 26
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 36,
+          "toolGap": 26
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 83,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 688,
+        "y": 564
+      },
+      "lair": {
+        "x": 62,
+        "y": 228
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "lairDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 22,
+        "right": 728,
+        "top": 188,
+        "bottom": 1158
+      },
+      "topGap": 20,
+      "bottomGap": 30,
+      "launcherGap": 23,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 171,
+      "renderError": 0.2141331199174666,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 21.058804627249373,
+          "toolGap": 15.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 36,
+          "toolGap": 30
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 36,
+          "toolGap": 30
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 84,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 520,
+        "y": 954
+      },
+      "lair": {
+        "x": 230,
+        "y": 396
+      },
+      "sourceDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 26,
+        "right": 724,
+        "top": 192,
+        "bottom": 1158
+      },
+      "topGap": 24,
+      "bottomGap": 30,
+      "launcherGap": 23,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.80709872219538,
+        "docked": true
+      },
+      "renderPoints": 147,
+      "renderError": 0.2159551986640043,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 15.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 30
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 30
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 85,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 520,
+        "y": 954
+      },
+      "lair": {
+        "x": 62,
+        "y": 1122
+      },
+      "sourceDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "occupied": {
+        "left": 22,
+        "right": 724,
+        "top": 192.000829,
+        "bottom": 1162
+      },
+      "topGap": 24.00082900000001,
+      "bottomGap": 26,
+      "launcherGap": 23,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 225.46615752586422,
+        "docked": true
+      },
+      "renderPoints": 130,
+      "renderError": 0.2141472460151706,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.059633627249383,
+          "toolGap": 11.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40.00082900000001,
+          "toolGap": 26
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40.00082900000001,
+          "toolGap": 26
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 86,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 62,
+        "y": 228
+      },
+      "lair": {
+        "x": 520,
+        "y": 396
+      },
+      "sourceDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 22,
+        "right": 724,
+        "top": 188,
+        "bottom": 990
+      },
+      "topGap": 20,
+      "bottomGap": 198,
+      "launcherGap": 23,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.805913915608926,
+        "docked": true
+      },
+      "renderPoints": 121,
+      "renderError": 0.2141391119094116,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 21.058804627249373,
+          "toolGap": 183.0588046272494
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 36,
+          "toolGap": 198
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 36,
+          "toolGap": 198
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 87,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 520,
+        "y": 1122
+      },
+      "lair": {
+        "x": 230,
+        "y": 954
+      },
+      "sourceDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 26,
+        "right": 724,
+        "top": 192,
+        "bottom": 1162
+      },
+      "topGap": 24,
+      "bottomGap": 26,
+      "launcherGap": 23,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 156.93738866358646,
+        "docked": true
+      },
+      "renderPoints": 180,
+      "renderError": 0.2141256773015377,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 11.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 26
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 26
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 88,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 520,
+        "y": 954
+      },
+      "lair": {
+        "x": 62,
+        "y": 786
+      },
+      "sourceDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "occupied": {
+        "left": 22,
+        "right": 724,
+        "top": 360,
+        "bottom": 1158
+      },
+      "topGap": 192,
+      "bottomGap": 30,
+      "launcherGap": 23,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "renderPoints": 141,
+      "renderError": 0.2141457500765926,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 193.05880462724937,
+          "toolGap": 15.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 208,
+          "toolGap": 30
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 208,
+          "toolGap": 30
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 89,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 62,
+        "y": 228
+      },
+      "lair": {
+        "x": 688,
+        "y": 228
+      },
+      "sourceDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "lairDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 22,
+        "right": 728,
+        "top": 188,
+        "bottom": 1158
+      },
+      "topGap": 20,
+      "bottomGap": 30,
+      "launcherGap": 23,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 179,
+      "renderError": 0.2141412053119532,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 21.058804627249373,
+          "toolGap": 15.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 36,
+          "toolGap": 30
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 36,
+          "toolGap": 30
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 90,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 520,
+        "y": 954
+      },
+      "lair": {
+        "x": 62,
+        "y": 1122
+      },
+      "sourceDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 22,
+        "right": 724,
+        "top": 192,
+        "bottom": 1162
+      },
+      "topGap": 24,
+      "bottomGap": 26,
+      "launcherGap": 23,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.80713370652603,
+        "docked": true
+      },
+      "renderPoints": 125,
+      "renderError": 0.2159261738066381,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 11.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 26
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 26
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 91,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 688,
+        "y": 786
+      },
+      "lair": {
+        "x": 62,
+        "y": 1122
+      },
+      "sourceDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 22,
+        "right": 728,
+        "top": 192,
+        "bottom": 1162
+      },
+      "topGap": 24,
+      "bottomGap": 26,
+      "launcherGap": 23,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "renderPoints": 131,
+      "renderError": 0.21417143640646588,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 11.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 26
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 26
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 92,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 514.90482,
+        "y": 1062.521456
+      },
+      "lair": {
+        "x": 294.61908,
+        "y": 808.290706
+      },
+      "sourceDirection": {
+        "x": -0.8530703680769974,
+        "y": 0.5217958864431341
+      },
+      "lairDirection": {
+        "x": -0.521333928451941,
+        "y": -0.8533527611983608
+      },
+      "occupied": {
+        "left": 52.620649,
+        "right": 652.800935,
+        "top": 277.898282,
+        "bottom": 1136.41719
+      },
+      "topGap": 109.898282,
+      "bottomGap": 51.58281000000011,
+      "launcherGap": 64.58380466364181,
+      "next": {
+        "x": 384.0641972457564,
+        "y": 778.6042486015415,
+        "gap": 19.999999999999943,
+        "docked": false
+      },
+      "renderPoints": 225,
+      "renderError": 0.20696796184743774,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 110.95708662724937,
+          "toolGap": 36.64161462724951
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 125.898282,
+          "toolGap": 51.58281000000011
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 125.898282,
+          "toolGap": 51.58281000000011
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 93,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 520,
+        "y": 396
+      },
+      "lair": {
+        "x": 62,
+        "y": 228
+      },
+      "sourceDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "occupied": {
+        "left": 22,
+        "right": 724,
+        "top": 188,
+        "bottom": 1158
+      },
+      "topGap": 20,
+      "bottomGap": 30,
+      "launcherGap": 23,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 163,
+      "renderError": 0.21591831075432294,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 21.058804627249373,
+          "toolGap": 15.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 36,
+          "toolGap": 30
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 36,
+          "toolGap": 30
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 94,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 616.805027,
+        "y": 350.939638
+      },
+      "lair": {
+        "x": 499.002977,
+        "y": 682.346972
+      },
+      "sourceDirection": {
+        "x": 0.5755688749431945,
+        "y": 0.8177533064418788
+      },
+      "lairDirection": {
+        "x": -0.09537997984691475,
+        "y": 0.9954409371953727
+      },
+      "occupied": {
+        "left": 71.51421,
+        "right": 723.977329,
+        "top": 295.2067507445971,
+        "bottom": 1097.743797
+      },
+      "topGap": 127.20675074459712,
+      "bottomGap": 90.25620299999991,
+      "launcherGap": 36.22043431912202,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 225,
+      "renderError": 0.23602781138797718,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 128.2655553718465,
+          "toolGap": 75.31500762724932
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 143.20675074459712,
+          "toolGap": 90.25620299999991
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 143.20675074459712,
+          "toolGap": 90.25620299999991
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 95,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 520,
+        "y": 954
+      },
+      "lair": {
+        "x": 62,
+        "y": 1122
+      },
+      "sourceDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": -1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 22,
+        "right": 724,
+        "top": 192,
+        "bottom": 1162
+      },
+      "topGap": 24,
+      "bottomGap": 26,
+      "launcherGap": 23,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.808010965150146,
+        "docked": true
+      },
+      "renderPoints": 144,
+      "renderError": 0.21416339842318655,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 11.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 26
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 26
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 96,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 60.566181,
+        "y": 636.299747
+      },
+      "lair": {
+        "x": 309.660975,
+        "y": 533.215047
+      },
+      "sourceDirection": {
+        "x": 0.10603567128705324,
+        "y": -0.9943623265262537
+      },
+      "lairDirection": {
+        "x": 0.7395319887215314,
+        "y": -0.6731214137565203
+      },
+      "occupied": {
+        "left": 16.550261087467725,
+        "right": 680.5566,
+        "top": 240.768595,
+        "bottom": 1053.379086
+      },
+      "topGap": 72.768595,
+      "bottomGap": 134.62091400000008,
+      "launcherGap": 36.68127039022316,
+      "next": {
+        "x": 384.7614431877377,
+        "y": 786.5738061862755,
+        "gap": 28.00000000000003,
+        "docked": false
+      },
+      "renderPoints": 212,
+      "renderError": 0.24988551792393957,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 73.82739962724938,
+          "toolGap": 119.67971862724949
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 88.768595,
+          "toolGap": 134.62091400000008
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 88.768595,
+          "toolGap": 134.62091400000008
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 97,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 230,
+        "y": 786
+      },
+      "lair": {
+        "x": 688,
+        "y": 1122
+      },
+      "sourceDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "occupied": {
+        "left": 26.000304999999997,
+        "right": 728,
+        "top": 192,
+        "bottom": 1162
+      },
+      "topGap": 24,
+      "bottomGap": 26,
+      "launcherGap": 23,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 61.80773188949749,
+        "docked": true
+      },
+      "renderPoints": 155,
+      "renderError": 0.2141398930397229,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 11.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 26
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 26
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 98,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 230,
+        "y": 396
+      },
+      "lair": {
+        "x": 688,
+        "y": 396
+      },
+      "sourceDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": 1
+      },
+      "occupied": {
+        "left": 26,
+        "right": 728,
+        "top": 192,
+        "bottom": 1158
+      },
+      "topGap": 24,
+      "bottomGap": 30,
+      "launcherGap": 23,
+      "next": {
+        "x": 475.4562859340631,
+        "y": 701.9171806906621,
+        "gap": 16.08281930933788,
+        "docked": false
+      },
+      "renderPoints": 177,
+      "renderError": 0.21414400000907557,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 25.058804627249373,
+          "toolGap": 15.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 40,
+          "toolGap": 30
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 40,
+          "toolGap": 30
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 99,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 230,
+        "y": 954
+      },
+      "lair": {
+        "x": 688,
+        "y": 228
+      },
+      "sourceDirection": {
+        "x": 1,
+        "y": 0
+      },
+      "lairDirection": {
+        "x": 0,
+        "y": -1
+      },
+      "occupied": {
+        "left": 26,
+        "right": 728,
+        "top": 188,
+        "bottom": 1158
+      },
+      "topGap": 20,
+      "bottomGap": 30,
+      "launcherGap": 23,
+      "next": {
+        "x": 483.1836925443756,
+        "y": 703.9877330514823,
+        "gap": 20.59245129511575,
+        "docked": false
+      },
+      "renderPoints": 198,
+      "renderError": 0.21413474909875752,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 21.058804627249373,
+          "toolGap": 15.058804627249401
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 36,
+          "toolGap": 30
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 36,
+          "toolGap": 30
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    },
+    {
+      "id": 100,
+      "catDiameter": 56,
+      "trackWidth": 72,
+      "source": {
+        "x": 651.923943,
+        "y": 450.072747
+      },
+      "lair": {
+        "x": 433.859628,
+        "y": 824.868338
+      },
+      "sourceDirection": {
+        "x": 0.36524936552225384,
+        "y": 0.9309097168821426
+      },
+      "lairDirection": {
+        "x": -0.8341336150147154,
+        "y": 0.5515624282911976
+      },
+      "occupied": {
+        "left": 69.156922,
+        "right": 726.21769,
+        "top": 303.743179,
+        "bottom": 1112.733057
+      },
+      "topGap": 135.743179,
+      "bottomGap": 75.26694300000008,
+      "launcherGap": 43.66259925845918,
+      "next": {
+        "x": 668,
+        "y": 108,
+        "gap": 258.30029448028364,
+        "docked": true
+      },
+      "renderPoints": 224,
+      "renderError": 0.24822778425707268,
+      "sizes": [
+        {
+          "width": 360,
+          "height": 640,
+          "catCssDiameter": 20.902188905547227,
+          "pauseGap": 136.80198362724937,
+          "toolGap": 60.325747627249484
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "catCssDiameter": 29.12,
+          "pauseGap": 151.743179,
+          "toolGap": 75.26694300000008
+        },
+        {
+          "width": 430,
+          "height": 932,
+          "catCssDiameter": 32.10666666666667,
+          "pauseGap": 151.743179,
+          "toolGap": 75.26694300000008
+        }
+      ],
+      "status": "STATIC_LAYOUT_PASS"
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # UI-06 · 页面与状态预览
 
+2026-09-15后续：UI-07新增独立百关审查场景，见 [16](16_UI_CATALOG_QA.md)。本文件所述UI-06仍保持七个局内代表关，不把新场景的100关布局能力混写为本流程接通正式游戏。
+
 2026-09-14，D021授权。所有者明确表示UI-05“验收通过”，本阶段沿用已验收视觉，完成更多页面与状态。验收来源为所有者反馈，未收到手机型号或原始截图，不补造设备测量数据。
 
 ## 实现与范围
@@ -47,10 +49,19 @@
 ## 验证与证据
 
 - `tools/ui-flow/model.test.mjs`：7项，覆盖离页迟到购买、重复购买、失败/取消不扣余额、设置旧回调、失败设置、余额不足/分组应用、基础/额外奖励幂等、100关边界与12星数阈值。
-- Creator内置TypeScript严格检查通过；旧布局/手势测试另复用，未修改旧实现。
+- Creator内置TypeScript严格检查通过；7项状态测试与18项旧布局/手势测试合计25项通过，未修改旧实现。
 - `tools/ui-flow/browser-check.js`：实际Canvas操作，十章100节点、页面往返、空库存、锁定/新卡/详情、外观购买/应用/不足、设置保存失败、启动失败、关卡取消、复活取消/重复/免费已用、终章、额外奖励与分享、多尺寸热区。
 - 截图在 `output/playwright/ui06/`；编辑器与独立构建回执分别保存，不能仅靠CLI退出码验收。
-- 最终运行/打包状态与打开地址以06/本文件后续记录为准。本阶段没有新安卓/抖音容器实测，不把UI-05验收外推为所有新页面已验收。
+- 编辑器与最终构建回归均通过，控制台diagnostics为空；三尺寸均检查产品热区至少44 CSS px、互不重叠并位于舞台内。本阶段没有新安卓/抖音容器实测，不把UI-05验收外推为所有新页面已验收。
+
+## 最终测试版
+
+- 本机打开：<http://127.0.0.1:62300/>。Creator打开 `ui-flow.scene`，或访问 <http://localhost:7456/?scene=5f337c54-11dc-4bf4-aa56-1ea4b905e356>。
+- 最终文件保存在 `build/ui06-verified/`：57文件，11,850,306字节。此为独立debug web-mobile预览，未做正式抖音构建、分包或性能验收。
+- 临时工程 `/private/tmp/mmhw-ui06-build-20260914`，构建日志 `cli.log`、`build.log`；Creator退出36，之后通过实际加载回归确认成功。
+- 构建后运行 `python3 tools/ui-flow/finalize-build.py <构建目录>`：关闭默认FPS覆盖面板、附带字体OFL/版权文件、添加空favicon；这是可复现的测试包整理，不改引擎源码。最终页面截图使用整理后的包。
+- 复现测试：Node22执行 `node --test tools/ui-flow/model.test.mjs tools/ui-greybox/layout.test.mjs`；Creator内置TypeScript执行 `tsc --noEmit`；Playwright CLI对已打开页面执行 `tools/ui-flow/browser-check.js`，编辑器/构建分别保存回执。浏览器缓存需在重新验证构建配置时刷新。
+- 汇总与最终文件哈希：`design/ui/ui06/verification.json`；编辑器和构建回执为同目录的 `browser-results.json`、`build-browser-results.json`。本机服务只提供静态构建目录，没有新开放LAN。
 
 构建工具 `tools/ui-flow/prepare-build.py`只复制必要场景依赖到新的临时工程，不改用户打开的工程。生成工具scaffold仅用于首次建立UUID，不应重跑覆盖现有meta。后续字体扩充运行本阶段subset-font工具，不重跑UI-05字体脚本。
 

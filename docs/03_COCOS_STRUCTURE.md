@@ -1,5 +1,9 @@
 # 03 · Cocos 场景与组织记忆
 
+2026-09-15：UI-07新增 `assets/ui-catalog/` 的独立百关场景、CatalogBase/CatalogPreview、无cc依赖的ReviewLayout、源派生JSON及新字体子集；复用已验收Prefab/纹理，旧场景不改。百关静态适配证据与限制见 [16](16_UI_CATALOG_QA.md)。
+
+2026-09-14：UI-06新增 `assets/ui-flow/FlowView.ts` 页面组合、无cc依赖的FlowModel演示状态、FlowBase布局绘制及独立场景。沿用UI-05 Prefab，不改已验收场景；地图/卡片按分页复用节点，详细行为与限制见 [15](15_UI_FLOW_PREVIEW.md)。
+
 核对日期：2026-09-11。UI-05新增 `assets/ui-preview/`，实例化四个真实Prefab：CommonButtonView、DialogPanel、GameHud、HomeView；对应三个组件脚本在 `assets/game/scripts/ui/`，字体在 `assets/game/fonts/`。复用UI-04纹理和九宫格，旧灰盒不变，验收与限制见 [13](13_UI_COMPONENT_PREVIEW.md)。
 
 规划依据：[08 UI 路线](08_UI_DEVELOPMENT_ROADMAP.md) 要求先用代表关灰盒验证布局，再将小批资源装入真实 Prefab；[09](09_UI_STRUCTURE_AND_STATES.md) 给出组件草表与接口。灰盒已实施，结果与剩余问题见11；不以 Figma 全量完成为前置。
